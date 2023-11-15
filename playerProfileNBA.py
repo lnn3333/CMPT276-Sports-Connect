@@ -15,5 +15,20 @@ with open("playersNBA.json", "r") as reading:
     data = json.load(reading)
 
 
+# Lists all players in NBA in alphabetical order
+def list_players():
+    playersNBA = []
+    for players in data:
+        playersNBA.append(players["full_name"])
+        sep = "\n"
+        list = sep.join(playersNBA)
+        
+    print(list)
+    
+    
+# function calls
+list_players()
+
+        
 
 
