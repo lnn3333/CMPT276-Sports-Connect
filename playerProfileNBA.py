@@ -30,14 +30,46 @@ def get_players_full_name(fullname):
     playerID = player[0]["id"]
     
     playerProfile = commonplayerinfo.CommonPlayerInfo(player_id=playerID)
-    pf = playerProfile.common_player_info.get_dict()
-    # print(pf["data"])  
+    pf = playerProfile.get_normalized_json()
     
-    player_name = pf["data"]
-    for pf in player_name:
-        n = pf['FIRST_NAME']
+    jsonobj = json.loads(pf) # converts json string to json object
+
+    # writing player info to JSON file
+    with open("playersProfileNBA.json", "w") as file:
+        json.dump(jsonobj, file, indent=4)
+
+    with open("playersProfileNBA.json", "r") as reading:
+        datapf = json.load(reading)
         
-    print(n)
+    for info in datapf["CommonPlayerInfo"]:
+        name = "Player: " + info["DISPLAY_FIRST_LAST"]
+        bday = "Birthday: " + info["BIRTHDATE"]
+        height = "Height: " + info["HEIGHT"]
+        weight = "Weight: " + info["WEIGHT"]
+        country = "Country: " + info["COUNTRY"]
+        jersey = "Jersey: " + info["JERSEY"]
+        pos = "Position: " + info["POSITION"]
+        team = "Team: " + info["TEAM_NAME"]
+
+    display_player_profile(name, height, weight, bday, country, jersey, pos, team)
+
+# helper function to display player's profile
+def display_player_profile(pName, pHeight, pWeight, pBday, pCountry, pJersey, pPos, pTeam):
+    pf_arr = []
+    
+    pf_arr.append(pName)
+    pf_arr.append(pHeight)
+    pf_arr.append(pWeight)
+    pf_arr.append(pBday)
+    pf_arr.append(pCountry)
+    pf_arr.append(pJersey)
+    pf_arr.append(pPos)
+    pf_arr.append(pTeam)
+    
+    sep = "\n"
+    display = sep.join(pf_arr)
+    print(display)
+    
     
 # function calls
 # list_players()
