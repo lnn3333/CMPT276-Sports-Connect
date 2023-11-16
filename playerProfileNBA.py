@@ -24,10 +24,16 @@ def list_players():
         list = sep.join(playersNBA)
         
     print(list)
+
+# Retrieves player ID
+def get_playerID(player):
+    player = players.find_players_by_full_name(player)
+    playerID = player[0]["id"]
+    return playerID
     
 def get_players_full_name(fullname):
-    player = players.find_players_by_full_name(fullname)
-    playerID = player[0]["id"]
+   
+    playerID = get_playerID(fullname)
     
     playerProfile = commonplayerinfo.CommonPlayerInfo(player_id=playerID)
     pf = playerProfile.get_normalized_json()
@@ -74,7 +80,7 @@ def display_player_profile(pName, pHeight, pWeight, pBday, pCountry, pJersey, pP
 # function calls
 # list_players()
 get_players_full_name("lebron james")
-
+# get_playerID("lebron james")
         
 
 
