@@ -9820,7 +9820,7 @@
         },
         {
             "id": "8ded6fca-5c49-4368-afb1-eee90f5d30ea",
-            "status": "scheduled",
+            "status": "inprogress",
             "coverage": "full",
             "scheduled": "2023-11-17T00:30:00Z",
             "track_on_court": true,
