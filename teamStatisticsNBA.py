@@ -2,6 +2,7 @@ import json
 from nba_api.stats.endpoints import teamgamelog
 from teamProfileNBA import get_teamID
 
+
 stats_dict = {
     "GAME_DATE" : None,
     "MATCHUP" : None,
@@ -79,10 +80,44 @@ def get_gameID_by_match(match):
             # print(gameID)
     
     return gameID
-    
 
+# retrieves team game stats from a particular match
+def get_team_stats(gameID):
+
+    for stats in data["TeamGameLog"]:
+        if gameID == stats["Game_ID"]:
+            stats_dict["GAME_DATE"] = stats["GAME_DATE"]
+            stats_dict["MATCHUP"] = stats["MATCHUP"]
+            stats_dict["WL"] = stats["WL"]
+            stats_dict["W"] = stats["W"]
+            stats_dict["L"] = stats["L"]
+            stats_dict["W_PCT"] = stats["W_PCT"]
+            stats_dict["MIN"] = stats["MIN"]
+            stats_dict["FGM"] = stats["FGM"]
+            stats_dict["FGA"] = stats["FGA"]
+            stats_dict["FG_PCT"] = stats["FG_PCT"]
+            stats_dict["FG3M"] = stats["FG3M"]
+            stats_dict["FG3A"] = stats["FG3A"]
+            stats_dict["FG3_PCT"] = stats["FG3_PCT"]
+            stats_dict["FTM"] = stats["FTM"]
+            stats_dict["FTA"] = stats["FTA"]
+            stats_dict["FT_PCT"] = stats["FT_PCT"]
+            stats_dict["OREB"] = stats["OREB"]
+            stats_dict["DREB"] = stats["DREB"]
+            stats_dict["REB"] = stats["REB"]
+            stats_dict["AST"] = stats["AST"]
+            stats_dict["STL"] = stats["STL"]
+            stats_dict["BLK"] = stats["BLK"]
+            stats_dict["TOV"] = stats["TOV"]
+            stats_dict["PF"] = stats["PF"]
+            stats_dict["PTS"] = stats["PTS"]
+            
+def display_stats(dict):
+    for key, value in dict.items():
+        print(key, ":", value)
+        
 # function calls
-m = list_matches()
-print(m)
+# list_matches()
 g = get_gameID_by_match("ATL @ DET")
-print(g)
+get_team_stats(g)
+display_stats(stats_dict)
