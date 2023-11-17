@@ -9820,9 +9820,11 @@
         },
         {
             "id": "8ded6fca-5c49-4368-afb1-eee90f5d30ea",
-            "status": "inprogress",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-17T00:30:00Z",
+            "home_points": 122,
+            "away_points": 115,
             "track_on_court": true,
             "sr_id": "sr:match:43065639",
             "reference": "0022300200",
@@ -9883,7 +9885,7 @@
         },
         {
             "id": "09dffee1-42dc-4d39-bb4e-7828c17cdf61",
-            "status": "scheduled",
+            "status": "inprogress",
             "coverage": "full",
             "scheduled": "2023-11-17T03:00:00Z",
             "track_on_court": true,
