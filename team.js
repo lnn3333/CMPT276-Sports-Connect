@@ -1,4 +1,4 @@
-//team html
+
 
 const charactersList = document.getElementById('charactersList');
 searchBar.addEventListener('keyup', (e) => {
