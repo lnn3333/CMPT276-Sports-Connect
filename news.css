@@ -1,0 +1,13 @@
+.news-article {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.news-article h3 {
+    margin-bottom: 5px;
+}
+
+.news-article p {
+    color: #555;
+}
