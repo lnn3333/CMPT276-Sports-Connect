@@ -52,10 +52,37 @@ def get_players_by_first_name(firstname):
             
         chosenPlayer = input("\nPlease choose a player: ")
         if chosenPlayer in player_dict:
-            get_players_full_name(player_dict["41"][1])
+            get_players_full_name(player_dict[chosenPlayer][1])
     
     else:
         get_players_full_name(player[0]["full_name"])
+        
+# retrieves player info by last name
+def get_players_by_last_name(lastname):
+    
+    player = players.find_players_by_last_name(lastname)
+    # print(player)
+     
+    player_count = 0
+    player_dict = {}
+    
+    for plr in data:
+        if player[player_count-1]["last_name"] == plr["last_name"]:
+            player_count += 1
+            player_dict[str(player_count)] = (plr["id"], plr["full_name"])
+            
+    if player_count > 1:
+        
+        for key, tuple in player_dict.items():
+            print(f"{key}: {tuple[1]}")
+            
+        chosenPlayer = input("\nPlease choose a player: ")
+        if chosenPlayer in player_dict:
+            get_players_full_name(player_dict[chosenPlayer][1])
+    
+    else:
+        get_players_full_name(player[0]["full_name"])
+    
 
 # retrieves player info by full name
 def get_players_full_name(fullname):
@@ -108,6 +135,7 @@ def display_player_profile(pName, pHeight, pWeight, pBday, pCountry, pJersey, pP
 # list_players()
 # get_players_full_name("lebron james")
 # get_playerID("lebron james")
-# get_players_by_first_name("john")       
+get_players_by_first_name("john")   
+# get_players_by_last_name("james")    
 
 
