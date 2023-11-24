@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Connect</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link rel="stylesheet" href="./style.css">
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet">
+   
+   
+</head>
+<body bgcolor="white">
+
+    <!-- #header -->
+    <header class="header">
+        <!-- overlay -->
+        <div class="overlay active" data-overlay></div>
+
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/image/nba.png" alt="NBA_logo" class="smaller-image">
+            </a>            
+            
+            <button class="nav-open-btn" data-nav-open-btn>
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+            <nav class="navbar active" data-nav>
+                <div class="navbar-top">
+                    <p class="menu_container">Menu</p>
+                <button class="nav-open-btn" data-nav-close-btn="">
+                    <ion-icon name="close-outline"></ion-icon>
+                </button>
+                </div>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="schedule.html" class="navbar-link">Live Score</a>
+                    </li>
+                    <li>
+                        <a href="team.html" class="navbar-link">Team</a>
+                    </li>
+                    <li>
+                        <a href="#news" class="navbar-link">News</a>
+                    </li>
+                </ul>
+                
+                
+            </nav>
+
+           
+            
+        </div>
+
+    </header>
+
+    <main>
+        <article>
+            <!-- basketball player -->
+            <section class="player" id="player">
+                <div class="container">
+                    <p class="player-title">Sport Connect</p>
+                </div>
+            </section>
+
+            <div class="section-wrapper">
+
+            <!-- 新闻部分 -->
+            <section id="news">
+                <div class="container">
+                    <h2>Latest News</h2>
+                    <div id="news-container">
+                        <!-- 新闻内容将在这里显示 -->                
+                    </div> 
+                </div>
+            </section>
+
+
+            </div>
+        </article>
+    </main>
+
+
+    <!-- js link -->
+    <script src="./script.js"></script>
+    <!-- ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
