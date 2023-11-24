@@ -64,6 +64,12 @@ def get_team_info_by_state(state):
     else:
         teamID = get_teamID(teamState[0]["full_name"])
         get_team_info(teamID=teamID)
+        
+# retrieves team info by abbreviation
+def get_team_info_by_abbr(abbr):
+    
+    teamAbbr = teams.find_team_by_abbreviation(abbr)
+    get_team_info(teamAbbr["id"])
 
 
 # retrieves team info
@@ -134,4 +140,5 @@ def display_team_profile(sznyear, city, name, abbr, conf, div, w, l, pct, cR, dR
 # print(t)
 # list_seasonID()
 # get_team_info(t)
-get_team_info_by_state("Atlanta")
+# get_team_info_by_state("Atlanta")
+get_team_info_by_abbr("cle")
