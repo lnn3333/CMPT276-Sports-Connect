@@ -70,6 +70,34 @@ def get_team_info_by_abbr(abbr):
     
     teamAbbr = teams.find_team_by_abbreviation(abbr)
     get_team_info(teamAbbr["id"])
+    
+# retrieves team info by city
+def get_team_info_by_city(city):
+    
+    teamCity = teams.find_teams_by_city(city)
+    # print(teamCity)
+    
+    teamCity_count = 0
+    teamCity_dict = {}
+    
+    for tc in data:
+        if teamCity[teamCity_count-1]["full_name"] == tc["full_name"]:
+            teamCity_count += 1
+            print(teamCity_count)
+            teamCity_dict[str(teamCity_count)] = (tc["id"], tc["full_name"])
+
+    if teamCity_count > 1:
+        
+        for key, tuple in teamCity_dict.items():
+            print(f"{key}: {tuple[1]}")
+            
+        chosenCity = input("\nPlease choose a team: ")
+        if chosenCity in teamCity_dict:
+            teamID = get_teamID(teamCity_dict[chosenCity][1])
+            get_team_info(teamID=teamID)
+    # else:
+    #     teamID = get_teamID(teamCity[0]["full_name"])
+    #     get_team_info(teamID=teamID)
 
 
 # retrieves team info
@@ -141,4 +169,5 @@ def display_team_profile(sznyear, city, name, abbr, conf, div, w, l, pct, cR, dR
 # list_seasonID()
 # get_team_info(t)
 # get_team_info_by_state("Atlanta")
-get_team_info_by_abbr("cle")
+# get_team_info_by_abbr("cle")
+get_team_info_by_city("los angeles")

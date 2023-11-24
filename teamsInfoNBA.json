@@ -1,21 +1,21 @@
 {
     "TeamInfoCommon": [
         {
-            "TEAM_ID": 1610612746,
+            "TEAM_ID": 1610612737,
             "SEASON_YEAR": "2023-24",
-            "TEAM_CITY": "LA",
-            "TEAM_NAME": "Clippers",
-            "TEAM_ABBREVIATION": "LAC",
-            "TEAM_CONFERENCE": "West",
-            "TEAM_DIVISION": "Pacific",
-            "TEAM_CODE": "clippers",
-            "TEAM_SLUG": "clippers",
-            "W": 6,
+            "TEAM_CITY": "Atlanta",
+            "TEAM_NAME": "Hawks",
+            "TEAM_ABBREVIATION": "ATL",
+            "TEAM_CONFERENCE": "East",
+            "TEAM_DIVISION": "Southeast",
+            "TEAM_CODE": "hawks",
+            "TEAM_SLUG": "hawks",
+            "W": 7,
             "L": 7,
-            "PCT": 0.462,
-            "CONF_RANK": 10,
-            "DIV_RANK": 4,
-            "MIN_YEAR": "1970",
+            "PCT": 0.5,
+            "CONF_RANK": 9,
+            "DIV_RANK": 3,
+            "MIN_YEAR": "1949",
             "MAX_YEAR": "2023"
         }
     ],
@@ -23,44 +23,149 @@
         {
             "LEAGUE_ID": "00",
             "SEASON_ID": "22023",
-            "TEAM_ID": 1610612746,
-            "PTS_RANK": 17,
-            "PTS_PG": 113.2,
-            "REB_RANK": 12,
-            "REB_PG": 44.5,
-            "AST_RANK": 24,
-            "AST_PG": 24.5,
-            "OPP_PTS_RANK": 8,
-            "OPP_PTS_PG": 109.1
+            "TEAM_ID": 1610612737,
+            "PTS_RANK": 2,
+            "PTS_PG": 124.1,
+            "REB_RANK": 11,
+            "REB_PG": 44.8,
+            "AST_RANK": 11,
+            "AST_PG": 26.4,
+            "OPP_PTS_RANK": 27,
+            "OPP_PTS_PG": 122.6
         }
     ],
     "AvailableSeasons": [
         {
+            "SEASON_ID": "21949"
+        },
+        {
+            "SEASON_ID": "21950"
+        },
+        {
+            "SEASON_ID": "21951"
+        },
+        {
+            "SEASON_ID": "21952"
+        },
+        {
+            "SEASON_ID": "21953"
+        },
+        {
+            "SEASON_ID": "21954"
+        },
+        {
+            "SEASON_ID": "21955"
+        },
+        {
+            "SEASON_ID": "41955"
+        },
+        {
+            "SEASON_ID": "21956"
+        },
+        {
+            "SEASON_ID": "41956"
+        },
+        {
+            "SEASON_ID": "21957"
+        },
+        {
+            "SEASON_ID": "41957"
+        },
+        {
+            "SEASON_ID": "21958"
+        },
+        {
+            "SEASON_ID": "41958"
+        },
+        {
+            "SEASON_ID": "21959"
+        },
+        {
+            "SEASON_ID": "41959"
+        },
+        {
+            "SEASON_ID": "21960"
+        },
+        {
+            "SEASON_ID": "41960"
+        },
+        {
+            "SEASON_ID": "21961"
+        },
+        {
+            "SEASON_ID": "21962"
+        },
+        {
+            "SEASON_ID": "41962"
+        },
+        {
+            "SEASON_ID": "21963"
+        },
+        {
+            "SEASON_ID": "41963"
+        },
+        {
+            "SEASON_ID": "21964"
+        },
+        {
+            "SEASON_ID": "41964"
+        },
+        {
+            "SEASON_ID": "21965"
+        },
+        {
+            "SEASON_ID": "41965"
+        },
+        {
+            "SEASON_ID": "21966"
+        },
+        {
+            "SEASON_ID": "41966"
+        },
+        {
+            "SEASON_ID": "21967"
+        },
+        {
+            "SEASON_ID": "41967"
+        },
+        {
+            "SEASON_ID": "21968"
+        },
+        {
+            "SEASON_ID": "41968"
+        },
+        {
+            "SEASON_ID": "21969"
+        },
+        {
+            "SEASON_ID": "41969"
+        },
+        {
             "SEASON_ID": "21970"
+        },
+        {
+            "SEASON_ID": "41970"
         },
         {
             "SEASON_ID": "21971"
         },
         {
+            "SEASON_ID": "41971"
+        },
+        {
             "SEASON_ID": "21972"
+        },
+        {
+            "SEASON_ID": "41972"
         },
         {
             "SEASON_ID": "21973"
         },
         {
-            "SEASON_ID": "41973"
-        },
-        {
             "SEASON_ID": "21974"
         },
         {
-            "SEASON_ID": "41974"
-        },
-        {
             "SEASON_ID": "21975"
-        },
-        {
-            "SEASON_ID": "41975"
         },
         {
             "SEASON_ID": "21976"
@@ -69,10 +174,19 @@
             "SEASON_ID": "21977"
         },
         {
+            "SEASON_ID": "41977"
+        },
+        {
             "SEASON_ID": "21978"
         },
         {
+            "SEASON_ID": "41978"
+        },
+        {
             "SEASON_ID": "21979"
+        },
+        {
+            "SEASON_ID": "41979"
         },
         {
             "SEASON_ID": "21980"
@@ -81,10 +195,19 @@
             "SEASON_ID": "21981"
         },
         {
+            "SEASON_ID": "41981"
+        },
+        {
             "SEASON_ID": "21982"
         },
         {
+            "SEASON_ID": "41982"
+        },
+        {
             "SEASON_ID": "21983"
+        },
+        {
+            "SEASON_ID": "41983"
         },
         {
             "SEASON_ID": "21984"
@@ -93,13 +216,28 @@
             "SEASON_ID": "21985"
         },
         {
+            "SEASON_ID": "41985"
+        },
+        {
             "SEASON_ID": "21986"
+        },
+        {
+            "SEASON_ID": "41986"
         },
         {
             "SEASON_ID": "21987"
         },
         {
+            "SEASON_ID": "31987"
+        },
+        {
+            "SEASON_ID": "41987"
+        },
+        {
             "SEASON_ID": "21988"
+        },
+        {
+            "SEASON_ID": "41988"
         },
         {
             "SEASON_ID": "21989"
@@ -108,10 +246,10 @@
             "SEASON_ID": "21990"
         },
         {
-            "SEASON_ID": "21991"
+            "SEASON_ID": "41990"
         },
         {
-            "SEASON_ID": "41991"
+            "SEASON_ID": "21991"
         },
         {
             "SEASON_ID": "21992"
@@ -123,10 +261,22 @@
             "SEASON_ID": "21993"
         },
         {
+            "SEASON_ID": "31993"
+        },
+        {
+            "SEASON_ID": "41993"
+        },
+        {
             "SEASON_ID": "21994"
         },
         {
+            "SEASON_ID": "41994"
+        },
+        {
             "SEASON_ID": "21995"
+        },
+        {
+            "SEASON_ID": "41995"
         },
         {
             "SEASON_ID": "21996"
@@ -141,10 +291,16 @@
             "SEASON_ID": "21997"
         },
         {
+            "SEASON_ID": "41997"
+        },
+        {
             "SEASON_ID": "11998"
         },
         {
             "SEASON_ID": "21998"
+        },
+        {
+            "SEASON_ID": "41998"
         },
         {
             "SEASON_ID": "11999"
@@ -189,9 +345,6 @@
             "SEASON_ID": "22005"
         },
         {
-            "SEASON_ID": "42005"
-        },
-        {
             "SEASON_ID": "12006"
         },
         {
@@ -204,10 +357,16 @@
             "SEASON_ID": "22007"
         },
         {
+            "SEASON_ID": "42007"
+        },
+        {
             "SEASON_ID": "12008"
         },
         {
             "SEASON_ID": "22008"
+        },
+        {
+            "SEASON_ID": "42008"
         },
         {
             "SEASON_ID": "12009"
@@ -216,10 +375,16 @@
             "SEASON_ID": "22009"
         },
         {
+            "SEASON_ID": "42009"
+        },
+        {
             "SEASON_ID": "12010"
         },
         {
             "SEASON_ID": "22010"
+        },
+        {
+            "SEASON_ID": "42010"
         },
         {
             "SEASON_ID": "12011"
@@ -288,16 +453,10 @@
             "SEASON_ID": "22018"
         },
         {
-            "SEASON_ID": "42018"
-        },
-        {
             "SEASON_ID": "12019"
         },
         {
             "SEASON_ID": "22019"
-        },
-        {
-            "SEASON_ID": "42019"
         },
         {
             "SEASON_ID": "12020"
@@ -315,6 +474,9 @@
             "SEASON_ID": "22021"
         },
         {
+            "SEASON_ID": "42021"
+        },
+        {
             "SEASON_ID": "52021"
         },
         {
@@ -325,6 +487,9 @@
         },
         {
             "SEASON_ID": "42022"
+        },
+        {
+            "SEASON_ID": "52022"
         },
         {
             "SEASON_ID": "12023"
