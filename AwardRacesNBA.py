@@ -20,115 +20,101 @@ with open ("NBALeaders.json","w") as file:
     json.dump(LeadersJSON,file,indent=4)
 
 #read JSON data
-with open("NBALeaders.json","r") as reading:
-    DataSc = json.load(reading)
+def readData():
+    with open("NBALeaders.json","r") as reading:
+        DataSc = json.load(reading)
+    return DataSc
    
-   #find and store a set of data correnspoinding to the apporiate statistical race
-for category in DataSc['categories']:
-    # Scoring champ
-    if category['name'] == 'points' and category['type'] == 'average':
-        pointsPerGame = category
-    # Assist champ
-    elif category['name'] == 'assists' and category['type'] == 'average':
-        assistPerGame = category
-    # Rebounding Champ
-    elif category['name'] == 'rebounds' and category['type'] == 'average':
-        reboundsPerGame = category
-    # Block Champ
-    elif category['name'] == 'blocks' and category['type'] == 'average':
-        blocksPerGame = category
-    # Steals Champ
-    elif category['name'] == 'steals' and category['type'] == 'average':
-        stealsPerGame = category
+def getCategories(DataSc):
+    for category in DataSc['categories']:
+        # Scoring champ
+        if category['name'] == 'points' and category['type'] == 'average':
+            pointsPerGame = category
+        # Assist champ
+        elif category['name'] == 'assists' and category['type'] == 'average':
+            assistPerGame = category
+        # Rebounding Champ
+        elif category['name'] == 'rebounds' and category['type'] == 'average':
+            reboundsPerGame = category
+        # Block Champ
+        elif category['name'] == 'blocks' and category['type'] == 'average':
+            blocksPerGame = category
+        # Steals Champ
+        elif category['name'] == 'steals' and category['type'] == 'average':
+            stealsPerGame = category
+    return pointsPerGame, assistPerGame,reboundsPerGame, blocksPerGame, stealsPerGame
 
-#functions to print out to terminal the top 10 in each of the 5 major categories
+#functions to print out to terminal the top 5 in each of the 5 major categories
 def scoringChampRace(pointsPerGame):
     if pointsPerGame is not None:
-        ranks = pointsPerGame['ranks'][:10]
+        ranks = pointsPerGame['ranks'][:5]
         i=0
-        print("Top 10:")
+        #print("Top 5:")
         for rank in ranks:
-            if i==10:
+            if i==5:
                 break
             else:
                 i+=1
-                print(f"{i}.{rank['player']['full_name']}   {rank['score']} PPG")
+                #print(f"{i}.{rank['player']['full_name']}   {rank['score']} PPG")
     else:
         print("Category not found.")
 
 def assistChampRace(assistPerGame):
     if assistPerGame is not None:
-        ranks = assistPerGame['ranks'][:10]
+        ranks = assistPerGame['ranks'][:5]
         i=0
-        print("Top 10:")
+        #print("Top 5:")
         for rank in ranks:
-            if i==10:
+            if i==5:
                 break
             else:
                 i+=1
-                print(f"{i}.{rank['player']['full_name']}   {rank['score']} APG")
+                #print(f"{i}.{rank['player']['full_name']}   {rank['score']} APG")
     else:
         print("Category not found.")
 
 def ReboundChampRace(reboundsPerGame):
     if reboundsPerGame is not None:
-        ranks = reboundsPerGame['ranks'][:10]
+        ranks = reboundsPerGame['ranks'][:5]
         i=0
-        print("Top 10:")
+        #print("Top 5:")
         for rank in ranks:
-            if i==10:
+            if i==5:
                 break
             else:
                 i+=1
-                print(f"{i}.{rank['player']['full_name']}   {rank['score']} RPG")
+                #print(f"{i}.{rank['player']['full_name']}   {rank['score']} RPG")
     else:
         print("Category not found.")
 
 def BlockChampRace(blocksPerGame):
     if blocksPerGame is not None:
-        ranks = blocksPerGame['ranks'][:10]
+        ranks = blocksPerGame['ranks'][:5]
         i=0
-        print("Top 10:")
+        #print("Top 5:")
         for rank in ranks:
-            if i==10:
+            if i==5:
                     break
             else:
                 i+=1
-                print(f"{i}.{rank['player']['full_name']}   {rank['score']} BPG")
+                #print(f"{i}.{rank['player']['full_name']}   {rank['score']} BPG")
     else:
         print("Category not found.")
 
 def StealsChampRace(stealsPerGame):
     if stealsPerGame is not None:
-        ranks = stealsPerGame['ranks'][:10]
+        ranks = stealsPerGame['ranks'][:5]
         i=0
-        print("Top 10:")
+        print("Top 5:")
         for rank in ranks:
-            if i==10:
+            if i==5:
                     break
             else:
                 i+=1
-                print(f"{i}.{rank['player']['full_name']}   {rank['score']} SPG")
+                #print(f"{i}.{rank['player']['full_name']}   {rank['score']} SPG")
     else:
         print("Category not found.")
 
-#Some testing to see if stats are accurate compared to NBA.com/stats
-on = True
-while on:
-    print("=========================================")
-    choice=input("Please chose one of the following:\n1.Scoring champ race\n2.Assist champ race \n3.Rebound champ race \n4.Block champ race \n5.Steal champ race\n")
-    if choice=="1":
-        scoringChampRace(pointsPerGame)
-    elif choice=="2":
-        assistChampRace(assistPerGame)
-    elif choice=="3":
-        ReboundChampRace(reboundsPerGame)
-    elif choice=="4":
-        BlockChampRace(blocksPerGame)
-    elif choice=="5":
-        StealsChampRace(stealsPerGame)
-    else:
-        on=False
-        print("Exiting...Goodbye!")
+
     
         
