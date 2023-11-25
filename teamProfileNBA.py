@@ -98,6 +98,12 @@ def get_team_info_by_city(city):
     # else:
     #     teamID = get_teamID(teamCity[0]["full_name"])
     #     get_team_info(teamID=teamID)
+    
+# retrieves team info by nickname
+def get_team_info_by_nickname(nickname):
+    
+    teamNick =  teams.find_teams_by_nickname(nickname)
+    get_team_info(teamNick[0]["id"])
 
 
 # retrieves team info
@@ -170,4 +176,5 @@ def display_team_profile(sznyear, city, name, abbr, conf, div, w, l, pct, cR, dR
 # get_team_info(t)
 # get_team_info_by_state("Atlanta")
 # get_team_info_by_abbr("cle")
-get_team_info_by_city("los angeles")
+# get_team_info_by_city("los angeles")
+get_team_info_by_nickname("Rockets")
