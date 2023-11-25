@@ -15,7 +15,7 @@ searchBar_schedule.addEventListener('keyup', (e) => {
         || character.visitor_team.city.toLowerCase().includes(searchString)
         );
     });
-    displayCharacters(filteredCharacters)
+    displayGames(filteredCharacters)
 })
 let nbaGame = [];
 const loadGames = async () => {
@@ -83,26 +83,6 @@ const getTeamImagePath_schedule = (teamName) => {
         return '../templates/assets/image/icons8-basketball-64.png';
     }
 };
-
-
-
-
-const displayCharacters = (characters) => {
-    const htmlString = characters.map((character) => {
-        const teamImagePath = getTeamImagePath_schedule(game.home_team.full_name);
-            return `
-            <li class="character">
-                <h2>${character.full_name} ${character.abbreviation}</h2>
-                <p>City: ${character.city}, 
-                    Division:  ${character.division} </p>
-                <img src =${teamImagePath}></img>
-                
-            </li>
-        ` })
-        .join('');
-    game_list.innerHTML = htmlString;
-};
-
 
 
 
