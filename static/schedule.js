@@ -65,10 +65,16 @@ const getTeamImagePath = (teamName) => {
     }
 };
 
+const slicetime = (time) => {
+    return time.slice(0, 10);
+}
+
+
 const displayGames = (games) => {
     const htmlString = games.map((game) => {
         const teamImagePathhome = getTeamImagePath(game.home_team.full_name);
         const teamImagePathguest = getTeamImagePath(game.visitor_team.full_name);
+        const get_time =(game.date).slice(0, 10);
             return `
            
 
@@ -92,7 +98,7 @@ const displayGames = (games) => {
                 <div class="column">
 				<div class="match-details">
 					<div class="match-date">
-						${game.date}
+						${get_time}
 					</div>
 					<div class="match-score">
 						<span class="match-score-number match-score-number--leading">${game.home_team_score}</span>
