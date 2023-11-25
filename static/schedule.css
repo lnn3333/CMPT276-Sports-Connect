@@ -216,4 +216,29 @@ border-radius: 20px;
 	justify-content: center;
 	align-items: center;
 }
+ /* search bar */
+ 
+
+ #searchBar_schedule {
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    border: 2px solid #640505;
+    padding: 5px 10px;
+    font-size: 17px;
+    font-style: italic;
+    font-family: var(--ff-oswald);
+}
+
+#searchWrapper {
+    position:relative;
+	
+}
+
+#searchWrapper::after {
+    content: '🔍';
+    position: absolute;
+    top: 12px;
+    right: 15px;
+}
 
