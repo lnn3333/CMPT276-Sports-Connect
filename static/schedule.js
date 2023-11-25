@@ -92,12 +92,29 @@ const slicetime = (time) => {
     return time.slice(0, 10);
 }
 
+const get_live_status = (game_time)=> {
+    if ((game_time) != null ){
+        return "Live"
+    }
+    else
+        return "Not Live "
+}
+const get_season_status = (game_time)=> {
+    if ((game_time) != null ){
+        return game_time
+    }
+    else
+        return " "
+}
 
 const displayGames = (games) => {
     const htmlString = games.map((game) => {
         const teamImagePathhome = getTeamImagePath_schedule(game.home_team.full_name);
         const teamImagePathguest = getTeamImagePath_schedule(game.visitor_team.full_name);
+        const live_status = get_live_status(game.time);
+        const get_season = get_season_status(game.time);
         const get_time =(game.date).slice(0, 10);
+        
             return `
            
 
@@ -105,7 +122,7 @@ const displayGames = (games) => {
             <div class="container">
             <div class="match">
             <div class="match-header">
-                <div class="match-status">Live</div>
+                <div class="match-status">${live_status}</div>
                 <div class="match-tournament"><img src="./assets/image/nba.png" class="img_small"/></div>
             </div>
             <div class="match-content">
@@ -128,7 +145,7 @@ const displayGames = (games) => {
 						<span class="match-score-divider">:</span>
 						<span class="match-score-number">${game.visitor_team_score}</span>
 					</div>
-                    <p1>${game.time}</p1>
+                    <p1>${get_season}</p1>
                 </div>
 			    </div>
 
