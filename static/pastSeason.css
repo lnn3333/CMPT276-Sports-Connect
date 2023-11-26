@@ -27,7 +27,7 @@ header {
 }
 
 html, body {
-    background-color:#3d0b0b;
+    background-color:#163e94;
     font-family: "Inter", sans-serif;
 	line-height: 1.5;
 	color: black;
@@ -64,15 +64,15 @@ border-radius: 20px;
 	display: flex;
 	padding: 16px;
 	border-bottom: 2px solid rgba(#303030, 0.1);
-    background-color: rgb(194, 175, 175);
+    background-color: rgb(51, 78, 3);
 }
  .match-header>img {
     width: 0.05px;
  }
 
 .match-status {
-	background-color: rgb(214, 25, 25);
-	color:rgb(0, 0, 0);
+	background-color: rgb(5, 13, 35);
+	color:  rgb(255, 255, 255);
     padding: 6px 10px; /* Adjust padding */
     border-radius: 4px; /* Adjust border-radius */
 	font-weight: 600;
@@ -81,15 +81,7 @@ border-radius: 20px;
 	align-items: center;
 	line-height: 1;
 	margin-right: auto;
-	&:before {
-		content: "";
-		display: block;
-		width: 8px; /* Adjust width */
-        height: 8px; /* Adjust height */
-		background-color: currentcolor;
-		border-radius: 20%;
-		margin-right: 6px;
-	}
+	
 	
 }
 
@@ -127,7 +119,7 @@ border-radius: 20px;
 	justify-content: center;
 	align-items: center;
 	width: calc(100%/3);
-    background-color: rgba(225, 128, 31, 0.705) 
+    background-color: rgba(31, 225, 34, 0.705) 
     
 }
 
@@ -223,7 +215,7 @@ border-radius: 20px;
     width: 100%;
     height: 50px;
     border-radius: 3px;
-    border: 2px solid #640505;
+    border: 2px solid #052364;
     padding: 5px 10px;
     font-size: 17px;
     font-style: italic;
