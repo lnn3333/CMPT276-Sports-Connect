@@ -52,5 +52,10 @@ def teamSchedule():
         return render_template('team-schedule.html',searchResult=searchResult,Team=Team,teamGames=teamGames,teamImagePaths=teamImageList)   
     return render_template('team-schedule.html',searchResult=None, team=None,teamGames=None,teamImagePaths={})
 
+@app.route('/news.html')
+def news():
+    return render_template('news.html')
+
+
 if __name__== '__main__':
     app.run(debug=True)
