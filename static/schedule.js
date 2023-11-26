@@ -33,44 +33,44 @@ const loadGames = async () => {
 const teamImageMap_schedule= {
     //Atlantic Division:
 
-'Boston Celtics' : "../templates/assets/image/boston-celtics.png",
-'Brooklyn Nets' : "../templates/assets/image/brooklyn-nets.png",
-'New York Knicks': "../templates/assets/image/new_york_knicks.png",
-'Philadelphia 76ers' :"../templates/assets/image/philadelphia_76.png",
-'Toronto Raptors':"../templates/assets/image/raptors.png",
+'Boston Celtics' : "./assets/image/boston-celtics.png",
+'Brooklyn Nets' : "./assets/image/brooklyn-nets.png",
+'New York Knicks': "./assets/image/new_york_knicks.png",
+'Philadelphia 76ers' :"./assets/image/philadelphia_76.png",
+'Toronto Raptors':"./assets/image/raptors.png",
     
 //Central Division:
 
-'Chicago Bulls' : "../templates/assets/image/chicago-bulls.png",
-'Cleveland Cavaliers': "../templates/assets/image/cleveland-cavaliers.png",
-'Detroit Pistons': "../templates/assets/image/detroit-pistons.png",
-'Indiana Pacers' : "../templates/assets/image/indiana-pacers.png",
-'Milwaukee Bucks': "../templates/assets/image/milwaukee-bucks.png",
+'Chicago Bulls' : "./assets/image/chicago-bulls.png",
+'Cleveland Cavaliers': "./assets/image/cleveland-cavaliers.png",
+'Detroit Pistons': "./assets/image/detroit-pistons.png",
+'Indiana Pacers' : "./assets/image/indiana-pacers.png",
+'Milwaukee Bucks': "./assets/image/milwaukee-bucks.png",
 
 
-'Atlanta Hawks': "../templates/assets/image/atlanta-hawks.png",
-'Charlotte Hornets': "../templates/assets/image/charlotte-hornets.png",
-'Miami Heat': "../templates/assets/image/miami-heat.png",
-'Orlando Magic': "../templates/assets/image/orlando-magic.png",
-'Washington Wizards': "../templates/assets/image/washington-wizards.png",
+'Atlanta Hawks': "./assets/image/atlanta-hawks.png",
+'Charlotte Hornets': "./assets/image/charlotte-hornets.png",
+'Miami Heat': "./assets/image/miami-heat.png",
+'Orlando Magic': "./assets/image/orlando-magic.png",
+'Washington Wizards': "./assets/image/washington-wizards.png",
 
-'Denver Nuggets': "../templates/assets/image/denver-nuggets.png",
-'Minnesota Timberwolves': "../templates/assets/image/minnesota-timberwolves.png",
-'Oklahoma City Thunder': "../templates/assets/image/oklahoma-city-thunder.png",
-'Portland Trail Blazers': "../templates/assets/image/portland-trail-blazers.png",
-'Utah Jazz': "../templates/assets/image/utah-jazz-vector.png",
+'Denver Nuggets': "./assets/image/denver-nuggets.png",
+'Minnesota Timberwolves': "./assets/image/minnesota-timberwolves.png",
+'Oklahoma City Thunder': "./assets/image/oklahoma-city-thunder.png",
+'Portland Trail Blazers': "./assets/image/portland-trail-blazers.png",
+'Utah Jazz': "./assets/image/utah-jazz-vector.png",
 
-'Golden State Warriors': "../templates/assets/image/golden-state-warriorsr.png",
-'LA Clippers': "../templates/assets/image/los-angeles-clippers.png",
-'Los Angeles Lakers': "../templates/assets/image/los_angeles_lakers.png",
-'Phoenix Suns': "../templates/assets/image/phoenix-suns.png",
-'Sacramento Kings': "../templates/assets/image/sacramento-kings-logo.png",
+'Golden State Warriors': "./assets/image/golden-state-warriorsr.png",
+'LA Clippers': "./assets/image/los-angeles-clippers.png",
+'Los Angeles Lakers': "./assets/image/los_angeles_lakers.png",
+'Phoenix Suns': "./assets/image/phoenix-suns.png",
+'Sacramento Kings': "./assets/image/sacramento-kings-logo.png",
 
-'Dallas Mavericks': "../templates/assets/image/dallas-mavericks.png",
-'Houston Rockets': "../templates/assets/image/houston-rockets.png",
-'Memphis Grizzlies': "../templates/assets/image/memphis-grizzlies.png",
-'New Orleans Pelicans': "../templates/assets/image/new-orleans-pelicans.png",
-'San Antonio Spurs': "../templates/assets/image/SanAntonio.png",
+'Dallas Mavericks': "./assets/image/dallas-mavericks.png",
+'Houston Rockets': "./assets/image/houston-rockets.png",
+'Memphis Grizzlies': "./assets/image/memphis-grizzlies.png",
+'New Orleans Pelicans': "./assets/image/new-orleans-pelicans.png",
+'San Antonio Spurs': "./assets/image/SanAntonio.png",
 };
 
 const getTeamImagePath_schedule = (teamName) => {
@@ -80,7 +80,7 @@ const getTeamImagePath_schedule = (teamName) => {
         return teamImageMap_schedule[teamName];
     } else {
         // Return a default image path or handle the case when the team name is not found
-        return '../templates/assets/image/icons8-basketball-64.png';
+        return './assets/image/icons8-basketball-64.png';
     }
 };
 
@@ -122,7 +122,7 @@ const displayGames = (games) => {
             <div class="container">
             <div class="match">
             <div class="match-header">
-                <div class="match-status">${live_status}</div>
+                <div class="match-status">Live</div>
                 <div class="match-tournament"><img src="./assets/image/nba.png" class="img_small"/></div>
             </div>
             <div class="match-content">

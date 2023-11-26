@@ -105,7 +105,7 @@ def StealsChampRace(stealsPerGame):
     if stealsPerGame is not None:
         ranks = stealsPerGame['ranks'][:5]
         i=0
-        print("Top 5:")
+        #print("Top 5:")
         for rank in ranks:
             if i==5:
                     break
