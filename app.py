@@ -1,16 +1,20 @@
 from flask import Flask, render_template, request
 from AwardRacesNBA import getCategories, readData, scoringChampRace, assistChampRace, ReboundChampRace, BlockChampRace, StealsChampRace 
 from ScheduleNBA import getAllNBATeams,FindGamesForTeam, searchTeam, FormatDateTime, readData2,getImage
+from news_api import readNews, getNews
+
 
 app = Flask(__name__)
 
 #Home page
 @app.route('/')
 def home():
-    return render_template('index.html')
+    news = readNews()
+    listOfArticles = getNews(news)
+    return render_template('index.html',listOfArticles=listOfArticles)
 
 #route for award races 
-@app.route('/nbaAwards.html')
+@app.route('/nbaAwards')
 def displayAwardRace():
     data=readData()
     Points,Assist,Rebound,Blocks,Steals = getCategories(data)
@@ -28,15 +32,15 @@ def displayAwardRace():
                            Steals=Steals)
 
 # Add a route for schedule of recent games     
-@app.route('/schedule.html')  
+@app.route('/schedule')  
 def schedule():
     return render_template('schedule.html')
 
-@app.route('/team.html')  
+@app.route('/team')  
 def teamList():
     return render_template('team.html')
 
-@app.route('/team-schedule.html')
+@app.route('/team-schedule')
 def teamSchedule():
     games = readData2()
     listOfTeams = getAllNBATeams(games)
@@ -51,6 +55,11 @@ def teamSchedule():
         }
         return render_template('team-schedule.html',searchResult=searchResult,Team=Team,teamGames=teamGames,teamImagePaths=teamImageList)   
     return render_template('team-schedule.html',searchResult=None, team=None,teamGames=None,teamImagePaths={})
+
+
+@app.route('/pastSeason')
+def pastSeason():
+    return render_template('pastSeason.html')
 
 if __name__== '__main__':
     app.run(debug=True)
