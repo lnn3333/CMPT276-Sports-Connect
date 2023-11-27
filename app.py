@@ -2,6 +2,8 @@ from flask import Flask, render_template, request
 from AwardRacesNBA import getCategories, readData, scoringChampRace, assistChampRace, ReboundChampRace, BlockChampRace, StealsChampRace 
 from ScheduleNBA import getAllNBATeams,FindGamesForTeam, searchTeam, FormatDateTime, readData2,getImage
 from news_api import readNews, getNews
+from playerCareerStatsNBA import readDataStats, get_available_reg_seasonID, regular_season_stats
+from playerProfileNBA import list_players, readDataPlayer, get_players_full_name
 
 
 app = Flask(__name__)
@@ -56,6 +58,17 @@ def teamSchedule():
         return render_template('team-schedule.html',searchResult=searchResult,Team=Team,teamGames=teamGames,teamImagePaths=teamImageList)   
     return render_template('team-schedule.html',searchResult=None, team=None,teamGames=None,teamImagePaths={})
 
+@app.route('/player-profile')
+def playerProfile():
+    # pProfileData = readDataPlayer()
+    # datastats = readDataStats()
+    listOfPlayers = list_players()
+        
+    searchResult = request.args.get('searchResult')
+    if searchResult:
+        plr_name = get_players_full_name(searchResult)
+        return render_template('player-profile.html', listOfPlayers=listOfPlayers, searchResult=searchResult, plr_name=plr_name)
+    return render_template('player-profile.html', listOfPlayers=listOfPlayers, searchResult=None, plr_name=None)
 
 @app.route('/pastSeason')
 def pastSeason():
