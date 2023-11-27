@@ -3,3 +3,6 @@ pytz
 Flask
 requests
 gunicorn
+numpy
+http.client
+json
