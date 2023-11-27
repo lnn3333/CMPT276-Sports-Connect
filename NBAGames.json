@@ -14390,7 +14390,7 @@
         },
         {
             "id": "13698313-b05b-4a2b-9f29-e0f60e7aa984",
-            "status": "complete",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-27T00:30:00Z",
             "home_points": 105,
@@ -14507,9 +14507,11 @@
         },
         {
             "id": "b04355f9-9a01-457f-bda9-138a68559641",
-            "status": "inprogress",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-27T01:00:00Z",
+            "home_points": 132,
+            "away_points": 120,
             "track_on_court": true,
             "sr_id": "sr:match:43065745",
             "reference": "0022300252",
