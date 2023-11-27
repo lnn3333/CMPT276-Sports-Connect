@@ -2,6 +2,7 @@ import http.client
 import json
 
 from datetime import datetime
+from flask import url_for
 import pytz
 
 conn = http.client.HTTPSConnection("nba-latest-news.p.rapidapi.com")
@@ -31,10 +32,10 @@ def readNews():
     return news
 
 newsImageMap = {
-    "slam":"../static/assets/newsArticleImages/slam.png",
-    "espn":"../static/assets/newsArticleImages/espn.png",
-    "bleacher_report":"../static/assets/newsArticleImages/br.png",
-    "nba":"../static/assets/newsArticleImages/nba.png",
+    "slam":"/newsArticleImages/slam.png",
+    "espn":"/newsArticleImages/espn.png",
+    "bleacher_report":"/newsArticleImages/br.png",
+    "nba":"/newsArticleImages/nba.png",
 }
 
 newsArticles = set()
@@ -44,7 +45,7 @@ def getNews(news):
         name = article['title']
         link = article['url']
         source = article['source']
-        imagePath = newsImageMap.get(source,newsImageMap["nba"])
+        imagePath = url_for('static',filename=newsImageMap.get(source,newsImageMap["nba"]))
         newsArticles.add((name,link,source,imagePath))
     return newsArticles
         
