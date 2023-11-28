@@ -1,6 +1,5 @@
 datetime
 pytz
-Flask
 requests
 gunicorn
 numpy
@@ -10,3 +9,15 @@ data.py
 re
 players
 upgrade 
+
+flask == 3.0.0
+werkzeug==3.0.1 # IMPORTANT FOR DEPLOYMENT
+flask_sqlalchemy == 3.1.0
+psycopg2-binary == 2.9.9
+python-dotenv == 1.0.0
+flask-cors == 4.0.0
+Flask-JWT-Extended == 4.5.3
+Flask-Mail == 0.9.1
+watchdog == 3.0.0
+Flask-Migrate == 4.0.5
+flask[async]
