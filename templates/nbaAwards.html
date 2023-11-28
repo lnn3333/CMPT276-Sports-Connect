@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Leaders</title>
+    <link rel="stylesheet" type="text/css" href="../static/awards.css">
+</head>
+<body>
+    <h1>Award Race Leaders</h1>
+
+    <h2>Scoring Leaders</h2>
+    <ul>
+        {% for player in Points['ranks'][:5] %}
+            <li>{{ player['player']['full_name'] }} - {{ player['score'] }} PPG</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Assist Leaders</h2>
+    <ul>
+        {% for player in Assist['ranks'][:5] %}
+            <li>{{ player['player']['full_name'] }} - {{ player['score'] }} APG</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Rebound Leaders</h2>
+    <ul>
+        {% for player in Rebound['ranks'][:5] %}
+            <li>{{ player['player']['full_name'] }} - {{ player['score'] }} RPG</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Block Leaders</h2>
+    <ul>
+        {% for player in Blocks['ranks'][:5] %}
+            <li>{{ player['player']['full_name'] }} - {{ player['score'] }} BPG</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Steals Leaders</h2>
+    <ul>
+        {% for player in Steals['ranks'][:5] %}
+            <li>{{ player['player']['full_name'] }} - {{ player['score'] }} SPG</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
