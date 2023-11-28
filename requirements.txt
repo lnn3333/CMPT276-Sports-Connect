@@ -1,4 +1,6 @@
 flask
+Flask==1.0.2
+
 http.client
 
 datetime
