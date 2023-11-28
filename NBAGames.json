@@ -14566,7 +14566,7 @@
         },
         {
             "id": "68913f97-e1fd-4911-9b3f-c45d586b6be0",
-            "status": "scheduled",
+            "status": "inprogress",
             "coverage": "full",
             "scheduled": "2023-11-28T00:00:00Z",
             "track_on_court": true,
@@ -14623,7 +14623,7 @@
         },
         {
             "id": "c5d4eff2-c2c5-4bbc-81b3-265d8d96084a",
-            "status": "scheduled",
+            "status": "inprogress",
             "coverage": "full",
             "scheduled": "2023-11-28T00:00:00Z",
             "track_on_court": true,
@@ -14685,7 +14685,7 @@
         },
         {
             "id": "c6d13fd3-0bd6-4b3b-8719-256e7130fb3b",
-            "status": "scheduled",
+            "status": "inprogress",
             "coverage": "full",
             "scheduled": "2023-11-28T00:00:00Z",
             "track_on_court": true,
