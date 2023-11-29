@@ -788,7 +788,7 @@
         "full_name": "Kostas Antetokounmpo",
         "first_name": "Kostas",
         "last_name": "Antetokounmpo",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 203648,
@@ -834,8 +834,8 @@
     },
     {
         "id": 1628384,
-        "full_name": "O.G. Anunoby",
-        "first_name": "O.G.",
+        "full_name": "OG Anunoby",
+        "first_name": "OG",
         "last_name": "Anunoby",
         "is_active": true
     },
@@ -1225,6 +1225,13 @@
         "is_active": false
     },
     {
+        "id": 1630641,
+        "full_name": "Ibou Badji",
+        "first_name": "Ibou",
+        "last_name": "Badji",
+        "is_active": false
+    },
+    {
         "id": 76081,
         "full_name": "Jim Baechtold",
         "first_name": "Jim",
@@ -1250,6 +1257,13 @@
         "full_name": "Marvin Bagley III",
         "first_name": "Marvin",
         "last_name": "Bagley III",
+        "is_active": true
+    },
+    {
+        "id": 1641735,
+        "full_name": "Amari Bailey",
+        "first_name": "Amari",
+        "last_name": "Bailey",
         "is_active": true
     },
     {
@@ -1361,13 +1375,6 @@
         "id": 1630163,
         "full_name": "LaMelo Ball",
         "first_name": "LaMelo",
-        "last_name": "Ball",
-        "is_active": true
-    },
-    {
-        "id": 1629071,
-        "full_name": "LiAngelo Ball",
-        "first_name": "LiAngelo",
         "last_name": "Ball",
         "is_active": true
     },
@@ -1712,7 +1719,7 @@
         "full_name": "Will Barton",
         "first_name": "Will",
         "last_name": "Barton",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 101188,
@@ -1776,6 +1783,13 @@
         "first_name": "Billyray",
         "last_name": "Bates",
         "is_active": false
+    },
+    {
+        "id": 1641734,
+        "full_name": "Emoni Bates",
+        "first_name": "Emoni",
+        "last_name": "Bates",
+        "is_active": true
     },
     {
         "id": 1628966,
@@ -1894,14 +1908,14 @@
         "full_name": "Kent Bazemore",
         "first_name": "Kent",
         "last_name": "Bazemore",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1629647,
         "full_name": "Darius Bazley",
         "first_name": "Darius",
         "last_name": "Bazley",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76129,
@@ -2007,6 +2021,13 @@
         "first_name": "William",
         "last_name": "Bedford",
         "is_active": false
+    },
+    {
+        "id": 1641777,
+        "full_name": "Charles Bediako",
+        "first_name": "Charles",
+        "last_name": "Bediako",
+        "is_active": true
     },
     {
         "id": 76139,
@@ -2226,13 +2247,6 @@
         "is_active": false
     },
     {
-        "id": 1631262,
-        "full_name": "Jules Bernard",
-        "first_name": "Jules",
-        "last_name": "Bernard",
-        "is_active": true
-    },
-    {
         "id": 76157,
         "full_name": "Ricky Berry",
         "first_name": "Ricky",
@@ -2373,13 +2387,6 @@
         "is_active": false
     },
     {
-        "id": 1631234,
-        "full_name": "Marcus Bingham Jr.",
-        "first_name": "Marcus",
-        "last_name": "Bingham Jr.",
-        "is_active": true
-    },
-    {
         "id": 76167,
         "full_name": "Joe Binion",
         "first_name": "Joe",
@@ -2391,7 +2398,7 @@
         "full_name": "Khem Birch",
         "first_name": "Khem",
         "last_name": "Birch",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1628444,
@@ -2436,6 +2443,13 @@
         "is_active": true
     },
     {
+        "id": 1641931,
+        "full_name": "Onuralp Bitim",
+        "first_name": "Onuralp",
+        "last_name": "Bitim",
+        "is_active": true
+    },
+    {
         "id": 202687,
         "full_name": "Bismack Biyombo",
         "first_name": "Bismack",
@@ -2457,11 +2471,25 @@
         "is_active": false
     },
     {
+        "id": 1641710,
+        "full_name": "Anthony Black",
+        "first_name": "Anthony",
+        "last_name": "Black",
+        "is_active": true
+    },
+    {
         "id": 76173,
         "full_name": "Charlie Black",
         "first_name": "Charlie",
         "last_name": "Black",
         "is_active": false
+    },
+    {
+        "id": 1641778,
+        "full_name": "Leaky Black",
+        "first_name": "Leaky",
+        "last_name": "Black",
+        "is_active": true
     },
     {
         "id": 76174,
@@ -2692,7 +2720,7 @@
         "full_name": "Buddy Boeheim",
         "first_name": "Buddy",
         "last_name": "Boeheim",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76192,
@@ -2783,7 +2811,7 @@
         "full_name": "Leandro Bolmaro",
         "first_name": "Leandro",
         "last_name": "Bolmaro",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1627762,
@@ -2975,18 +3003,18 @@
         "is_active": false
     },
     {
-        "id": 1630527,
-        "full_name": "Brandon Boston",
-        "first_name": "Brandon",
-        "last_name": "Boston",
-        "is_active": true
-    },
-    {
         "id": 76212,
         "full_name": "Lawrence Boston",
         "first_name": "Lawrence",
         "last_name": "Boston",
         "is_active": false
+    },
+    {
+        "id": 1630527,
+        "full_name": "Brandon Boston Jr.",
+        "first_name": "Brandon",
+        "last_name": "Boston Jr.",
+        "is_active": true
     },
     {
         "id": 76213,
@@ -3021,7 +3049,7 @@
         "full_name": "Jamaree Bouyea",
         "first_name": "Jamaree",
         "last_name": "Bouyea",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76214,
@@ -3238,7 +3266,7 @@
         "full_name": "Tony Bradley",
         "first_name": "Tony",
         "last_name": "Bradley",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1361,
@@ -3476,7 +3504,7 @@
         "full_name": "Miles Bridges",
         "first_name": "Miles",
         "last_name": "Bridges",
-        "is_active": false
+        "is_active": true
     },
     {
         "id": 76254,
@@ -3609,7 +3637,7 @@
         "full_name": "Armoni Brooks",
         "first_name": "Armoni",
         "last_name": "Brooks",
-        "is_active": false
+        "is_active": true
     },
     {
         "id": 1628415,
@@ -3745,13 +3773,6 @@
         "is_active": false
     },
     {
-        "id": 1631122,
-        "full_name": "Gabe Brown",
-        "first_name": "Gabe",
-        "last_name": "Brown",
-        "is_active": true
-    },
-    {
         "id": 76273,
         "full_name": "George Brown",
         "first_name": "George",
@@ -3804,6 +3825,13 @@
         "id": 1631112,
         "full_name": "Kendall Brown",
         "first_name": "Kendall",
+        "last_name": "Brown",
+        "is_active": true
+    },
+    {
+        "id": 1641738,
+        "full_name": "Kobe Brown",
+        "first_name": "Kobe",
         "last_name": "Brown",
         "is_active": true
     },
@@ -4130,6 +4158,13 @@
         "is_active": false
     },
     {
+        "id": 1641723,
+        "full_name": "Kobe Bufkin",
+        "first_name": "Kobe",
+        "last_name": "Bufkin",
+        "is_active": true
+    },
+    {
         "id": 1934,
         "full_name": "Rodney Buford",
         "first_name": "Rodney",
@@ -4145,9 +4180,9 @@
     },
     {
         "id": 203493,
-        "full_name": "Reggie Bullock",
+        "full_name": "Reggie Bullock Jr.",
         "first_name": "Reggie",
-        "last_name": "Bullock",
+        "last_name": "Bullock Jr.",
         "is_active": true
     },
     {
@@ -4190,7 +4225,7 @@
         "full_name": "Trey Burke",
         "first_name": "Trey",
         "last_name": "Burke",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76304,
@@ -4396,6 +4431,13 @@
         "is_active": false
     },
     {
+        "id": 1631219,
+        "full_name": "John Butler Jr.",
+        "first_name": "John",
+        "last_name": "Butler Jr.",
+        "is_active": true
+    },
+    {
         "id": 202779,
         "full_name": "Dwight Buycks",
         "first_name": "Dwight",
@@ -4592,6 +4634,13 @@
         "is_active": false
     },
     {
+        "id": 1641739,
+        "full_name": "Toumani Camara",
+        "first_name": "Toumani",
+        "last_name": "Camara",
+        "is_active": true
+    },
+    {
         "id": 76337,
         "full_name": "Dexter Cambridge",
         "first_name": "Dexter",
@@ -4645,7 +4694,7 @@
         "full_name": "Devin Cannady",
         "first_name": "Devin",
         "last_name": "Cannady",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76339,
@@ -4680,7 +4729,7 @@
         "full_name": "Vernon Carey Jr.",
         "first_name": "Vernon",
         "last_name": "Carey Jr.",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76340,
@@ -4956,6 +5005,13 @@
         "is_active": false
     },
     {
+        "id": 1630658,
+        "full_name": "Colin Castleton",
+        "first_name": "Colin",
+        "last_name": "Castleton",
+        "is_active": true
+    },
+    {
         "id": 76365,
         "full_name": "Harvey Catchings",
         "first_name": "Harvey",
@@ -4995,7 +5051,7 @@
         "full_name": "Willie Cauley-Stein",
         "first_name": "Willie",
         "last_name": "Cauley-Stein",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1628505,
@@ -5031,6 +5087,13 @@
         "first_name": "Ahmad",
         "last_name": "Caver",
         "is_active": false
+    },
+    {
+        "id": 1630608,
+        "full_name": "Malcolm Cazalon",
+        "first_name": "Malcolm",
+        "last_name": "Cazalon",
+        "is_active": true
     },
     {
         "id": 76,
@@ -5107,7 +5170,7 @@
         "full_name": "Justin Champagnie",
         "first_name": "Justin",
         "last_name": "Champagnie",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76378,
@@ -5121,7 +5184,7 @@
         "full_name": "Kennedy Chandler",
         "first_name": "Kennedy",
         "last_name": "Chandler",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 2199,
@@ -5198,7 +5261,7 @@
         "full_name": "Zylan Cheatham",
         "first_name": "Zylan",
         "last_name": "Cheatham",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76385,
@@ -5261,7 +5324,7 @@
         "full_name": "Chris Chiozza",
         "first_name": "Chris",
         "last_name": "Chiozza",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76391,
@@ -5282,7 +5345,7 @@
         "full_name": "Marquese Chriss",
         "first_name": "Marquese",
         "last_name": "Chriss",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76393,
@@ -5362,6 +5425,13 @@
         "is_active": false
     },
     {
+        "id": 1631321,
+        "full_name": "Sidy Cissoko",
+        "first_name": "Sidy",
+        "last_name": "Cissoko",
+        "is_active": true
+    },
+    {
         "id": 76397,
         "full_name": "Archie Clark",
         "first_name": "Archie",
@@ -5395,6 +5465,13 @@
         "first_name": "Ian",
         "last_name": "Clark",
         "is_active": false
+    },
+    {
+        "id": 1641740,
+        "full_name": "Jaylen Clark",
+        "first_name": "Jaylen",
+        "last_name": "Clark",
+        "is_active": true
     },
     {
         "id": 1721,
@@ -5514,6 +5591,13 @@
         "first_name": "Keith",
         "last_name": "Closs",
         "is_active": false
+    },
+    {
+        "id": 1641730,
+        "full_name": "Noah Clowney",
+        "first_name": "Noah",
+        "last_name": "Clowney",
+        "is_active": true
     },
     {
         "id": 76407,
@@ -5747,6 +5831,13 @@
         "is_active": false
     },
     {
+        "id": 1628435,
+        "full_name": "Chance Comanche",
+        "first_name": "Chance",
+        "last_name": "Comanche",
+        "is_active": false
+    },
+    {
         "id": 76425,
         "full_name": "Leroy Combs",
         "first_name": "Leroy",
@@ -5891,7 +5982,7 @@
         "full_name": "Quinn Cook",
         "first_name": "Quinn",
         "last_name": "Cook",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1629076,
@@ -5919,6 +6010,13 @@
         "full_name": "Joe Cooke",
         "first_name": "Joe",
         "last_name": "Cooke",
+        "is_active": false
+    },
+    {
+        "id": 1641645,
+        "full_name": "Xavier Cooks",
+        "first_name": "Xavier",
+        "last_name": "Cooks",
         "is_active": false
     },
     {
@@ -5961,7 +6059,7 @@
         "full_name": "Sharife Cooper",
         "first_name": "Sharife",
         "last_name": "Cooper",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76441,
@@ -6081,6 +6179,20 @@
         "first_name": "John",
         "last_name": "Coughran",
         "is_active": false
+    },
+    {
+        "id": 1641731,
+        "full_name": "Bilal Coulibaly",
+        "first_name": "Bilal",
+        "last_name": "Coulibaly",
+        "is_active": true
+    },
+    {
+        "id": 1641741,
+        "full_name": "Ricky Council IV",
+        "first_name": "Ricky",
+        "last_name": "Council IV",
+        "is_active": true
     },
     {
         "id": 76458,
@@ -6349,18 +6461,11 @@
         "is_active": true
     },
     {
-        "id": 1630622,
-        "full_name": "Jalen Crutcher",
-        "first_name": "Jalen",
-        "last_name": "Crutcher",
-        "is_active": true
-    },
-    {
         "id": 1629633,
         "full_name": "Jarrett Culver",
         "first_name": "Jarrett",
         "last_name": "Culver",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1629600,
@@ -6668,7 +6773,7 @@
         "full_name": "Nate Darling",
         "first_name": "Nate",
         "last_name": "Darling",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76511,
@@ -6969,7 +7074,7 @@
         "full_name": "Terence Davis",
         "first_name": "Terence",
         "last_name": "Davis",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 426,
@@ -7081,7 +7186,7 @@
         "full_name": "Darius Days",
         "first_name": "Darius",
         "last_name": "Days",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 201986,
@@ -7151,7 +7256,7 @@
         "full_name": "Dewayne Dedmon",
         "first_name": "Dewayne",
         "last_name": "Dedmon",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76546,
@@ -7235,7 +7340,7 @@
         "full_name": "Matthew Dellavedova",
         "first_name": "Matthew",
         "last_name": "Dellavedova",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76552,
@@ -7285,6 +7390,13 @@
         "first_name": "Blaine",
         "last_name": "Denning",
         "is_active": false
+    },
+    {
+        "id": 1641926,
+        "full_name": "Dexter Dennis",
+        "first_name": "Dexter",
+        "last_name": "Dennis",
+        "is_active": true
     },
     {
         "id": 202458,
@@ -7354,7 +7466,7 @@
         "full_name": "Mamadi Diakite",
         "first_name": "Mamadi",
         "last_name": "Diakite",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1760,
@@ -7375,7 +7487,7 @@
         "full_name": "Hamidou Diallo",
         "first_name": "Hamidou",
         "last_name": "Diallo",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 2564,
@@ -7397,6 +7509,13 @@
         "first_name": "Guillermo",
         "last_name": "Diaz",
         "is_active": false
+    },
+    {
+        "id": 1641711,
+        "full_name": "Gradey Dick",
+        "first_name": "Gradey",
+        "last_name": "Dick",
+        "is_active": true
     },
     {
         "id": 2424,
@@ -7452,7 +7571,7 @@
         "full_name": "Gorgui Dieng",
         "first_name": "Gorgui",
         "last_name": "Dieng",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1631172,
@@ -7662,7 +7781,7 @@
         "full_name": "Tyler Dorsey",
         "first_name": "Tyler",
         "last_name": "Dorsey",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1629652,
@@ -7690,7 +7809,7 @@
         "full_name": "Devon Dotson",
         "first_name": "Devon",
         "last_name": "Dotson",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 200763,
@@ -7778,10 +7897,10 @@
     },
     {
         "id": 1630288,
-        "full_name": "Jeff Dowtin",
+        "full_name": "Jeff Dowtin Jr.",
         "first_name": "Jeff",
-        "last_name": "Dowtin",
-        "is_active": true
+        "last_name": "Dowtin Jr.",
+        "is_active": false
     },
     {
         "id": 76595,
@@ -7799,10 +7918,10 @@
     },
     {
         "id": 1628408,
-        "full_name": "P.J. Dozier",
-        "first_name": "P.J.",
+        "full_name": "PJ Dozier",
+        "first_name": "PJ",
         "last_name": "Dozier",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76596,
@@ -7816,7 +7935,7 @@
         "full_name": "Goran Dragic",
         "first_name": "Goran",
         "last_name": "Dragic",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 204054,
@@ -7991,7 +8110,7 @@
         "full_name": "David Duke Jr.",
         "first_name": "David",
         "last_name": "Duke Jr.",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76611,
@@ -8054,7 +8173,7 @@
         "full_name": "Kris Dunn",
         "first_name": "Kris",
         "last_name": "Dunn",
-        "is_active": false
+        "is_active": true
     },
     {
         "id": 76617,
@@ -8118,13 +8237,6 @@
         "first_name": "Ken",
         "last_name": "Durrett",
         "is_active": false
-    },
-    {
-        "id": 1631347,
-        "full_name": "Anthony Duruji",
-        "first_name": "Anthony",
-        "last_name": "Duruji",
-        "is_active": true
     },
     {
         "id": 1628979,
@@ -8474,7 +8586,7 @@
         "full_name": "CJ Elleby",
         "first_name": "CJ",
         "last_name": "Elleby",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76655,
@@ -8880,7 +8992,7 @@
         "full_name": "Dante Exum",
         "first_name": "Dante",
         "last_name": "Exum",
-        "is_active": false
+        "is_active": true
     },
     {
         "id": 201963,
@@ -8999,7 +9111,7 @@
         "full_name": "Derrick Favors",
         "first_name": "Derrick",
         "last_name": "Favors",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 201174,
@@ -9286,7 +9398,7 @@
         "full_name": "Malik Fitts",
         "first_name": "Malik",
         "last_name": "Fitts",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76720,
@@ -9426,7 +9538,7 @@
         "full_name": "Bryn Forbes",
         "first_name": "Bryn",
         "last_name": "Forbes",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 201814,
@@ -9476,6 +9588,13 @@
         "first_name": "Jake",
         "last_name": "Ford",
         "is_active": false
+    },
+    {
+        "id": 1630259,
+        "full_name": "Jordan Ford",
+        "first_name": "Jordan",
+        "last_name": "Ford",
+        "is_active": true
     },
     {
         "id": 76736,
@@ -9580,7 +9699,7 @@
         "full_name": "Michael Foster Jr.",
         "first_name": "Michael",
         "last_name": "Foster Jr.",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 2238,
@@ -9793,6 +9912,13 @@
         "is_active": false
     },
     {
+        "id": 1631241,
+        "full_name": "Javon Freeman-Liberty",
+        "first_name": "Javon",
+        "last_name": "Freeman-Liberty",
+        "is_active": true
+    },
+    {
         "id": 2782,
         "full_name": "Matt Freije",
         "first_name": "Matt",
@@ -9847,6 +9973,13 @@
         "first_name": "Frank",
         "last_name": "Fucarino",
         "is_active": false
+    },
+    {
+        "id": 1641788,
+        "full_name": "Alex Fudge",
+        "first_name": "Alex",
+        "last_name": "Fudge",
+        "is_active": true
     },
     {
         "id": 76763,
@@ -9916,14 +10049,7 @@
         "full_name": "Wenyen Gabriel",
         "first_name": "Wenyen",
         "last_name": "Gabriel",
-        "is_active": true
-    },
-    {
-        "id": 203583,
-        "full_name": "Abdul Gaddy",
-        "first_name": "Abdul",
-        "last_name": "Gaddy",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 2429,
@@ -10014,7 +10140,7 @@
         "full_name": "Langston Galloway",
         "first_name": "Langston",
         "last_name": "Galloway",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76774,
@@ -10196,7 +10322,7 @@
         "full_name": "Marcus Garrett",
         "first_name": "Marcus",
         "last_name": "Garrett",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76789,
@@ -10276,6 +10402,13 @@
         "is_active": false
     },
     {
+        "id": 1629232,
+        "full_name": "Kaiser Gates",
+        "first_name": "Kaiser",
+        "last_name": "Gates",
+        "is_active": true
+    },
+    {
         "id": 423,
         "full_name": "Chris Gatling",
         "first_name": "Chris",
@@ -10294,7 +10427,7 @@
         "full_name": "Rudy Gay",
         "first_name": "Rudy",
         "last_name": "Gay",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76797,
@@ -10358,6 +10491,13 @@
         "first_name": "Jack",
         "last_name": "George",
         "is_active": false
+    },
+    {
+        "id": 1641718,
+        "full_name": "Keyonte George",
+        "first_name": "Keyonte",
+        "last_name": "George",
+        "is_active": true
     },
     {
         "id": 202331,
@@ -10462,7 +10602,7 @@
         "full_name": "Taj Gibson",
         "first_name": "Taj",
         "last_name": "Gibson",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76811,
@@ -10497,7 +10637,7 @@
         "full_name": "Harry Giles III",
         "first_name": "Harry",
         "last_name": "Giles III",
-        "is_active": false
+        "is_active": true
     },
     {
         "id": 1628983,
@@ -10589,6 +10729,13 @@
         "first_name": "Chuck",
         "last_name": "Gilmur",
         "is_active": false
+    },
+    {
+        "id": 1631367,
+        "full_name": "Jacob Gilyard",
+        "first_name": "Jacob",
+        "last_name": "Gilyard",
+        "is_active": true
     },
     {
         "id": 1938,
@@ -10701,13 +10848,6 @@
         "first_name": "Tom",
         "last_name": "Gola",
         "is_active": false
-    },
-    {
-        "id": 1631371,
-        "full_name": "Grant Golden",
-        "first_name": "Grant",
-        "last_name": "Golden",
-        "is_active": true
     },
     {
         "id": 76829,
@@ -11120,7 +11260,7 @@
         "full_name": "RaiQuan Gray",
         "first_name": "RaiQuan",
         "last_name": "Gray",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76861,
@@ -11166,8 +11306,8 @@
     },
     {
         "id": 1631260,
-        "full_name": "A.J. Green",
-        "first_name": "A.J.",
+        "full_name": "AJ Green",
+        "first_name": "AJ",
         "last_name": "Green",
         "is_active": true
     },
@@ -11211,7 +11351,7 @@
         "full_name": "JaMychal Green",
         "first_name": "JaMychal",
         "last_name": "Green",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1630224,
@@ -11225,7 +11365,7 @@
         "full_name": "Javonte Green",
         "first_name": "Javonte",
         "last_name": "Green",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 201145,
@@ -11442,7 +11582,7 @@
         "full_name": "Blake Griffin",
         "first_name": "Blake",
         "last_name": "Griffin",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 2204,
@@ -11578,9 +11718,9 @@
         "is_active": false
     },
     {
-        "id": 1631338,
-        "full_name": "Mouhamadou Gueye",
-        "first_name": "Mouhamadou",
+        "id": 1631243,
+        "full_name": "Mouhamed Gueye",
+        "first_name": "Mouhamed",
         "last_name": "Gueye",
         "is_active": true
     },
@@ -11827,7 +11967,7 @@
         "full_name": "Jordan Hall",
         "first_name": "Jordan",
         "last_name": "Hall",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1630221,
@@ -11848,7 +11988,7 @@
         "full_name": "Tyler Hall",
         "first_name": "Tyler",
         "last_name": "Hall",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 76923,
@@ -12254,7 +12394,7 @@
         "full_name": "Montrezl Harrell",
         "first_name": "Montrezl",
         "last_name": "Harrell",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 202725,
@@ -12345,7 +12485,7 @@
         "full_name": "Jalen Harris",
         "first_name": "Jalen",
         "last_name": "Harris",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 203925,
@@ -12443,7 +12583,7 @@
         "full_name": "Shaquille Harrison",
         "first_name": "Shaquille",
         "last_name": "Harrison",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 2078,
@@ -12506,7 +12646,7 @@
         "full_name": "Udonis Haslem",
         "first_name": "Udonis",
         "last_name": "Haslem",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 2239,
@@ -12591,6 +12731,13 @@
         "first_name": "Hersey",
         "last_name": "Hawkins",
         "is_active": false
+    },
+    {
+        "id": 1641722,
+        "full_name": "Jordan Hawkins",
+        "first_name": "Jordan",
+        "last_name": "Hawkins",
+        "is_active": true
     },
     {
         "id": 1038,
@@ -12852,11 +12999,25 @@
         "is_active": false
     },
     {
+        "id": 1630703,
+        "full_name": "Scoot Henderson",
+        "first_name": "Scoot",
+        "last_name": "Henderson",
+        "is_active": true
+    },
+    {
         "id": 76996,
         "full_name": "Tom Henderson",
         "first_name": "Tom",
         "last_name": "Henderson",
         "is_active": false
+    },
+    {
+        "id": 1641707,
+        "full_name": "Taylor Hendricks",
+        "first_name": "Taylor",
+        "last_name": "Hendricks",
+        "is_active": true
     },
     {
         "id": 971,
@@ -12975,14 +13136,14 @@
         "full_name": "Juancho Hernangomez",
         "first_name": "Juancho",
         "last_name": "Hernangomez",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1626195,
         "full_name": "Willy Hernangomez",
         "first_name": "Willy",
         "last_name": "Hernangomez",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1914,
@@ -13192,7 +13353,7 @@
         "full_name": "George Hill",
         "first_name": "George",
         "last_name": "Hill",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 255,
@@ -13220,7 +13381,7 @@
         "full_name": "Malcolm Hill",
         "first_name": "Malcolm",
         "last_name": "Hill",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 203524,
@@ -13326,6 +13487,13 @@
         "first_name": "Darington",
         "last_name": "Hobson",
         "is_active": false
+    },
+    {
+        "id": 1641793,
+        "full_name": "D'Moi Hodge",
+        "first_name": "D'Moi",
+        "last_name": "Hodge",
+        "is_active": true
     },
     {
         "id": 1106,
@@ -13566,6 +13734,13 @@
         "is_active": false
     },
     {
+        "id": 1641720,
+        "full_name": "Jalen Hood-Schifino",
+        "first_name": "Jalen",
+        "last_name": "Hood-Schifino",
+        "is_active": true
+    },
+    {
         "id": 77051,
         "full_name": "Tom Hoover",
         "first_name": "Tom",
@@ -13748,6 +13923,13 @@
         "is_active": false
     },
     {
+        "id": 1641724,
+        "full_name": "Jett Howard",
+        "first_name": "Jett",
+        "last_name": "Howard",
+        "is_active": true
+    },
+    {
         "id": 2572,
         "full_name": "Josh Howard",
         "first_name": "Josh",
@@ -13822,7 +14004,7 @@
         "full_name": "Trevor Hudgins",
         "first_name": "Trevor",
         "last_name": "Hudgins",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 201991,
@@ -13976,7 +14158,7 @@
         "full_name": "Feron Hunt",
         "first_name": "Feron",
         "last_name": "Hunt",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 2599,
@@ -14063,13 +14245,6 @@
         "is_active": false
     },
     {
-        "id": 1630562,
-        "full_name": "Matt Hurt",
-        "first_name": "Matt",
-        "last_name": "Hurt",
-        "is_active": true
-    },
-    {
         "id": 77087,
         "full_name": "Geoff Huston",
         "first_name": "Geoff",
@@ -14130,14 +14305,14 @@
         "full_name": "Serge Ibaka",
         "first_name": "Serge",
         "last_name": "Ibaka",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 2738,
         "full_name": "Andre Iguodala",
         "first_name": "Andre",
         "last_name": "Iguodala",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 980,
@@ -14329,6 +14504,13 @@
         "is_active": false
     },
     {
+        "id": 1641713,
+        "full_name": "GG Jackson",
+        "first_name": "GG",
+        "last_name": "Jackson",
+        "is_active": true
+    },
+    {
         "id": 77101,
         "full_name": "Greg Jackson",
         "first_name": "Greg",
@@ -14368,14 +14550,14 @@
         "full_name": "Josh Jackson",
         "first_name": "Josh",
         "last_name": "Jackson",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1628382,
         "full_name": "Justin Jackson",
         "first_name": "Justin",
         "last_name": "Jackson",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77103,
@@ -14438,7 +14620,7 @@
         "full_name": "Quenton Jackson",
         "first_name": "Quenton",
         "last_name": "Jackson",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77107,
@@ -14497,10 +14679,24 @@
         "is_active": false
     },
     {
+        "id": 1641748,
+        "full_name": "Andre Jackson Jr.",
+        "first_name": "Andre",
+        "last_name": "Jackson Jr.",
+        "is_active": true
+    },
+    {
         "id": 1628991,
         "full_name": "Jaren Jackson Jr.",
         "first_name": "Jaren",
         "last_name": "Jackson Jr.",
+        "is_active": true
+    },
+    {
+        "id": 1631218,
+        "full_name": "Trayce Jackson-Davis",
+        "first_name": "Trayce",
+        "last_name": "Jackson-Davis",
         "is_active": true
     },
     {
@@ -14637,6 +14833,13 @@
         "is_active": false
     },
     {
+        "id": 1631170,
+        "full_name": "Jaime Jaquez Jr.",
+        "first_name": "Jaime",
+        "last_name": "Jaquez Jr.",
+        "is_active": true
+    },
+    {
         "id": 2060,
         "full_name": "Marko Jaric",
         "first_name": "Marko",
@@ -14738,13 +14941,6 @@
         "id": 1629610,
         "full_name": "DaQuan Jeffries",
         "first_name": "DaQuan",
-        "last_name": "Jeffries",
-        "is_active": true
-    },
-    {
-        "id": 1631300,
-        "full_name": "Drake Jeffries",
-        "first_name": "Drake",
         "last_name": "Jeffries",
         "is_active": true
     },
@@ -14865,7 +15061,7 @@
         "full_name": "Alize Johnson",
         "first_name": "Alize",
         "last_name": "Johnson",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 101161,
@@ -15131,7 +15327,7 @@
         "full_name": "James Johnson",
         "first_name": "James",
         "last_name": "Johnson",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 2207,
@@ -15188,6 +15384,13 @@
         "first_name": "Kevin",
         "last_name": "Johnson",
         "is_active": false
+    },
+    {
+        "id": 1641749,
+        "full_name": "Keyontae Johnson",
+        "first_name": "Keyontae",
+        "last_name": "Johnson",
+        "is_active": true
     },
     {
         "id": 913,
@@ -15306,7 +15509,7 @@
         "full_name": "Stanley Johnson",
         "first_name": "Stanley",
         "last_name": "Johnson",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77166,
@@ -15446,7 +15649,7 @@
         "full_name": "Carlik Jones",
         "first_name": "Carlik",
         "last_name": "Jones",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 279,
@@ -15468,6 +15671,13 @@
         "first_name": "Charles R.",
         "last_name": "Jones",
         "is_active": false
+    },
+    {
+        "id": 1641732,
+        "full_name": "Colby Jones",
+        "first_name": "Colby",
+        "last_name": "Jones",
+        "is_active": true
     },
     {
         "id": 2563,
@@ -15621,7 +15831,7 @@
         "full_name": "Kai Jones",
         "first_name": "Kai",
         "last_name": "Jones",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 203158,
@@ -15936,7 +16146,7 @@
         "full_name": "Mfiondu Kabengele",
         "first_name": "Mfiondu",
         "last_name": "Kabengele",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77217,
@@ -15978,7 +16188,7 @@
         "full_name": "Frank Kaminsky",
         "first_name": "Frank",
         "last_name": "Kaminsky",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77221,
@@ -16104,7 +16314,7 @@
         "full_name": "Trevor Keels",
         "first_name": "Trevor",
         "last_name": "Keels",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77234,
@@ -16548,13 +16758,6 @@
         "is_active": false
     },
     {
-        "id": 1631452,
-        "full_name": "Noah Kirkwood",
-        "first_name": "Noah",
-        "last_name": "Kirkwood",
-        "is_active": true
-    },
-    {
         "id": 1630557,
         "full_name": "Corey Kispert",
         "first_name": "Corey",
@@ -16916,7 +17119,7 @@
         "full_name": "Vit Krejci",
         "first_name": "Vit",
         "last_name": "Krejci",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77312,
@@ -17182,7 +17385,7 @@
         "full_name": "Anthony Lamb",
         "first_name": "Anthony",
         "last_name": "Lamb",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 203117,
@@ -17308,7 +17511,7 @@
         "full_name": "Romeo Langford",
         "first_name": "Romeo",
         "last_name": "Langford",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 2061,
@@ -17469,7 +17672,7 @@
         "full_name": "Jake Layman",
         "first_name": "Jake",
         "last_name": "Layman",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77350,
@@ -17644,7 +17847,7 @@
         "full_name": "Saben Lee",
         "first_name": "Saben",
         "last_name": "Lee",
-        "is_active": false
+        "is_active": true
     },
     {
         "id": 77366,
@@ -17829,6 +18032,13 @@
         "is_active": false
     },
     {
+        "id": 1641721,
+        "full_name": "Maxwell Lewis",
+        "first_name": "Maxwell",
+        "last_name": "Lewis",
+        "is_active": true
+    },
+    {
         "id": 1900,
         "full_name": "Quincy Lewis",
         "first_name": "Quincy",
@@ -17885,6 +18095,13 @@
         "is_active": false
     },
     {
+        "id": 1630604,
+        "full_name": "E.J. Liddell",
+        "first_name": "E.J.",
+        "last_name": "Liddell",
+        "is_active": true
+    },
+    {
         "id": 202732,
         "full_name": "DeAndre Liggins",
         "first_name": "DeAndre",
@@ -17934,10 +18151,24 @@
         "is_active": true
     },
     {
+        "id": 1641726,
+        "full_name": "Dereck Lively II",
+        "first_name": "Dereck",
+        "last_name": "Lively II",
+        "is_active": true
+    },
+    {
         "id": 1630587,
         "full_name": "Isaiah Livers",
         "first_name": "Isaiah",
         "last_name": "Livers",
+        "is_active": true
+    },
+    {
+        "id": 1641753,
+        "full_name": "Chris Livingston",
+        "first_name": "Chris",
+        "last_name": "Livingston",
         "is_active": true
     },
     {
@@ -18319,11 +18550,18 @@
         "is_active": false
     },
     {
+        "id": 1641754,
+        "full_name": "Seth Lundy",
+        "first_name": "Seth",
+        "last_name": "Lundy",
+        "is_active": true
+    },
+    {
         "id": 1627789,
         "full_name": "Timothe Luwawu-Cabarrot",
         "first_name": "Timothe",
         "last_name": "Luwawu-Cabarrot",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1628399,
@@ -18606,13 +18844,6 @@
         "is_active": false
     },
     {
-        "id": 1630588,
-        "full_name": "Makur Maker",
-        "first_name": "Makur",
-        "last_name": "Maker",
-        "is_active": true
-    },
-    {
         "id": 1627748,
         "full_name": "Thon Maker",
         "first_name": "Thon",
@@ -18631,7 +18862,7 @@
         "full_name": "Theo Maledon",
         "first_name": "Theo",
         "last_name": "Maledon",
-        "is_active": false
+        "is_active": true
     },
     {
         "id": 117,
@@ -19026,11 +19257,18 @@
         "is_active": false
     },
     {
+        "id": 1630231,
+        "full_name": "KJ Martin",
+        "first_name": "KJ",
+        "last_name": "Martin",
+        "is_active": true
+    },
+    {
         "id": 1629103,
         "full_name": "Kelan Martin",
         "first_name": "Kelan",
         "last_name": "Martin",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 2030,
@@ -19086,14 +19324,7 @@
         "full_name": "Tyrese Martin",
         "first_name": "Tyrese",
         "last_name": "Martin",
-        "is_active": true
-    },
-    {
-        "id": 1630231,
-        "full_name": "Kenyon Martin Jr.",
-        "first_name": "Kenyon",
-        "last_name": "Martin Jr.",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 469,
@@ -19674,7 +19905,7 @@
         "full_name": "Sean McDermott",
         "first_name": "Sean",
         "last_name": "McDermott",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77524,
@@ -19807,7 +20038,7 @@
         "full_name": "Rodney McGruder",
         "first_name": "Rodney",
         "last_name": "McGruder",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77536,
@@ -20349,6 +20580,13 @@
         "is_active": false
     },
     {
+        "id": 203995,
+        "full_name": "Vasilije Micic",
+        "first_name": "Vasilije",
+        "last_name": "Micic",
+        "is_active": true
+    },
+    {
         "id": 1626175,
         "full_name": "Jordan Mickey",
         "first_name": "Jordan",
@@ -20503,6 +20741,13 @@
         "is_active": false
     },
     {
+        "id": 1641706,
+        "full_name": "Brandon Miller",
+        "first_name": "Brandon",
+        "last_name": "Miller",
+        "is_active": true
+    },
+    {
         "id": 203121,
         "full_name": "Darius Miller",
         "first_name": "Darius",
@@ -20531,18 +20776,25 @@
         "is_active": false
     },
     {
-        "id": 1630627,
-        "full_name": "Isaiah Miller",
-        "first_name": "Isaiah",
-        "last_name": "Miller",
-        "is_active": true
-    },
-    {
         "id": 77601,
         "full_name": "Jay Miller",
         "first_name": "Jay",
         "last_name": "Miller",
         "is_active": false
+    },
+    {
+        "id": 1641757,
+        "full_name": "Jordan Miller",
+        "first_name": "Jordan",
+        "last_name": "Miller",
+        "is_active": true
+    },
+    {
+        "id": 1631159,
+        "full_name": "Leonard Miller",
+        "first_name": "Leonard",
+        "last_name": "Miller",
+        "is_active": true
     },
     {
         "id": 1626259,
@@ -20633,6 +20885,13 @@
         "full_name": "Shake Milton",
         "first_name": "Shake",
         "last_name": "Milton",
+        "is_active": true
+    },
+    {
+        "id": 1631303,
+        "full_name": "Justin Minaya",
+        "first_name": "Justin",
+        "last_name": "Minaya",
         "is_active": true
     },
     {
@@ -20755,13 +21014,6 @@
         "is_active": false
     },
     {
-        "id": 1630342,
-        "full_name": "Trhae Mitchell",
-        "first_name": "Trhae",
-        "last_name": "Mitchell",
-        "is_active": true
-    },
-    {
         "id": 1628513,
         "full_name": "Naz Mitrou-Long",
         "first_name": "Naz",
@@ -20878,7 +21130,7 @@
         "full_name": "Chima Moneke",
         "first_name": "Chima",
         "last_name": "Moneke",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77627,
@@ -20962,7 +21214,7 @@
         "full_name": "Xavier Moon",
         "first_name": "Xavier",
         "last_name": "Moon",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77631,
@@ -21326,7 +21578,7 @@
         "full_name": "Mychal Mulder",
         "first_name": "Mychal",
         "last_name": "Mulder",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77659,
@@ -21523,6 +21775,13 @@
         "first_name": "Ken",
         "last_name": "Murray",
         "is_active": false
+    },
+    {
+        "id": 1631200,
+        "full_name": "Kris Murray",
+        "first_name": "Kris",
+        "last_name": "Murray",
+        "is_active": true
     },
     {
         "id": 441,
@@ -21900,7 +22159,7 @@
         "full_name": "RJ Nembhard Jr.",
         "first_name": "RJ",
         "last_name": "Nembhard Jr.",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 2403,
@@ -21942,7 +22201,7 @@
         "full_name": "Raul Neto",
         "first_name": "Raul",
         "last_name": "Neto",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77705,
@@ -22145,7 +22404,7 @@
         "full_name": "Nerlens Noel",
         "first_name": "Nerlens",
         "last_name": "Noel",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77723,
@@ -22218,6 +22477,13 @@
         "is_active": false
     },
     {
+        "id": 1641936,
+        "full_name": "Miles Norris",
+        "first_name": "Miles",
+        "last_name": "Norris",
+        "is_active": true
+    },
+    {
         "id": 983,
         "full_name": "Moochie Norris",
         "first_name": "Moochie",
@@ -22278,6 +22544,13 @@
         "full_name": "Jaylen Nowell",
         "first_name": "Jaylen",
         "last_name": "Nowell",
+        "is_active": false
+    },
+    {
+        "id": 1641806,
+        "full_name": "Markquis Nowell",
+        "first_name": "Markquis",
+        "last_name": "Nowell",
         "is_active": true
     },
     {
@@ -22306,7 +22579,7 @@
         "full_name": "Kendrick Nunn",
         "first_name": "Kendrick",
         "last_name": "Nunn",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 203263,
@@ -22334,7 +22607,7 @@
         "full_name": "David Nwaba",
         "first_name": "David",
         "last_name": "Nwaba",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1629670,
@@ -22642,7 +22915,7 @@
         "full_name": "KZ Okpala",
         "first_name": "KZ",
         "last_name": "Okpala",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 2246,
@@ -23244,7 +23517,7 @@
         "full_name": "Eric Paschall",
         "first_name": "Eric",
         "last_name": "Paschall",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1628394,
@@ -23723,6 +23996,13 @@
         "is_active": false
     },
     {
+        "id": 1630196,
+        "full_name": "Filip Petrusev",
+        "first_name": "Filip",
+        "last_name": "Petrusev",
+        "is_active": true
+    },
+    {
         "id": 77846,
         "full_name": "Richard Petruska",
         "first_name": "Richard",
@@ -23800,6 +24080,13 @@
         "is_active": false
     },
     {
+        "id": 1641763,
+        "full_name": "Julian Phillips",
+        "first_name": "Julian",
+        "last_name": "Phillips",
+        "is_active": true
+    },
+    {
         "id": 184,
         "full_name": "Bobby Phills",
         "first_name": "Bobby",
@@ -23814,11 +24101,18 @@
         "is_active": false
     },
     {
+        "id": 1629618,
+        "full_name": "Jalen Pickett",
+        "first_name": "Jalen",
+        "last_name": "Pickett",
+        "is_active": true
+    },
+    {
         "id": 1630691,
         "full_name": "Jamorko Pickett",
         "first_name": "Jamorko",
         "last_name": "Pickett",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1718,
@@ -23833,13 +24127,6 @@
         "first_name": "Ricky",
         "last_name": "Pierce",
         "is_active": false
-    },
-    {
-        "id": 1630321,
-        "full_name": "Nate Pierre-Louis",
-        "first_name": "Nate",
-        "last_name": "Pierre-Louis",
-        "is_active": true
     },
     {
         "id": 77858,
@@ -23888,7 +24175,7 @@
         "full_name": "Theo Pinson",
         "first_name": "Theo",
         "last_name": "Pinson",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77862,
@@ -23916,7 +24203,7 @@
         "full_name": "Scotty Pippen Jr.",
         "first_name": "Scotty",
         "last_name": "Pippen Jr.",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77864,
@@ -23945,13 +24232,6 @@
         "first_name": "Tibor",
         "last_name": "Pleiss",
         "is_active": false
-    },
-    {
-        "id": 1631342,
-        "full_name": "Daeqwon Plowden",
-        "first_name": "Daeqwon",
-        "last_name": "Plowden",
-        "is_active": true
     },
     {
         "id": 1627850,
@@ -23987,6 +24267,13 @@
         "first_name": "Pavel",
         "last_name": "Podkolzin",
         "is_active": false
+    },
+    {
+        "id": 1641764,
+        "full_name": "Brandin Podziemski",
+        "first_name": "Brandin",
+        "last_name": "Podziemski",
+        "is_active": true
     },
     {
         "id": 1627751,
@@ -24115,6 +24402,13 @@
         "is_active": false
     },
     {
+        "id": 1641854,
+        "full_name": "Craig Porter",
+        "first_name": "Craig",
+        "last_name": "Porter",
+        "is_active": true
+    },
+    {
         "id": 77875,
         "full_name": "Howard Porter",
         "first_name": "Howard",
@@ -24147,7 +24441,7 @@
         "full_name": "Kevin Porter Jr.",
         "first_name": "Kevin",
         "last_name": "Porter Jr.",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1629008,
@@ -24210,7 +24504,7 @@
         "full_name": "Micah Potter",
         "first_name": "Micah",
         "last_name": "Potter",
-        "is_active": false
+        "is_active": true
     },
     {
         "id": 200796,
@@ -24301,7 +24595,7 @@
         "full_name": "Jason Preston",
         "first_name": "Jason",
         "last_name": "Preston",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 201985,
@@ -24416,6 +24710,13 @@
         "is_active": false
     },
     {
+        "id": 1641765,
+        "full_name": "Olivier-Maxence Prosper",
+        "first_name": "Olivier-Maxence",
+        "last_name": "Prosper",
+        "is_active": true
+    },
+    {
         "id": 201172,
         "full_name": "Gabe Pruitt",
         "first_name": "Gabe",
@@ -24483,7 +24784,7 @@
         "full_name": "Trevelin Queen",
         "first_name": "Trevelin",
         "last_name": "Queen",
-        "is_active": false
+        "is_active": true
     },
     {
         "id": 1629674,
@@ -24693,7 +24994,7 @@
         "full_name": "Chasson Randle",
         "first_name": "Chasson",
         "last_name": "Randle",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 203944,
@@ -24850,6 +25151,13 @@
         "is_active": false
     },
     {
+        "id": 1641871,
+        "full_name": "Duop Reath",
+        "first_name": "Duop",
+        "last_name": "Reath",
+        "is_active": true
+    },
+    {
         "id": 1630559,
         "full_name": "Austin Reaves",
         "first_name": "Austin",
@@ -24924,7 +25232,7 @@
         "full_name": "Davon Reed",
         "first_name": "Davon",
         "last_name": "Reed",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77927,
@@ -25165,6 +25473,13 @@
         "is_active": false
     },
     {
+        "id": 1641811,
+        "full_name": "Sir'Jabari Rice",
+        "first_name": "Sir'Jabari",
+        "last_name": "Rice",
+        "is_active": true
+    },
+    {
         "id": 201181,
         "full_name": "Chris Richard",
         "first_name": "Chris",
@@ -25386,7 +25701,7 @@
         "full_name": "Austin Rivers",
         "first_name": "Austin",
         "last_name": "Rivers",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77970,
@@ -25729,7 +26044,7 @@
         "full_name": "Isaiah Roby",
         "first_name": "Isaiah",
         "last_name": "Roby",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 77999,
@@ -25967,7 +26282,7 @@
         "full_name": "Terrence Ross",
         "first_name": "Terrence",
         "last_name": "Ross",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 78021,
@@ -26173,6 +26488,13 @@
         "is_active": false
     },
     {
+        "id": 1641712,
+        "full_name": "Rayan Rupert",
+        "first_name": "Rayan",
+        "last_name": "Rupert",
+        "is_active": true
+    },
+    {
         "id": 474,
         "full_name": "Stefano Rusconi",
         "first_name": "Stefano",
@@ -26324,7 +26646,7 @@
         "full_name": "Luka Samanic",
         "first_name": "Luka",
         "last_name": "Samanic",
-        "is_active": false
+        "is_active": true
     },
     {
         "id": 200798,
@@ -26367,6 +26689,13 @@
         "first_name": "Samardo",
         "last_name": "Samuels",
         "is_active": false
+    },
+    {
+        "id": 1631257,
+        "full_name": "Jermaine Samuels Jr.",
+        "first_name": "Jermaine",
+        "last_name": "Samuels Jr.",
+        "is_active": true
     },
     {
         "id": 2143,
@@ -26418,6 +26747,13 @@
         "is_active": false
     },
     {
+        "id": 1641766,
+        "full_name": "Adama Sanogo",
+        "first_name": "Adama",
+        "last_name": "Sanogo",
+        "is_active": true
+    },
+    {
         "id": 2091,
         "full_name": "Daniel Santiago",
         "first_name": "Daniel",
@@ -26430,6 +26766,13 @@
         "first_name": "Bob",
         "last_name": "Santini",
         "is_active": false
+    },
+    {
+        "id": 1630611,
+        "full_name": "Gui Santos",
+        "first_name": "Gui",
+        "last_name": "Santos",
+        "is_active": true
     },
     {
         "id": 78062,
@@ -26465,6 +26808,13 @@
         "first_name": "Jeryl",
         "last_name": "Sasser",
         "is_active": false
+    },
+    {
+        "id": 1631204,
+        "full_name": "Marcus Sasser",
+        "first_name": "Marcus",
+        "last_name": "Sasser",
+        "is_active": true
     },
     {
         "id": 203107,
@@ -26576,7 +26926,7 @@
         "full_name": "Jordan Schakel",
         "first_name": "Jordan",
         "last_name": "Schakel",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 78073,
@@ -26835,7 +27185,7 @@
         "full_name": "Jay Scrubb",
         "first_name": "Jay",
         "last_name": "Scrubb",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 78102,
@@ -26982,6 +27332,13 @@
         "full_name": "Alperen Sengun",
         "first_name": "Alperen",
         "last_name": "Sengun",
+        "is_active": true
+    },
+    {
+        "id": 1641729,
+        "full_name": "Brice Sensabaugh",
+        "first_name": "Brice",
+        "last_name": "Sensabaugh",
         "is_active": true
     },
     {
@@ -27193,6 +27550,13 @@
         "first_name": "Tornike",
         "last_name": "Shengelia",
         "is_active": false
+    },
+    {
+        "id": 1641767,
+        "full_name": "Ben Sheppard",
+        "first_name": "Ben",
+        "last_name": "Sheppard",
+        "is_active": true
     },
     {
         "id": 1852,
@@ -27458,7 +27822,7 @@
         "full_name": "Marko Simonovic",
         "first_name": "Marko",
         "last_name": "Simonovic",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1629014,
@@ -27531,13 +27895,6 @@
         "is_active": false
     },
     {
-        "id": 1631301,
-        "full_name": "Jaylen Sims",
-        "first_name": "Jaylen",
-        "last_name": "Sims",
-        "is_active": true
-    },
-    {
         "id": 1630579,
         "full_name": "Jericho Sims",
         "first_name": "Jericho",
@@ -27598,7 +27955,7 @@
         "full_name": "Deividas Sirvydis",
         "first_name": "Deividas",
         "last_name": "Sirvydis",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 78164,
@@ -27676,6 +28033,13 @@
         "first_name": "Jose",
         "last_name": "Slaughter",
         "is_active": false
+    },
+    {
+        "id": 1641771,
+        "full_name": "Jalen Slawson",
+        "first_name": "Jalen",
+        "last_name": "Slawson",
+        "is_active": true
     },
     {
         "id": 2447,
@@ -28119,6 +28483,13 @@
         "is_active": false
     },
     {
+        "id": 1631173,
+        "full_name": "Terquavion Smith",
+        "first_name": "Terquavion",
+        "last_name": "Smith",
+        "is_active": true
+    },
+    {
         "id": 2604,
         "full_name": "Theron Smith",
         "first_name": "Theron",
@@ -28161,6 +28532,13 @@
         "is_active": true
     },
     {
+        "id": 1641733,
+        "full_name": "Nick Smith Jr.",
+        "first_name": "Nick",
+        "last_name": "Smith Jr.",
+        "is_active": true
+    },
+    {
         "id": 22,
         "full_name": "Rik Smits",
         "first_name": "Rik",
@@ -28186,7 +28564,7 @@
         "full_name": "Xavier Sneed",
         "first_name": "Xavier",
         "last_name": "Sneed",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 203503,
@@ -28383,13 +28761,6 @@
         "first_name": "Felton",
         "last_name": "Spencer",
         "is_active": false
-    },
-    {
-        "id": 1630311,
-        "full_name": "Pat Spencer",
-        "first_name": "Pat",
-        "last_name": "Spencer",
-        "is_active": true
     },
     {
         "id": 78230,
@@ -28641,7 +29012,7 @@
         "full_name": "DJ Stewart",
         "first_name": "DJ",
         "last_name": "Stewart",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 78253,
@@ -28847,6 +29218,13 @@
         "is_active": false
     },
     {
+        "id": 1631124,
+        "full_name": "Julian Strawther",
+        "first_name": "Julian",
+        "last_name": "Strawther",
+        "is_active": true
+    },
+    {
         "id": 78269,
         "full_name": "Bill Stricker",
         "first_name": "Bill",
@@ -28970,7 +29348,7 @@
         "full_name": "Edmond Sumner",
         "first_name": "Edmond",
         "last_name": "Sumner",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 78654,
@@ -29530,7 +29908,7 @@
         "full_name": "Brodric Thomas",
         "first_name": "Brodric",
         "last_name": "Thomas",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1630560,
@@ -29687,6 +30065,20 @@
         "is_active": false
     },
     {
+        "id": 1641708,
+        "full_name": "Amen Thompson",
+        "first_name": "Amen",
+        "last_name": "Thompson",
+        "is_active": true
+    },
+    {
+        "id": 1641709,
+        "full_name": "Ausar Thompson",
+        "first_name": "Ausar",
+        "last_name": "Thompson",
+        "is_active": true
+    },
+    {
         "id": 78323,
         "full_name": "Bernard Thompson",
         "first_name": "Bernard",
@@ -29810,7 +30202,7 @@
         "full_name": "Tristan Thompson",
         "first_name": "Tristan",
         "last_name": "Thompson",
-        "is_active": false
+        "is_active": true
     },
     {
         "id": 1630550,
@@ -29908,7 +30300,7 @@
         "full_name": "Killian Tillie",
         "first_name": "Killian",
         "last_name": "Tillie",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 78343,
@@ -29957,7 +30349,7 @@
         "full_name": "Isaiah Todd",
         "first_name": "Isaiah",
         "last_name": "Todd",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 78346,
@@ -30044,6 +30436,13 @@
         "is_active": false
     },
     {
+        "id": 1631210,
+        "full_name": "Jacob Toppin",
+        "first_name": "Jacob",
+        "last_name": "Toppin",
+        "is_active": true
+    },
+    {
         "id": 1630167,
         "full_name": "Obi Toppin",
         "first_name": "Obi",
@@ -30076,7 +30475,7 @@
         "full_name": "Juan Toscano-Anderson",
         "first_name": "Juan",
         "last_name": "Toscano-Anderson",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 78359,
@@ -30231,6 +30630,13 @@
         "first_name": "John",
         "last_name": "Tschogl",
         "is_active": false
+    },
+    {
+        "id": 1631131,
+        "full_name": "Oscar Tshiebwe",
+        "first_name": "Oscar",
+        "last_name": "Tshiebwe",
+        "is_active": true
     },
     {
         "id": 78371,
@@ -30441,6 +30847,13 @@
         "first_name": "Charlie",
         "last_name": "Tyra",
         "is_active": false
+    },
+    {
+        "id": 1641816,
+        "full_name": "Hunter Tyson",
+        "first_name": "Hunter",
+        "last_name": "Tyson",
+        "is_active": true
     },
     {
         "id": 202775,
@@ -30779,6 +31192,13 @@
         "is_active": false
     },
     {
+        "id": 1628426,
+        "full_name": "Sasha Vezenkov",
+        "first_name": "Sasha",
+        "last_name": "Vezenkov",
+        "is_active": true
+    },
+    {
         "id": 78416,
         "full_name": "Joao Vianna",
         "first_name": "Joao",
@@ -30790,7 +31210,7 @@
         "full_name": "Luca Vildoza",
         "first_name": "Luca",
         "last_name": "Vildoza",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 101111,
@@ -30867,7 +31287,7 @@
         "full_name": "Noah Vonleh",
         "first_name": "Noah",
         "last_name": "Vonleh",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 2063,
@@ -31094,6 +31514,13 @@
         "is_active": true
     },
     {
+        "id": 1641716,
+        "full_name": "Jarace Walker",
+        "first_name": "Jarace",
+        "last_name": "Walker",
+        "is_active": true
+    },
+    {
         "id": 78439,
         "full_name": "Jimmy Walker",
         "first_name": "Jimmy",
@@ -31105,7 +31532,7 @@
         "full_name": "Kemba Walker",
         "first_name": "Kemba",
         "last_name": "Walker",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 78440,
@@ -31154,7 +31581,7 @@
         "full_name": "John Wall",
         "first_name": "John",
         "last_name": "Wall",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1112,
@@ -31162,6 +31589,13 @@
         "first_name": "Ben",
         "last_name": "Wallace",
         "is_active": false
+    },
+    {
+        "id": 1641717,
+        "full_name": "Cason Wallace",
+        "first_name": "Cason",
+        "last_name": "Wallace",
+        "is_active": true
     },
     {
         "id": 2222,
@@ -31218,6 +31652,13 @@
         "first_name": "Jim",
         "last_name": "Walsh",
         "is_active": false
+    },
+    {
+        "id": 1641775,
+        "full_name": "Jordan Walsh",
+        "first_name": "Jordan",
+        "last_name": "Walsh",
+        "is_active": true
     },
     {
         "id": 101190,
@@ -31371,7 +31812,7 @@
         "full_name": "T.J. Warren",
         "first_name": "T.J.",
         "last_name": "Warren",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 202378,
@@ -31623,7 +32064,7 @@
         "full_name": "Quinndary Weatherspoon",
         "first_name": "Quinndary",
         "last_name": "Weatherspoon",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 201602,
@@ -31792,6 +32233,13 @@
         "first_name": "Thomas",
         "last_name": "Welsh",
         "is_active": false
+    },
+    {
+        "id": 1641705,
+        "full_name": "Victor Wembanyama",
+        "first_name": "Victor",
+        "last_name": "Wembanyama",
+        "is_active": true
     },
     {
         "id": 82,
@@ -32001,7 +32449,7 @@
         "full_name": "Jack White",
         "first_name": "Jack",
         "last_name": "White",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1751,
@@ -32095,6 +32543,13 @@
         "is_active": false
     },
     {
+        "id": 1641727,
+        "full_name": "Dariq Whitehead",
+        "first_name": "Dariq",
+        "last_name": "Whitehead",
+        "is_active": true
+    },
+    {
         "id": 1627785,
         "full_name": "Isaiah Whitehead",
         "first_name": "Isaiah",
@@ -32128,6 +32583,13 @@
         "first_name": "Dwayne",
         "last_name": "Whitfield",
         "is_active": false
+    },
+    {
+        "id": 1641715,
+        "full_name": "Cam Whitmore",
+        "first_name": "Cam",
+        "last_name": "Whitmore",
+        "is_active": true
     },
     {
         "id": 78519,
@@ -32183,7 +32645,7 @@
         "full_name": "Joe Wieskamp",
         "first_name": "Joe",
         "last_name": "Wieskamp",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1630598,
@@ -32372,7 +32834,7 @@
         "full_name": "Alondes Williams",
         "first_name": "Alondes",
         "last_name": "Williams",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1541,
@@ -32476,6 +32938,13 @@
         "id": 78545,
         "full_name": "Don Williams",
         "first_name": "Don",
+        "last_name": "Williams",
+        "is_active": false
+    },
+    {
+        "id": 1631495,
+        "full_name": "Donovan Williams",
+        "first_name": "Donovan",
         "last_name": "Williams",
         "is_active": false
     },
@@ -32590,13 +33059,6 @@
         "first_name": "Jayson",
         "last_name": "Williams",
         "is_active": false
-    },
-    {
-        "id": 1631466,
-        "full_name": "Jeenathan Williams",
-        "first_name": "Jeenathan",
-        "last_name": "Williams",
-        "is_active": true
     },
     {
         "id": 966,
@@ -32737,6 +33199,13 @@
         "first_name": "Nate",
         "last_name": "Williams",
         "is_active": false
+    },
+    {
+        "id": 1631466,
+        "full_name": "Nate Williams",
+        "first_name": "Nate",
+        "last_name": "Williams",
+        "is_active": true
     },
     {
         "id": 1630172,
@@ -32988,7 +33457,7 @@
         "full_name": "D.J. Wilson",
         "first_name": "D.J.",
         "last_name": "Wilson",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 78579,
@@ -33003,6 +33472,13 @@
         "first_name": "Isaiah",
         "last_name": "Wilson",
         "is_active": false
+    },
+    {
+        "id": 1630592,
+        "full_name": "Jalen Wilson",
+        "first_name": "Jalen",
+        "last_name": "Wilson",
+        "is_active": true
     },
     {
         "id": 203966,
@@ -33135,7 +33611,7 @@
         "full_name": "Justise Winslow",
         "first_name": "Justise",
         "last_name": "Winslow",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1984,
@@ -33241,6 +33717,13 @@
         "first_name": "Nate",
         "last_name": "Wolters",
         "is_active": false
+    },
+    {
+        "id": 1631209,
+        "full_name": "Isaiah Wong",
+        "first_name": "Isaiah",
+        "last_name": "Wong",
+        "is_active": true
     },
     {
         "id": 78610,
@@ -33492,7 +33975,7 @@
         "full_name": "McKinley Wright IV",
         "first_name": "McKinley",
         "last_name": "Wright IV",
-        "is_active": true
+        "is_active": false
     },
     {
         "id": 1629625,
