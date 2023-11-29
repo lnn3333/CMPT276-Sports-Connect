@@ -1,5 +1,5 @@
-flask
 Flask==1.0.2
+requests==2.22.0
 
 http.client
 
