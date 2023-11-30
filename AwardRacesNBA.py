@@ -47,11 +47,11 @@ def getCategories(DataSc):
 #functions to print out to terminal the top 5 in each of the 5 major categories
 def scoringChampRace(pointsPerGame):
     if pointsPerGame is not None:
-        ranks = pointsPerGame['ranks'][:5]
+        ranks = pointsPerGame['ranks'][:30]
         i=0
         #print("Top 5:")
         for rank in ranks:
-            if i==5:
+            if i==30:
                 break
             else:
                 i+=1
@@ -61,11 +61,11 @@ def scoringChampRace(pointsPerGame):
 
 def assistChampRace(assistPerGame):
     if assistPerGame is not None:
-        ranks = assistPerGame['ranks'][:5]
+        ranks = assistPerGame['ranks'][:30]
         i=0
-        #print("Top 5:")
+        #print("Top 30:")
         for rank in ranks:
-            if i==5:
+            if i==30:
                 break
             else:
                 i+=1
@@ -75,11 +75,11 @@ def assistChampRace(assistPerGame):
 
 def ReboundChampRace(reboundsPerGame):
     if reboundsPerGame is not None:
-        ranks = reboundsPerGame['ranks'][:5]
+        ranks = reboundsPerGame['ranks'][:30]
         i=0
-        #print("Top 5:")
+        #print("Top 30:")
         for rank in ranks:
-            if i==5:
+            if i==30:
                 break
             else:
                 i+=1
@@ -89,11 +89,11 @@ def ReboundChampRace(reboundsPerGame):
 
 def BlockChampRace(blocksPerGame):
     if blocksPerGame is not None:
-        ranks = blocksPerGame['ranks'][:5]
+        ranks = blocksPerGame['ranks'][:30]
         i=0
-        #print("Top 5:")
+        #print("Top 30:")
         for rank in ranks:
-            if i==5:
+            if i==30:
                     break
             else:
                 i+=1
@@ -103,11 +103,11 @@ def BlockChampRace(blocksPerGame):
 
 def StealsChampRace(stealsPerGame):
     if stealsPerGame is not None:
-        ranks = stealsPerGame['ranks'][:5]
+        ranks = stealsPerGame['ranks'][:30]
         i=0
-        #print("Top 5:")
+        #print("Top 30:")
         for rank in ranks:
-            if i==5:
+            if i==30:
                     break
             else:
                 i+=1

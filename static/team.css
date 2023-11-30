@@ -57,7 +57,7 @@
 
 body {
     font-family: var(--ff-poppins);
-    background-color: #111d4a;
+    background-color: #3498DB;
 }
 body.active { overflow-y: hidden; }
 
@@ -84,7 +84,6 @@ h1 {
     letter-spacing: 10px;
     text-shadow: 0 7px hsl(3, 82%, 30%);
     margin-bottom: 15px;
-    border: 2px solid rgb(173, 29, 29);
     padding: 5px;
     -webkit-text-stroke: 2.5px rgb(248, 248, 248); /* For Webkit-based browsers like Chrome and Safari */
     text-stroke: 2px red;
