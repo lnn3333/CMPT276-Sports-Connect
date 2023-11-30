@@ -15706,7 +15706,7 @@
         },
         {
             "id": "8f8a2371-518e-4422-96e1-d4887bd9b351",
-            "status": "closed",
+            "status": "scheduled",
             "coverage": "full",
             "scheduled": "2023-11-30T03:00:00Z",
             "home_points": 117,
