@@ -2,7 +2,7 @@ import http.client
 import json
 
 #Below was done with the help of the SportsRadar API documentation
-url = "/nba/trial/v8/en/seasons/2023/REG/leaders.json?api_key=2595gy5scfm5sgje8fa4de36"
+url = "/nba/trial/v8/en/seasons/2023/REG/leaders.json?api_key=26s9kjdgbgmtakysh5t9c9zu"
 
 conn = http.client.HTTPSConnection("api.sportradar.us")
 conn.request("GET", url)
