@@ -16,22 +16,29 @@ def home():
     return render_template('index.html',listOfArticles=listOfArticles)
 
 #route for award races 
-@app.route('/nbaAwards')
+@app.route('/nbaAwards', methods=['GET', 'POST'])
 def displayAwardRace():
-    data=readData()
-    Points,Assist,Rebound,Blocks,Steals = getCategories(data)
-    scoringChampRace(Points)
-    assistChampRace(Assist)
-    ReboundChampRace(Rebound)
-    BlockChampRace(Blocks)
-    StealsChampRace(Steals)
+    if request.method == 'POST':
+        print(request.form)
+        chosenCat = request.form.get("statCategory")    
+        data=readData()
+        Points,Assist,Rebound,Blocks,Steals = getCategories(data)
+        if chosenCat =='points':
+            scoringChampRace(Points)
+        elif chosenCat == 'assists':
+            assistChampRace(Assist)
+        elif chosenCat == 'rebounds':
+            ReboundChampRace(Rebound)
+        elif chosenCat == 'blocks':
+            BlockChampRace(Blocks)
+        elif chosenCat == 'steals':
+            StealsChampRace(Steals)        
+
+        return render_template('nbaAwards.html', chosenCat=chosenCat,Points=Points,Assist=Assist,Rebound=Rebound,Blocks=Blocks,Steals=Steals)
+
    
-    return render_template('nbaAwards.html',
-                           Points=Points,
-                           Assist=Assist,
-                           Rebound=Rebound,
-                           Blocks=Blocks,
-                           Steals=Steals)
+    return render_template('nbaAwards.html', chosenCat=None,Points=None,Assist=None,Rebound=None,Blocks=None,Steals=None)
+
 
 # Add a route for schedule of recent games     
 @app.route('/schedule')  
@@ -51,12 +58,16 @@ def teamSchedule():
     if searchResult:
         Team = searchTeam(searchResult,games)
         teamGames = FindGamesForTeam(Team,games)
-        teamImageList ={
-            game['homeTeamName']:getImage(game['homeTeamName'])
-            for game in teamGames
-        }
+        if teamGames is not None:
+            teamImageList = {
+                game['homeTeamName']: getImage(game['homeTeamName'])
+                for game in teamGames
+            }
+        else:
+            teamImageList = {"../static/assets/image/icons8-basketball-64.png"}
+
         return render_template('team-schedule.html',searchResult=searchResult,Team=Team,teamGames=teamGames,teamImagePaths=teamImageList)   
-    return render_template('team-schedule.html',searchResult=None, team=None,teamGames=None,teamImagePaths={})
+    return render_template('team-schedule.html',searchResult=None, team=None,teamGames=None,teamImagePaths=None)
 
 @app.route('/player-profile')
 def playerProfile():
