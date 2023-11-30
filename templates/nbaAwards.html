@@ -9,40 +9,86 @@
 </head>
 <body>
     <h1>Award Race Leaders</h1>
-
-    <h2>Scoring Leaders</h2>
-    <ul>
-        {% for player in Points['ranks'][:5] %}
-            <li>{{ player['player']['full_name'] }} - {{ player['score'] }} PPG</li>
-        {% endfor %}
-    </ul>
-
-    <h2>Assist Leaders</h2>
-    <ul>
-        {% for player in Assist['ranks'][:5] %}
-            <li>{{ player['player']['full_name'] }} - {{ player['score'] }} APG</li>
-        {% endfor %}
-    </ul>
-
-    <h2>Rebound Leaders</h2>
-    <ul>
-        {% for player in Rebound['ranks'][:5] %}
-            <li>{{ player['player']['full_name'] }} - {{ player['score'] }} RPG</li>
-        {% endfor %}
-    </ul>
-
-    <h2>Block Leaders</h2>
-    <ul>
-        {% for player in Blocks['ranks'][:5] %}
-            <li>{{ player['player']['full_name'] }} - {{ player['score'] }} BPG</li>
-        {% endfor %}
-    </ul>
-
-    <h2>Steals Leaders</h2>
-    <ul>
-        {% for player in Steals['ranks'][:5] %}
-            <li>{{ player['player']['full_name'] }} - {{ player['score'] }} SPG</li>
-        {% endfor %}
-    </ul>
-</body>
+    <form method="post" action="/nbaAwards">
+        <label for="category">Select a category</label>
+        <select name="statCategory" id="category">
+            <option value='points'>Points</option>
+            <option value='assists'>Assists</option>
+            <option value='rebounds'>Rebounds</option>
+            <option value='blocks'>Blocks</option>
+            <option value='steals'>Steals</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+    {% if chosenCat %}
+        {% if chosenCat == 'points' %}
+        <ul>
+            <h2>Scoring Leaders:</h2>
+            {% for player in Points['ranks'][:30] %}
+                <li>
+                    <span>{{ player['player']['full_name']}}</span>
+                    <span class="stat-info">{{ player['score'] }} PPG</span>
+                </li>
+                <li class="team-info">
+                    {{ player['teams'][0]['market'] }} {{player['teams'][0]['name']}}
+                </li>
+            {% endfor %}
+        </ul>
+        {% elif chosenCat == 'assists' %}
+        <ul>
+            <h2>Assist Leaders:</h2>
+            {% for player in Assist['ranks'][:30] %}
+                <li>
+                    <span>{{ player['player']['full_name']}}</span>
+                    <span class="stat-info">{{ player['score'] }} APG</span>
+                </li>
+                <li class="team-info">
+                    {{ player['teams'][0]['market'] }} {{player['teams'][0]['name']}}
+                </li>
+            {% endfor %}
+        </ul>
+        {% elif chosenCat == 'rebounds' %}
+        <ul>
+            <h2>Rebounding Leaders:</h2>
+            {% for player in Rebound['ranks'][:30] %}
+                <li>
+                    <span>{{ player['player']['full_name']}}</span>
+                    <span class="stat-info">{{ player['score'] }} RPG</span>
+                </li>
+                <li class="team-info">
+                    {{ player['teams'][0]['market'] }} {{player['teams'][0]['name']}}
+                </li>
+            {% endfor %}
+        </ul>
+        {% elif chosenCat == 'blocks' %}
+        <ul>
+            <h2>Blocks Leaders:</h2>
+            {% for player in Blocks['ranks'][:30] %}
+                <li>
+                    <span>{{ player['player']['full_name']}}</span>
+                    <span class="stat-info">{{ player['score'] }} BPG</span>
+                </li>
+                <li class="team-info">
+                    {{ player['teams'][0]['market'] }} {{player['teams'][0]['name']}}
+                </li>
+            {% endfor %}
+        </ul>
+        {% elif chosenCat == 'steals' %}
+        <ul>
+            <h2>Steals Leaders:</h2>
+            {% for player in Steals['ranks'][:30] %}
+                <li>
+                    <span>{{ player['player']['full_name']}}</span>
+                    <span class="stat-info">{{ player['score'] }} SPG</span>
+                </li>
+                <li class="team-info">
+                    {{ player['teams'][0]['market'] }} {{player['teams'][0]['name']}}
+                </li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+{% else %}
+    <p>No data available for the selected category.</p>
+{% endif %}
+   </body>
 </html>

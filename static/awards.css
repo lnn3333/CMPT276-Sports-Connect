@@ -58,7 +58,7 @@
 body 
 {
     font-family: var(--ff-poppins);
-    background-color:#16A085;
+    background-color:#3498DB;
 }
 h1 {
     color: #c51111;
@@ -70,7 +70,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 10px;
-    text-shadow: 0 7px hsl(144, 40%, 24%);
+    text-shadow: 0 7px hsl(207, 40%, 24%);
     margin-bottom: 15px;
     padding: 5px;
     -webkit-text-stroke: 2.5px rgb(248, 248, 248); /* For Webkit-based browsers like Chrome and Safari */
@@ -78,31 +78,46 @@ h1 {
 }
 h2 {
     color:white;
-    margin-bottom: 20px;
-    font-family: var(--ff-oswald);
-    font-size: 20px;
-    text-align: center;
-    text-decoration: underline;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 5px;
     margin-bottom: 10px;
+    font-family: var(--ff-oswald);
+    font-size: 25px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 15px;
+    font-style: italic;
 }
 ul 
 {
     list-style-type: decimal;
     padding: 0;
-    color:rgb(248, 248, 248);
+    color: rgb(248, 248, 248);
     font-size: 15px;
     display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
+    flex-direction: column;  
+    text-align: right;
 }
 li 
 {
+    display: flex;
     margin-bottom: 10px;
     margin-left: 20px;
+    font-size: 20px;
     text-align: center;
-
+    justify-content: space-between;  
+    width: 80%
+}
+form {
+    margin-top: 25px; 
+    text-align: center;
+}
+.team-info {
+    text-align: center; 
+    font-size: 16px;    
+    color: #1F4E78;
+}
+.stat-info {
+    margin-left: auto;
+    text-align: right;
+    float: right;
+    font-size: 20px;
 }
