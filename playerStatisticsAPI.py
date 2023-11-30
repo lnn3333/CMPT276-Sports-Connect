@@ -20,3 +20,8 @@ with open ("playerProfile.json","w") as file:
 
 with open("playerProfile.json","r") as reading:
     DataSc = json.load(reading)
+    
+    
+    
+for player in DataSc["first-name"]:
+    

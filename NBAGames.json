@@ -14754,7 +14754,7 @@
         },
         {
             "id": "3494ae87-205b-47d5-b409-2ed6fa753e2b",
-            "status": "closed",
+            "status": "scheduled",
             "coverage": "full",
             "scheduled": "2023-11-28T02:00:00Z",
             "home_points": 114,
@@ -14812,7 +14812,7 @@
         },
         {
             "id": "e58284e1-4a8c-4961-9804-94bd4aa80006",
-            "status": "closed",
+            "status": "scheduled",
             "coverage": "full",
             "scheduled": "2023-11-28T03:30:00Z",
             "home_points": 104,

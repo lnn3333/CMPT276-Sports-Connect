@@ -4,7 +4,7 @@ from ScheduleNBA import getAllNBATeams,FindGamesForTeam, searchTeam, FormatDateT
 from news_api import readNews, getNews
 from playerCareerStatsNBA import readDataStats, get_available_reg_seasonID, regular_season_stats, post_season_stats, allstar_season_stats
 from playerProfileNBA import list_players, readDataPlayer, get_players_full_name, get_playerID
-
+from teamProfileNBA import get_team_info_by_nickname, get_team_info_by_abbr, get_team_info_by_state
 
 app = Flask(__name__)
 
@@ -78,10 +78,28 @@ def playerProfile():
     searchResult = request.args.get('searchResult')
     if searchResult:
         plr_name = get_players_full_name(searchResult)
-        plr_id = get_playerID(searchResult)
-        # return redirect(url_for("playerStats", playerID=plr_id))
-        return render_template('player-profile.html', listOfPlayers=listOfPlayers, searchResult=searchResult, plr_name=plr_name, plr_id=plr_id)
-    return render_template('player-profile.html', listOfPlayers=listOfPlayers, searchResult=None, plr_name=None, plr_id=None)
+        return render_template('player-profile.html', listOfPlayers=listOfPlayers, searchResult=searchResult, plr_name=plr_name)
+    return render_template('player-profile.html', listOfPlayers=listOfPlayers, searchResult=None, plr_name=None)
+
+@app.route('/team-profile')
+def teamProfile():
+    searchResult =  request.args.get('searchResult')
+    # teamNickname, teamAbbr, teamState = None
+    
+    if searchResult:
+        
+        teamNickname = get_team_info_by_nickname(searchResult)
+        if teamNickname:
+            return render_template('team-profile.html', searchResult=searchResult, 
+                                                        teamNickname=teamNickname, 
+                                                        teamAbbr=None)
+        else:
+            teamAbbr = get_team_info_by_abbr(searchResult)
+            if teamAbbr:
+                return render_template('team-profile.html', searchResult=searchResult, 
+                                                            teamNickname=None, 
+                                                            teamAbbr=teamAbbr)
+    return render_template('team-profile.html', searchResult=None, teamNickname=None, teamAbbr=None)
 
 @app.route('/pastSeason')
 def pastSeason():
