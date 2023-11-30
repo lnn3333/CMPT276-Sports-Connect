@@ -30,16 +30,16 @@ def list_players():
 
 # Retrieves player ID
 def get_playerID(player):
-    player = players.find_players_by_full_name(player)
-    playerID = player[0]["id"]
-    return playerID
+    _player = players.find_players_by_full_name(str(player))
+    for info in _player:
+        playerID = info["id"]
+        return playerID
 
 # retreives player info by first name
 def get_players_by_first_name(firstname):
     
     player = players.find_players_by_first_name(firstname)
     data = readDataPlayer()
-    # print(player)
     
     player_count = 0
     player_dict = {}
