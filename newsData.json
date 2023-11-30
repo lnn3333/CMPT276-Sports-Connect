@@ -1,83 +1,93 @@
 [
     {
-        "title": "LaMelo carried off, ruled out with ankle strain",
-        "url": "https://www.nba.com/news/hornets-lamelo-ball-out-right-ankle-strain",
+        "title": "Kia Rookie Ladder: Holmgren stays at No. 1",
+        "url": "https://www.nba.com/news/kia-rookie-ladder-nov-29-2023-edition",
         "source": "nba"
     },
     {
-        "title": "Durant misses 2nd straight game (right foot)",
-        "url": "https://www.nba.com/news/kevin-durant-out-right-foot-knicks",
-        "source": "nba"
-    },
-    {
-        "title": "NBA MVP Rankings: Where things stand through the first month of the season",
-        "url": "https://www.sportingnews.com/ca/nba/news/mvp-rankings-2023-24-nikola-jokic-joel-embiid/89e86d628fdd7afdd3565a66",
-        "source": "nba_canada"
-    },
-    {
-        "title": "Trades That Should've Happened in July \u270d\ufe0f",
-        "url": "https://bleacherreport.com/articles/10098483-nba-trades-that-shouldve-happened-in-july",
-        "source": "bleacher_report"
-    },
-    {
-        "title": "Fresh NBA Power Rankings \ud83d\udcca",
-        "url": "https://bleacherreport.com/articles/10098161-nba-power-rankings-celtics-thunder-timberwolves-surging-after-thanksgiving",
-        "source": "bleacher_report"
-    },
-    {
-        "title": "Power Rankings: Magic, Suns surge into Top 10",
-        "url": "https://www.nba.com/news/power-rankings-2023-24-week-6",
-        "source": "nba"
-    },
-    {
-        "title": "Sixers Beat Lakers by 44 \ud83d\ude2c",
-        "url": "https://bleacherreport.com/articles/10098912-joel-embiids-triple-double-amazes-nba-fans-as-76ers-beat-lebron-james-lakers",
-        "source": "bleacher_report"
-    },
-    {
-        "title": "Green says he doesn't regret Gobert headlock",
-        "url": "https://www.espn.com/nba/story/_/id/38987498/draymond-green-says-regret-incident-rudy-gobert",
+        "title": "Police investigating allegations against Giddey",
+        "url": "https://www.espn.com/nba/story/_/id/39005479/police-looking-allegations-thunder-josh-giddey",
         "source": "espn"
     },
     {
-        "title": "Dray Doesn't Regret Headlock",
-        "url": "https://bleacherreport.com/articles/10098778-warriors-draymond-green-doesnt-regret-putting-t-wolves-rudy-gobert-in-headlock",
+        "title": "How Kevin Durant, Drake became friends and business partners",
+        "url": "https://www.sportingnews.com/ca/nba/news/kevin-durant-drake-relationship-suns-raptors-music-business/3472532a6698270b0cb4252b",
+        "source": "nba_canada"
+    },
+    {
+        "title": "Police Investigating Josh Giddey",
+        "url": "https://bleacherreport.com/articles/10099055-tmz-police-investigating-thunders-josh-giddey-for-alleged-underage-relationship",
         "source": "bleacher_report"
     },
     {
-        "title": "In-Season Tournament Update \ud83d\udcdd",
-        "url": "https://www.nba.com/in-season-tournament/2023/standings",
-        "source": "bleacher_report"
+        "title": "Nuggets star Murray scores 16 points in return",
+        "url": "https://www.espn.com/nba/story/_/id/39008576/denver-jamal-murray-hamstring-return-vs-rockets-sources-say",
+        "source": "espn"
     },
     {
-        "title": "In-Season Tournament MVP Ladder: LeBron climbing",
-        "url": "https://www.nba.com/news/in-season-tournament-mvp-ladder-nov-25",
+        "title": "Draymond Green, Klay Thompson offer strong responses to Warriors' struggles",
+        "url": "https://www.sportingnews.com/ca/nba/news/draymond-green-klay-thompson-warriors-early-struggles/4d6c5baa461b70cd0b5e2089",
+        "source": "nba_canada"
+    },
+    {
+        "title": "Mark Cuban to sell majority stake in Mavericks 'in range' of $3.5B",
+        "url": "https://www.sportingnews.com/ca/nba/news/mark-cuban-sell-majority-stake-mavericks-miriam-adelson/ba872acb647bc0745a0f5486",
+        "source": "nba_canada"
+    },
+    {
+        "title": "Edwards leaves game after hard fall vs. Thunder",
+        "url": "https://www.nba.com/news/anthony-edwards-hard-fall",
         "source": "nba"
     },
     {
-        "title": "Inside Tyrese Maxey's superstar leap this season",
-        "url": "https://www.sportingnews.com/ca/nba/news/tyrese-maxey-76ers-superstar-leap-role-joel-embiid/829db336841ca417e9407b48",
-        "source": "nba_canada"
-    },
-    {
-        "title": "Porzingis (calf strain) to be reevaluated in 1 week",
-        "url": "https://www.espn.com/nba/story/_/id/38986634/kristaps-porzingis-calf-strain-reevaluated-1-week",
-        "source": "espn"
-    },
-    {
-        "title": "Doncic has thumb sprain but cleared to play",
-        "url": "https://www.espn.com/nba/story/_/id/38992658/mavericks-luka-doncic-thumb-sprain-cleared-play",
-        "source": "espn"
-    },
-    {
-        "title": "Tracking the latest Raptors trade rumors",
-        "url": "https://www.sportingnews.com/ca/nba/news/raptors-trade-rumors-news-og-anunoby-pascal-siakam/9f2bbaba0823376975e4c664",
-        "source": "nba_canada"
-    },
-    {
-        "title": "Most Underrated NBA Players \ud83d\udc40",
-        "url": "https://bleacherreport.com/articles/10098222-ranking-the-nbas-most-underrated-players",
+        "title": "Inside the NBA, ESPN Combining Crews",
+        "url": "https://bleacherreport.com/articles/10099030-inside-the-nba-espn-broadcast-crews-to-combine-for-in-season-tournament-coverage",
         "source": "bleacher_report"
+    },
+    {
+        "title": "Mark Cuban to sell majority stake in Mavericks 'in range' of $3.5B",
+        "url": "https://www.sportingnews.com/ca/nba/news/mark-cuban-sell-majority-stake-mavericks-miriam-adelson/ba872acb647bc0745a0f5486",
+        "source": "nba_canada"
+    },
+    {
+        "title": "Warriors' CP3 (leg), Payton II (calf) to miss time",
+        "url": "https://www.espn.com/nba/story/_/id/39009347/warriors-chris-paul-leg-gary-payton-ii-calf-expected-miss",
+        "source": "espn"
+    },
+    {
+        "title": "Jimmy Trademarks 'Emo Jimbo' \ud83e\udd23",
+        "url": "https://bleacherreport.com/articles/10099143-heats-jimmy-butler-files-for-emo-jimbo-clothing-trademark-after-viral-photos",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "In-Season Tournament 101: Rules, format and how it works",
+        "url": "https://www.nba.com/news/in-season-tournament-101",
+        "source": "nba"
+    },
+    {
+        "title": "Heat's Butler (ankle) misses game vs. Bucks",
+        "url": "https://www.nba.com/news/jimmy-butler-ankle-out-bucks-heat",
+        "source": "nba"
+    },
+    {
+        "title": "Why NBA stars are motivated by In-Season Tournament prize money",
+        "url": "https://www.sportingnews.com/ca/nba/news/season-tournament-prize-money-explained-reward/c465ca969c95608d9f73377d",
+        "source": "nba_canada"
+    },
+    {
+        "title": "CP3 Has Nerve Injury in Leg",
+        "url": "https://bleacherreport.com/articles/10075700-warriors-chris-paul-out-vs-james-harden-clippers-due-to-nerve-injury-in-leg",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "How much did Mark Cuban pay for the Mavericks?",
+        "url": "https://www.sportingnews.com/ca/nba/news/mark-cuban-pay-dallas-mavericks-owner-sale-profit/13ac3b23ba75ed859797b78f",
+        "source": "nba_canada"
+    },
+    {
+        "title": "Victor Wembanyama is living up to his loftiest player comparisons",
+        "url": "https://www.sportingnews.com/ca/nba/news/victor-wembanyama-spurs-giannis-antetokounmpo-anthony-davis/3bc7e6fd29d27d642fd480d2",
+        "source": "nba_canada"
     },
     {
         "title": "How to watch NBA games in Canada for 2023-24 season",
@@ -85,88 +95,88 @@
         "source": "nba_canada"
     },
     {
-        "title": "Meet the new cohort of the Jr. NBA Court of Leaders",
-        "url": "https://www.nba.com/news/jr-nba-court-of-leaders-launches-third-cohort",
-        "source": "nba"
-    },
-    {
-        "title": "NBA opens investigation into Josh Giddey social media allegations",
-        "url": "https://www.sportingnews.com/ca/nba/news/josh-giddey-thunder-allegations-nba-investigation/d577e35a1d9c069053620f31",
-        "source": "nba_canada"
-    },
-    {
-        "title": "How much time will Rui Hachimura miss with nasal fracture?",
-        "url": "https://www.sportingnews.com/ca/nba/news/rui-hachimura-nose-injury-timeline-return-lakers/e55e39013755c6f4f5a4fc94",
-        "source": "nba_canada"
-    },
-    {
-        "title": "New NBA Mock Draft \ud83d\udccb",
-        "url": "https://bleacherreport.com/articles/10097625-2024-nba-mock-draft-full-predictions-and-round-1-pro-comparisons",
-        "source": "bleacher_report"
-    },
-    {
-        "title": "Jahvon Quinerly Discusses His Unique Journey and How He Plans on Reinventing Himself at Memphis",
-        "url": "https://www.slamonline.com/the-magazine/jahvon-quinerly-journey-memphis/",
-        "source": "slam"
-    },
-    {
-        "title": "Booker, Banchero named NBA Players of the Week",
-        "url": "https://www.nba.com/news/devin-booker-paolo-banchero-named-nba-players-of-the-week-5-2023",
-        "source": "nba"
-    },
-    {
-        "title": "Wemby\u2019s Name Wrong on Jersey \ud83d\ude2c",
-        "url": "https://bleacherreport.com/articles/10098570-victor-wembanyamas-jersey-typo-trolled-by-fans-in-spurs-vs-steph-curry-warriors",
-        "source": "bleacher_report"
-    },
-    {
-        "title": "How LeBron James is still performing at an elite level",
-        "url": "https://www.sportingnews.com/ca/nba/news/lebron-james-improved-shooting-health-lakers/3a8a13ff83933c80858f11e2",
-        "source": "nba_canada"
-    },
-    {
-        "title": "NBA In-Season Tournament standings, results, schedule",
+        "title": "NBA In-Season Tournament standings, results",
         "url": "https://www.sportingnews.com/ca/nba/news/nba-season-tournament-standings-results-schedule/b894c0b4b19cf316953f52cf",
         "source": "nba_canada"
     },
     {
-        "title": "Most Overrated NBA Players \ud83d\udc40",
-        "url": "https://bleacherreport.com/articles/10098221-the-nbas-most-overrated-players",
+        "title": "The latest updates on LaMelo Ball's ankle injury",
+        "url": "https://www.sportingnews.com/ca/nba/news/lamelo-ball-ankle-injury-timeline-return-updates-hornets/2108fb425588f0a72d4e8486",
+        "source": "nba_canada"
+    },
+    {
+        "title": "LaMelo Out 'Extended Time'",
+        "url": "https://bleacherreport.com/articles/10099044-report-hornets-lamelo-ball-likely-to-miss-extended-time-with-sprained-ankle-injury",
         "source": "bleacher_report"
     },
     {
-        "title": "In-Season Tournament Tracker: Updated scenarios",
-        "url": "https://www.nba.com/news/2023-nba-in-season-tournament-tracker",
+        "title": "Embiid (illness) sits as Pelicans drop 76ers",
+        "url": "https://www.nba.com/news/76ers-joel-embiid-scratched-illness",
         "source": "nba"
     },
     {
-        "title": "Booker feels 'part of history' with winner 3 at MSG",
-        "url": "https://www.espn.com/nba/story/_/id/38989153/devin-booker-game-winning-3-pointer-vs-knicks-gives-suns-7th-straight-win",
+        "title": "NBA updates Dec. schedule for 22 teams eliminated",
+        "url": "https://www.nba.com/news/nba-schedule-games-teams-eliminated-in-season-tournament",
+        "source": "nba"
+    },
+    {
+        "title": "Pelicans' McCollum (lung) scores 20 in return",
+        "url": "https://www.espn.com/nba/story/_/id/39006173/pelicans-cj-mccollum-plans-return-vs-76ers-sources-say",
         "source": "espn"
     },
     {
-        "title": "Nike Air Time to debut for Bulls-Celtics matchup",
-        "url": "https://www.nba.com/news/nike-air-time-to-debut-bulls-celtics-in-season-tournament",
+        "title": "NBA In-Season Tournament odds, predictions: Quarterfinal spots still up for grabs",
+        "url": "https://www.sportingnews.com/ca/node/767192",
+        "source": "nba_canada"
+    },
+    {
+        "title": "How Chet Holmgren has emerged from Victor Wembanyama's shadow",
+        "url": "https://www.sportingnews.com/ca/nba/news/chet-holmgren-rookie-year-wembanyama-thunder/aa79e406181782f334f72e52",
+        "source": "nba_canada"
+    },
+    {
+        "title": "Reports: Cuban agrees to sell majority stake of Mavs",
+        "url": "https://www.nba.com/news/dallas-mavericks-sale-agreement-mark-cuban-adelson-dumont",
         "source": "nba"
     },
     {
-        "title": "Klay Responds to Benching Talk",
-        "url": "https://bleacherreport.com/articles/10098910-warriors-klay-thompson-responds-to-benching-talk-i-dont-care-what-people-say",
+        "title": "Hoops, Rap and Everything Black: The Love of the Game feat. Former 6MOY Seth Allen",
+        "url": "https://www.slamonline.com/hoops-rap-and-everything-black/seth-allen-love-of-the-game/",
+        "source": "slam"
+    },
+    {
+        "title": "Mark Cuban Selling Stake in Mavs",
+        "url": "https://bleacherreport.com/articles/10099053-mavs-rumors-mark-cuban-in-process-of-selling-significant-stake-in-team-to-adelsons",
         "source": "bleacher_report"
     },
     {
-        "title": "Redrafting the 2020 NBA Draft: Warriors land Tyrese Haliburton",
-        "url": "https://www.sportingnews.com/ca/nba/news/nba-draft-2020-redraft-tyrese-haliburton-tyrese-maxey/6d816bd280693986d9f9555b",
+        "title": "In-Season Tournament: Frequently Asked Questions",
+        "url": "https://www.nba.com/news/in-season-tournament-frequently-asked-questions",
+        "source": "nba"
+    },
+    {
+        "title": "Full schedule for teams eliminated from NBA In-Season Tournament",
+        "url": "https://www.sportingnews.com/ca/nba/news/teams-eliminated-nba-season-tournament-schedule/bb54465f21230e5613671cde",
         "source": "nba_canada"
     },
     {
-        "title": "Friday's In-Season Tournament games set up busy final day",
-        "url": "https://www.sportingnews.com/ca/nba/news/nba-season-tournament-clinching-scenarios-quarterfinals/4827d5346fb2a23a5b35b0ed",
-        "source": "nba_canada"
+        "title": "NBA Cup Quarterfinals Is Set \ud83d\udd12",
+        "url": "https://bleacherreport.com/articles/10099089-nba-in-season-tournament-2023-early-storylines-for-knockout-rounds-after-group-play",
+        "source": "bleacher_report"
     },
     {
-        "title": "Porzi\u0146\u0123is Out 'a Week or So'",
-        "url": "https://bleacherreport.com/articles/10098759-celtics-kristaps-porzingis-to-be-reevaluated-in-1-week-amid-calf-injury",
+        "title": "Gary Payton II Has Torn Calf",
+        "url": "https://bleacherreport.com/articles/10099213-warriors-rumors-gary-payton-ii-out-indefinitely-with-torn-calf-injury",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "Mazzulla Apologizes to Billy Donovan",
+        "url": "https://bleacherreport.com/articles/10099083-celtics-joe-mazzulla-apologizes-to-bulls-billy-donovan-andre-drummond-for-fouling",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "Every Team's Top 3 Trade Targets \ud83c\udfaf",
+        "url": "https://bleacherreport.com/articles/10098819-every-nba-teams-top-3-trade-targets",
         "source": "bleacher_report"
     },
     {
@@ -175,19 +185,29 @@
         "source": "slam"
     },
     {
-        "title": "Hoops, Rap and Everything Black: The Love of the Game feat. Former 6MOY Seth Allen",
-        "url": "https://www.slamonline.com/hoops-rap-and-everything-black/seth-allen-love-of-the-game/",
-        "source": "slam"
+        "title": "The latest updates on Anthony Edwards' hip injury",
+        "url": "https://www.sportingnews.com/ca/nba/news/anthony-edwards-hip-injury-updates-timberwolves/cb4de9a19a5b2a45169b2e09",
+        "source": "nba_canada"
     },
     {
-        "title": "The Most Impactful Collaboration The League Has Ever Seen",
-        "url": "https://www.slamonline.com/news/nba/brandon-jennings-tuff-crowd-under-armour/",
-        "source": "slam"
+        "title": "Darius Garland the latest All-Star to sign sneaker deal with New Balance",
+        "url": "https://www.sportingnews.com/ca/nba/news/darius-garland-signs-new-balance-sneaker-brand-bolsters-impressive-roster-cavaliers-all-star/15df790d280170d7cedc2c7d",
+        "source": "nba_canada"
     },
     {
-        "title": "NBA Winners and Losers so Far \ud83d\udcdd",
-        "url": "https://bleacherreport.com/articles/10098564-nbas-biggest-winners-and-losers-after-1-month",
-        "source": "bleacher_report"
+        "title": "Raptors trade rumors: Hawks continue to monitor Pascal Siakam",
+        "url": "https://www.sportingnews.com/ca/nba/news/raptors-trade-rumors-news-og-anunoby-pascal-siakam/9f2bbaba0823376975e4c664",
+        "source": "nba_canada"
+    },
+    {
+        "title": "Complete bracket for the NBA In-Season Tournament",
+        "url": "https://www.sportingnews.com/ca/nba/news/nba-season-tournament-bracket-2023-schedule-tv-scores/76179ba48dc08e3e566be466",
+        "source": "nba_canada"
+    },
+    {
+        "title": "Latest 2024 NBA draft notebook",
+        "url": "https://www.espn.com/nba/insider/story/_/id/38970484/2024-nba-draft-notebook-surprising-freshmen-prospects-rise",
+        "source": "espn"
     },
     {
         "title": "How much time will Kristaps Porzingis miss with calf injury?",
@@ -195,93 +215,8 @@
         "source": "nba_canada"
     },
     {
-        "title": "Paul Reed Roasts AD \ud83d\udc80",
-        "url": "https://bleacherreport.com/articles/10098872-lakers-anthony-davis-called-a-big-flopper-by-76ers-paul-reed-ahead-of-matchup",
-        "source": "bleacher_report"
-    },
-    {
-        "title": "Rui Hachimura's growth earns high praise from NBA champion Derek Fisher",
-        "url": "https://www.sportingnews.com/ca/nba/news/rui-hachimura-lakers-evolution-derek-fisher/d6a6f990e013926d30306eb9",
-        "source": "nba_canada"
-    },
-    {
-        "title": "FIBA holds draw for final 4 spots in Paris Games",
-        "url": "https://www.nba.com/news/fiba-holds-draw-for-final-4-spots-in-paris-olympics",
-        "source": "nba"
-    },
-    {
-        "title": "The First-Ever LeBron James Museum in Akron Gives Fans an Immersive Look at the Life of the King",
-        "url": "https://www.slamonline.com/news/lebron-james-museum/",
-        "source": "slam"
-    },
-    {
-        "title": "KD Talks Trade Request to Suns",
-        "url": "https://bleacherreport.com/articles/10098637-suns-kevin-durant-says-nets-refused-to-get-rid-of-me-after-initial-trade-request",
-        "source": "bleacher_report"
-    },
-    {
-        "title": "The latest on CJ McCollum's potential return from collapsed lung",
-        "url": "https://www.sportingnews.com/ca/nba/news/cj-mccollum-collapsed-lung-timeline-return-date-updates/73c10c7514e97fe4c89e77e1",
-        "source": "nba_canada"
-    },
-    {
-        "title": "Why are there no NBA games on Thanksgiving?",
-        "url": "https://www.sportingnews.com/ca/nba/news/why-no-nba-games-today-thanksgiving-holiday-nfl/317381cd48e2185c29a5bbce",
-        "source": "nba_canada"
-    },
-    {
-        "title": "LeBron James becomes first player to reach 39,000 career points",
-        "url": "https://www.sportingnews.com/ca/nba/news/lebron-james-career-stats-lakers-39000-points/773bb071d1e6507bf9357583",
-        "source": "nba_canada"
-    },
-    {
-        "title": "What Chet Holmgren meant by viral compliment of Kevin Durant",
-        "url": "https://www.sportingnews.com/ca/nba/news/chet-holmgren-kevin-durant-quote-treball-odee-hang-pull/6a907e86e3355592aa40d07b",
-        "source": "nba_canada"
-    },
-    {
-        "title": "On this date: Green sets iron man streak",
-        "url": "https://www.nba.com/news/this-date-in-nba-history-2022-23",
-        "source": "nba"
-    },
-    {
-        "title": "What's next for the Raptors after In-Season Tournament elimination?",
-        "url": "https://www.sportingnews.com/ca/nba/news/raptors-season-tournament-preview-group-schedule/2970a46830f48358f2b39732",
-        "source": "nba_canada"
-    },
-    {
-        "title": "Way-too-early award predictions",
-        "url": "https://www.espn.com/nba/insider/story/_/id/38953048/our-nba-experts-make-their-way-too-early-predictions-2023-24-awards",
-        "source": "espn"
-    },
-    {
-        "title": "The latest updates on LaMelo Ball's ankle injury",
-        "url": "https://www.sportingnews.com/ca/nba/news/lamelo-ball-ankle-injury-timeline-return-updates-hornets/2108fb425588f0a72d4e8486",
-        "source": "nba_canada"
-    },
-    {
-        "title": "Meet Matas Buzelis, G League Ignite star and potential top pick in 2024",
-        "url": "https://www.sportingnews.com/ca/nba/news/matas-buzelis-nba-draft-2024-league-ignite/b7a2f16673458d01db6692e3",
-        "source": "nba_canada"
-    },
-    {
-        "title": "How Damian Lillard and the Bucks are starting to figure it out after rough start",
-        "url": "https://www.sportingnews.com/ca/nba/news/damian-lillard-trade-bucks-start/389094c3c5696a0876a02278",
-        "source": "nba_canada"
-    },
-    {
-        "title": "NBA Probing Giddey Allegations",
-        "url": "https://bleacherreport.com/articles/10098531-josh-giddey-being-investigated-by-nba-after-allegations-of-relationship-with-minor",
-        "source": "bleacher_report"
-    },
-    {
-        "title": "Bucks win, author NBA's largest comeback of '23",
-        "url": "https://www.espn.com/nba/story/_/id/38988575/milwaukee-bucks-overcome-26-point-deficit-en-route-win",
-        "source": "espn"
-    },
-    {
-        "title": "Reaves' Quote on Lakers Loss \ud83d\udca9",
-        "url": "https://bleacherreport.com/articles/10098920-lakers-austin-reaves-on-44-point-loss-to-76ers-they-beat-the-s--t-out-of-us",
+        "title": "Kerr Disappointed in Draymond",
+        "url": "https://bleacherreport.com/articles/10099222-warriors-steve-kerr-disappointed-in-draymond-greens-technical-foul-vs-kings",
         "source": "bleacher_report"
     },
     {
@@ -290,14 +225,209 @@
         "source": "slam"
     },
     {
-        "title": "NBA opens investigation into Giddey allegations",
-        "url": "https://www.espn.com/nba/story/_/id/38970875/nba-looking-alleged-relationship-giddey-minor",
+        "title": "The latest on CJ McCollum's potential return from collapsed lung",
+        "url": "https://www.sportingnews.com/ca/nba/news/cj-mccollum-collapsed-lung-timeline-return-date-updates/73c10c7514e97fe4c89e77e1",
+        "source": "nba_canada"
+    },
+    {
+        "title": "In-Season Tournament Scenarios \ud83d\udc40",
+        "url": "https://bleacherreport.com/articles/10099029-nba-in-season-tournament-2023-clinching-scenarios-ahead-of-tuesdays-group-play",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "The First-Ever LeBron James Museum in Akron Gives Fans an Immersive Look at the Life of the King",
+        "url": "https://www.slamonline.com/news/lebron-james-museum/",
+        "source": "slam"
+    },
+    {
+        "title": "NBA Rumors BS Meter \ud83c\udf21\ufe0f",
+        "url": "https://bleacherreport.com/articles/10098840-nba-rumors-bs-meter-takes-on-lakers-heat-thunder-buzz-vet-wing-eyes-return",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "NBA Foundation announces newest round of grantees",
+        "url": "https://www.nba.com/news/nba-foundation-announces-newest-round-of-grantees-for-giving-tuesday",
+        "source": "nba"
+    },
+    {
+        "title": "Jahvon Quinerly Discusses His Unique Journey and How He Plans on Reinventing Himself at Memphis",
+        "url": "https://www.slamonline.com/the-magazine/jahvon-quinerly-journey-memphis/",
+        "source": "slam"
+    },
+    {
+        "title": "Knockout Rounds: Matchups, schedule and updated bracket",
+        "url": "https://www.nba.com/news/2023-nba-in-season-tournament-tracker",
+        "source": "nba"
+    },
+    {
+        "title": "The Most Impactful Collaboration The League Has Ever Seen",
+        "url": "https://www.slamonline.com/news/nba/brandon-jennings-tuff-crowd-under-armour/",
+        "source": "slam"
+    },
+    {
+        "title": "Police Investigating Josh Giddey",
+        "url": "https://bleacherreport.com/articles/10099055-tmz-police-investigating-thunders-josh-giddey-for-alleged-underage-relationship",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "Draymond Green, Klay Thompson offer strong responses to Warriors' struggles",
+        "url": "https://www.sportingnews.com/ca/nba/news/draymond-green-klay-thompson-warriors-early-struggles/4d6c5baa461b70cd0b5e2089",
+        "source": "nba_canada"
+    },
+    {
+        "title": "How did the final games of Group Play impact the standings?",
+        "url": "https://www.sportingnews.com/ca/nba/news/nba-season-tournament-group-clinching-scenarios-final-games/744e36e92b6d164cb135b8be",
+        "source": "nba_canada"
+    },
+    {
+        "title": "TNT, ESPN to team up for In-Season Tournament coverage",
+        "url": "https://www.nba.com/news/tnt-espn-team-up-in-season-tournament-las-vegas",
+        "source": "nba"
+    },
+    {
+        "title": "Updated NBA Schedule \ud83d\uddd3\ufe0f",
+        "url": "https://www.nba.com/news/nba-schedule-games-teams-eliminated-in-season-tournament",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "Agreement in place for casino mogul to buy Mavs",
+        "url": "https://www.espn.com/nba/story/_/id/39006944/agreement-place-casino-mogul-buy-mavericks",
         "source": "espn"
     },
     {
-        "title": "Wemby Early Report Card \ud83d\udd20",
-        "url": "https://bleacherreport.com/articles/10098256-first-report-card-grades-for-victor-wembanyamas-nba-rookie-season",
+        "title": "Pat Bev Rips Austin Reaves \ud83d\udc40",
+        "url": "https://bleacherreport.com/articles/10099062-video-76ers-patrick-beverley-rips-lakers-austin-reaves-after-too-little-taunt",
         "source": "bleacher_report"
+    },
+    {
+        "title": "In-Season Tourney Bracket Predictions \ud83d\udd2e",
+        "url": "https://bleacherreport.com/articles/10099038-full-nba-in-season-tournament-bracket-predictions-ahead-of-knockout-round",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "Nuggets star Murray scores 16 points in return",
+        "url": "https://www.espn.com/nba/story/_/id/39008576/denver-jamal-murray-hamstring-return-vs-rockets-sources-say",
+        "source": "espn"
+    },
+    {
+        "title": "Embiid, Ionescu, Make '30 Under 30' List",
+        "url": "https://bleacherreport.com/articles/10099160-joel-embiid-sabrina-ionescu-connor-mcdavid-headline-forbes-30-under-30-list",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "McCollum wins October NBA Cares Community Assist Award",
+        "url": "https://www.nba.com/news/cj-mccollum-nba-cares-community-assist-award-october",
+        "source": "nba"
+    },
+    {
+        "title": "'What it should look like': Clips stars click in win",
+        "url": "https://www.espn.com/nba/story/_/id/39010980/what-look-clippers-stars-play-best-game-yet-win",
+        "source": "espn"
+    },
+    {
+        "title": "How NBA determines In-Season Tournament wild card teams",
+        "url": "https://www.sportingnews.com/ca/nba/news/nba-season-tournament-wildcards-knockout-rounds/d872e001a5660f58be93f7bb",
+        "source": "nba_canada"
+    },
+    {
+        "title": "Reaves' Quote on Lakers Loss \ud83d\udca9",
+        "url": "https://bleacherreport.com/articles/10098920-lakers-austin-reaves-on-44-point-loss-to-76ers-they-beat-the-s--t-out-of-us",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "What you need to know about the allegations surrounding Josh Giddey",
+        "url": "https://www.sportingnews.com/ca/nba/news/josh-giddey-thunder-allegations-nba-investigation/d577e35a1d9c069053620f31",
+        "source": "nba_canada"
+    },
+    {
+        "title": "Every Team's Top 3 Trade Targets \ud83c\udfaf",
+        "url": "https://bleacherreport.com/articles/10098819-every-nba-teams-top-3-trade-targets",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "Mazzulla Apologizes to Billy Donovan",
+        "url": "https://bleacherreport.com/articles/10099083-celtics-joe-mazzulla-apologizes-to-bulls-billy-donovan-andre-drummond-for-fouling",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "How did the final games of Group Play impact the standings?",
+        "url": "https://www.sportingnews.com/ca/nba/news/nba-season-tournament-group-clinching-scenarios-final-games/744e36e92b6d164cb135b8be",
+        "source": "nba_canada"
+    },
+    {
+        "title": "In-Season Tourney Bracket Predictions \ud83d\udd2e",
+        "url": "https://bleacherreport.com/articles/10099038-full-nba-in-season-tournament-bracket-predictions-ahead-of-knockout-round",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "In-Season Tournament: Quarterfinals preview",
+        "url": "https://www.nba.com/news/in-season-tournament-2023-quarterfinals-preview",
+        "source": "nba"
+    },
+    {
+        "title": "Kia Rookie Ladder: Holmgren stays at No. 1",
+        "url": "https://www.nba.com/news/kia-rookie-ladder-nov-29-2023-edition",
+        "source": "nba"
+    },
+    {
+        "title": "Embiid (illness) sits as Pelicans drop 76ers",
+        "url": "https://www.nba.com/news/76ers-joel-embiid-scratched-illness",
+        "source": "nba"
+    },
+    {
+        "title": "Full schedule for teams eliminated from NBA In-Season Tournament",
+        "url": "https://www.sportingnews.com/ca/nba/news/teams-eliminated-nba-season-tournament-schedule/bb54465f21230e5613671cde",
+        "source": "nba_canada"
+    },
+    {
+        "title": "NBA updates Dec. schedule for 22 teams eliminated",
+        "url": "https://www.nba.com/news/nba-schedule-games-teams-eliminated-in-season-tournament",
+        "source": "nba"
+    },
+    {
+        "title": "Introducing: Hoops, Rap and Everything Black\u2014a Weekly Column about the Culture of the Game",
+        "url": "https://www.slamonline.com/hoops-rap-and-everything-black/about/",
+        "source": "slam"
+    },
+    {
+        "title": "Can reinvented Clippers find a clear future?",
+        "url": "https://www.nba.com/news/future-clippers-after-james-harden-trade",
+        "source": "nba"
+    },
+    {
+        "title": "Pat Bev Rips Austin Reaves \ud83d\udc40",
+        "url": "https://bleacherreport.com/articles/10099062-video-76ers-patrick-beverley-rips-lakers-austin-reaves-after-too-little-taunt",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "The Most Impactful Collaboration The League Has Ever Seen",
+        "url": "https://www.slamonline.com/news/nba/brandon-jennings-tuff-crowd-under-armour/",
+        "source": "slam"
+    },
+    {
+        "title": "NBA Storylines: 10 most improved shooters",
+        "url": "https://www.nba.com/news/nba-storylines-10-most-improved-shooters-so-far",
+        "source": "nba"
+    },
+    {
+        "title": "Jimmy Trademarks 'Emo Jimbo' \ud83e\udd23",
+        "url": "https://bleacherreport.com/articles/10099143-heats-jimmy-butler-files-for-emo-jimbo-clothing-trademark-after-viral-photos",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "Why Lakers Shouldn't Trade for LaVine",
+        "url": "https://bleacherreport.com/articles/10099224-should-lakers-really-go-all-in-on-zach-lavine-trade",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "Mark Cuban Selling Stake in Mavs",
+        "url": "https://bleacherreport.com/articles/10099053-mavs-rumors-mark-cuban-in-process-of-selling-significant-stake-in-team-to-adelsons",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "Why NBA stars are motivated by In-Season Tournament prize money",
+        "url": "https://www.sportingnews.com/ca/nba/news/season-tournament-prize-money-explained-reward/c465ca969c95608d9f73377d",
+        "source": "nba_canada"
     },
     {
         "title": "Victor Wembanyama is living up to his loftiest player comparisons",
@@ -305,18 +435,198 @@
         "source": "nba_canada"
     },
     {
-        "title": "NBA Fantasy: 6 waiver wire targets for Week 6",
-        "url": "https://www.nba.com/news/nba-fantasy-6-waiver-wire-targets-ahead-of-week-6",
-        "source": "nba"
-    },
-    {
-        "title": "Wemby Watch: Rookie's jersey surges at auction",
-        "url": "https://www.nba.com/news/wemby-watch-victor-wembanyama-nov-26-2023",
-        "source": "nba"
-    },
-    {
-        "title": "LeBron Sets Minutes Record \ud83d\udc51",
-        "url": "https://bleacherreport.com/articles/10098909-lakers-lebron-james-passes-kareem-abdul-jabbar-to-set-nba-minutes-record",
+        "title": "Kerr Disappointed in Draymond",
+        "url": "https://bleacherreport.com/articles/10099222-warriors-steve-kerr-disappointed-in-draymond-greens-technical-foul-vs-kings",
         "source": "bleacher_report"
+    },
+    {
+        "title": "Kevin Durant lauds Scottie Barnes' star potential",
+        "url": "https://www.sportingnews.com/ca/nba/news/scottie-barnes-raptors-suns-kevin-durant-sky-limit/e1df3f78783ea9279640b29f",
+        "source": "nba_canada"
+    },
+    {
+        "title": "In-Season Tournament 101: Rules, format and how it works",
+        "url": "https://www.nba.com/news/in-season-tournament-101",
+        "source": "nba"
+    },
+    {
+        "title": "Sources: Pistons' Bogdanovic may debut Saturday",
+        "url": "https://www.espn.com/nba/story/_/id/39013954/sources-pistons-bojan-bogdanovic-debut-saturday",
+        "source": "espn"
+    },
+    {
+        "title": "Jahvon Quinerly Discusses His Unique Journey and How He Plans on Reinventing Himself at Memphis",
+        "url": "https://www.slamonline.com/the-magazine/jahvon-quinerly-journey-memphis/",
+        "source": "slam"
+    },
+    {
+        "title": "Surprise NBA Storylines so Far \ud83e\udd2f",
+        "url": "https://bleacherreport.com/articles/10099228-7-things-we-didnt-see-coming-ahead-of-2023-24-nba-season",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "Latest 2024 NBA draft notebook",
+        "url": "https://www.espn.com/nba/insider/story/_/id/38970484/2024-nba-draft-notebook-surprising-freshmen-prospects-rise",
+        "source": "espn"
+    },
+    {
+        "title": "How much did Mark Cuban pay for the Mavericks?",
+        "url": "https://www.sportingnews.com/ca/nba/news/mark-cuban-pay-dallas-mavericks-owner-sale-profit/13ac3b23ba75ed859797b78f",
+        "source": "nba_canada"
+    },
+    {
+        "title": "In-Season Tournament: Frequently Asked Questions",
+        "url": "https://www.nba.com/news/in-season-tournament-frequently-asked-questions",
+        "source": "nba"
+    },
+    {
+        "title": "The First-Ever LeBron James Museum in Akron Gives Fans an Immersive Look at the Life of the King",
+        "url": "https://www.slamonline.com/news/lebron-james-museum/",
+        "source": "slam"
+    },
+    {
+        "title": "In-Season Tournament Scenarios \ud83d\udc40",
+        "url": "https://bleacherreport.com/articles/10099029-nba-in-season-tournament-2023-clinching-scenarios-ahead-of-tuesdays-group-play",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "Reports: Cuban agrees to sell majority stake of Mavs",
+        "url": "https://www.nba.com/news/dallas-mavericks-sale-agreement-mark-cuban-adelson-dumont",
+        "source": "nba"
+    },
+    {
+        "title": "Updated NBA Schedule \ud83d\uddd3\ufe0f",
+        "url": "https://www.nba.com/news/nba-schedule-games-teams-eliminated-in-season-tournament",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "Agreement in place for casino mogul to buy Mavs",
+        "url": "https://www.espn.com/nba/story/_/id/39006944/agreement-place-casino-mogul-buy-mavericks",
+        "source": "espn"
+    },
+    {
+        "title": "How NBA determines In-Season Tournament wild card teams",
+        "url": "https://www.sportingnews.com/ca/nba/news/nba-season-tournament-wildcards-knockout-rounds/d872e001a5660f58be93f7bb",
+        "source": "nba_canada"
+    },
+    {
+        "title": "'What it should look like': Clips stars click in win",
+        "url": "https://www.espn.com/nba/story/_/id/39010980/what-look-clippers-stars-play-best-game-yet-win",
+        "source": "espn"
+    },
+    {
+        "title": "NBA In-Season Tournament standings, results",
+        "url": "https://www.sportingnews.com/ca/nba/news/nba-season-tournament-standings-results-schedule/b894c0b4b19cf316953f52cf",
+        "source": "nba_canada"
+    },
+    {
+        "title": "Hoops, Rap and Everything Black: The Love of the Game feat. Former 6MOY Seth Allen",
+        "url": "https://www.slamonline.com/hoops-rap-and-everything-black/seth-allen-love-of-the-game/",
+        "source": "slam"
+    },
+    {
+        "title": "TNT, ESPN to team up for In-Season Tournament coverage",
+        "url": "https://www.nba.com/news/tnt-espn-team-up-in-season-tournament-las-vegas",
+        "source": "nba"
+    },
+    {
+        "title": "Raptors trade rumors: Hawks continue to monitor Pascal Siakam",
+        "url": "https://www.sportingnews.com/ca/nba/news/raptors-trade-rumors-news-og-anunoby-pascal-siakam/9f2bbaba0823376975e4c664",
+        "source": "nba_canada"
+    },
+    {
+        "title": "Is Mark Cuban running for president?",
+        "url": "https://www.sportingnews.com/ca/nba/news/mark-cuban-president-speculation-majority-stake-mavericks/e3767d78e6691ce6e0409756",
+        "source": "nba_canada"
+    },
+    {
+        "title": "Police investigating allegations against Giddey",
+        "url": "https://www.espn.com/nba/story/_/id/39005479/police-looking-allegations-thunder-josh-giddey",
+        "source": "espn"
+    },
+    {
+        "title": "Buy or Sell: Early Awards Favorites \ud83c\udfc6",
+        "url": "https://bleacherreport.com/articles/10099115-buy-or-sell-early-season-nba-awards-favorites-plus-best-sleeper-bets",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "Embiid, Ionescu, Make '30 Under 30' List",
+        "url": "https://bleacherreport.com/articles/10099160-joel-embiid-sabrina-ionescu-connor-mcdavid-headline-forbes-30-under-30-list",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "Darius Garland the latest All-Star to sign sneaker deal with New Balance",
+        "url": "https://www.sportingnews.com/ca/nba/news/darius-garland-signs-new-balance-sneaker-brand-bolsters-impressive-roster-cavaliers-all-star/15df790d280170d7cedc2c7d",
+        "source": "nba_canada"
+    },
+    {
+        "title": "The latest updates on Anthony Edwards' hip injury",
+        "url": "https://www.sportingnews.com/ca/nba/news/anthony-edwards-hip-injury-updates-timberwolves/cb4de9a19a5b2a45169b2e09",
+        "source": "nba_canada"
+    },
+    {
+        "title": "CP3 Has Nerve Injury in Leg",
+        "url": "https://bleacherreport.com/articles/10075700-warriors-chris-paul-out-vs-james-harden-clippers-due-to-nerve-injury-in-leg",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "How Chet Holmgren has emerged from Victor Wembanyama's shadow",
+        "url": "https://www.sportingnews.com/ca/nba/news/chet-holmgren-rookie-year-wembanyama-thunder/aa79e406181782f334f72e52",
+        "source": "nba_canada"
+    },
+    {
+        "title": "Inside the NBA, ESPN Combining Crews",
+        "url": "https://bleacherreport.com/articles/10099030-inside-the-nba-espn-broadcast-crews-to-combine-for-in-season-tournament-coverage",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "NBA Cup Quarterfinals Is Set \ud83d\udd12",
+        "url": "https://bleacherreport.com/articles/10099089-nba-in-season-tournament-2023-early-storylines-for-knockout-rounds-after-group-play",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "Gary Payton II Has Torn Calf",
+        "url": "https://bleacherreport.com/articles/10099213-warriors-rumors-gary-payton-ii-out-indefinitely-with-torn-calf-injury",
+        "source": "bleacher_report"
+    },
+    {
+        "title": "What you need to know about the allegations surrounding Josh Giddey",
+        "url": "https://www.sportingnews.com/ca/nba/news/josh-giddey-thunder-allegations-nba-investigation/d577e35a1d9c069053620f31",
+        "source": "nba_canada"
+    },
+    {
+        "title": "The latest updates on LaMelo Ball's ankle injury",
+        "url": "https://www.sportingnews.com/ca/nba/news/lamelo-ball-ankle-injury-timeline-return-updates-hornets/2108fb425588f0a72d4e8486",
+        "source": "nba_canada"
+    },
+    {
+        "title": "NBA In-Season Tournament odds, predictions: Quarterfinal spots still up for grabs",
+        "url": "https://www.sportingnews.com/ca/node/767192",
+        "source": "nba_canada"
+    },
+    {
+        "title": "How Kevin Durant, Drake became friends and business partners",
+        "url": "https://www.sportingnews.com/ca/nba/news/kevin-durant-drake-relationship-suns-raptors-music-business/3472532a6698270b0cb4252b",
+        "source": "nba_canada"
+    },
+    {
+        "title": "What to Expect for the 2023-24 HBCU Women\u2019s Basketball Season",
+        "url": "https://www.slamonline.com/the-magazine/hbcu-spotlight/hbcu-spotlight-womens-preview/",
+        "source": "slam"
+    },
+    {
+        "title": "How long is the Pelicans' Trey Murphy III out?",
+        "url": "https://www.sportingnews.com/ca/nba/news/trey-murphy-knee-injury-timeline-return-updates-pelicans/b8089d3a5f965096b59ad671",
+        "source": "nba_canada"
+    },
+    {
+        "title": "Complete bracket for the NBA In-Season Tournament",
+        "url": "https://www.sportingnews.com/ca/nba/news/nba-season-tournament-bracket-2023-schedule-tv-scores/76179ba48dc08e3e566be466",
+        "source": "nba_canada"
+    },
+    {
+        "title": "Warriors' CP3 (leg), Payton II (calf) to miss time",
+        "url": "https://www.espn.com/nba/story/_/id/39009347/warriors-chris-paul-leg-gary-payton-ii-calf-expected-miss",
+        "source": "espn"
     }
 ]
