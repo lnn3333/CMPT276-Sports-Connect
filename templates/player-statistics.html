@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Leaders</title>
+    <link rel="stylesheet" type="text/css" href="../static/player-statistics.css">
+</head>
+<body>
+    <h1>Player Statistics</h1>
+
+    <form id="combinedForm" action="{{ url_for('selectedSeason') }}" method="POST">
+
+        <!-- Player Search Section -->
+        <label for="searchResult_stat">Search for a player:</label>
+        <input type="text" id="searchResult_stat" name="searchResult_stat" placeholder="Enter player name">
+
+        <!-- Season Selection Section -->
+        <label for="seasonSelect">Select a Season:</label>
+        <select id="seasonSelect" name="selectedSeason">
+            {% for season in regular_season %}
+                <option value="{{ season }}">{{ season }}</option>
+            {% endfor %}
+        </select>
+
+        <label for="seasonTypeSelect">Select a Season Type:</label>
+        <select id="seasonTypeSelect" name="selectedSeasonType">
+            <option value="regular">Regular Season</option>
+            <option value="post">Post Season</option>
+            <option value="allstar">All-star Season</option>
+        </select>
+
+        <!-- Submit Button for Both Sections -->
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if stats %}
+        <p>player name: {{ searchResult_stat }}</p>
+        <p>player id: {{ plr_id }}</p>
+        <p>Games Played: {{ stats['gp'] }}</p>
+        <p>Games Started: {{ stats['gs'] }}</p>
+        <p>Minutes: {{ stats['mins'] }}</p>
+        <p>Field Goals Made: {{ stats['fgm'] }}</p>
+        <p>Field Goals Attempted: {{ stats['fga'] }}</p>
+        <p>Field Goal Percentage: {{ stats['fg_pct'] }}</p>
+        <p>3-Point Field Goals Made: {{ stats['fg3m'] }}</p>
+        <p>3-Point Field Goals Attempted: {{ stats['fg3a'] }}</p>
+        <p>3-Point Field Goal Percentage: {{ stats['gf3_pct'] }}</p>
+        <p>Free Throws Made: {{ stats['ftm'] }}</p>
+        <p>Free Throws Attempted: {{ stats['fta'] }}</p>
+        <p>Free Throw Percentage: {{ stats['ft_pct'] }}</p>
+        <p>Offensive Rebounds: {{ stats['oreb'] }}</p>
+        <p>Defensive Rebounds: {{ stats['dreb'] }}</p>
+        <p>Total Rebounds: {{ stats['reb'] }}</p>
+        <p>Assists: {{ stats['ast'] }}</p>
+        <p>Steals: {{ stats['stl'] }}</p>
+        <p>Blocks: {{ stats['blk'] }}</p>
+        <p>Turnovers: {{ stats['tov'] }}</p>
+        <p>Personal Fouls: {{ stats['pf'] }}</p>
+        <p>Pointes Scored: {{ stats['pts'] }}</p>
+    {% else %}
+        <p>No stats available for the selected season.</p>
+    {% endif %}
+
+</body>
+</html>

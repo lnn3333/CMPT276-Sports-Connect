@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Schedule</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='team-schedule.css') }}">
+</head>
+<body>
+    {% if Team %}
+        <h1>{{Team}} Schedule </h1>
+    {% else %}
+        <h1>Team Schedule</h1>
+    {% endif %}
+    <form action="{{ url_for('teamSchedule') }}" method="GET">
+        <input type="text" id="searchResult" name="searchResult" placeholder="Search for a NBA team.">
+        <button type="submit" id="searchButton">Search</button>
+    </form>
+    <h2>All dates and times are in the PST Timezone.</h2>
+{% if Team %}
+    {% if teamGames %}
+            {% for game in teamGames %}
+            <div class="gameBox">
+                {%if teamImagePaths%}
+                    {% if Team == game.homeTeamAlias %}
+                    <div class="team-logo">
+                        <img src="{{ teamImagePaths[game.homeTeamName] }}" alt="{{ game.homeTeamName }} logo" style="max-width: 100px; height: auto;">
+                    </div>
+                    <dt>Date: {{ game.date.strftime("%Y-%m-%d") }}</dt>
+                    <p>{{ game.homeTeamName }} vs {{ game.awayTeamName }}</p>
+                    <dt>Time: {{ game.time }}</dt>
+                    <div class="team-logo">
+                        <img src="{{ teamImagePaths[game.awayTeamName] }}" alt="{{ game.awayTeamName }} logo" style="max-width: 100px; height: auto;">
+                    </div>
+                    {% else %}
+                    <div class="team-logo">
+                        <img src="{{ teamImagePaths[game.awayTeamName] }}" alt="{{ game.awayTeamName }} logo" style="max-width: 100px; height: auto;">
+                    </div>
+                    <dt>Date: {{ game.date.strftime("%Y-%m-%d") }}</dt>
+                    <p>{{ game.awayTeamName }} vs {{ game.homeTeamName }}</p>
+                    <dt>Time: {{ game.time }}</dt>
+                    <div class="team-logo">
+                        <img src="{{ teamImagePaths[game.homeTeamName] }}" alt="{{ game.homeTeamName }} logo" style="max-width: 100px; height: auto;">
+                    </div>
+                {% endif %}
+                {% else %}
+                    <p>Find games for NBA teams.</p>
+            {%endif%}
+            </div>            
+            {% endfor %}
+    {% else %}
+        <p>No games found for the team.</p>
+    {% endif %}
+{% else %}
+    <p>Find games for NBA teams.</p>
+{% endif %}
+
+</body>
+</html>
