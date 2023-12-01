@@ -1,0 +1,88 @@
+{
+    "CommonPlayerInfo": [
+        {
+            "PERSON_ID": 77331,
+            "FIRST_NAME": "John",
+            "LAST_NAME": "Lambert",
+            "DISPLAY_FIRST_LAST": "John Lambert",
+            "DISPLAY_LAST_COMMA_FIRST": "Lambert, John",
+            "DISPLAY_FI_LAST": "J. Lambert",
+            "PLAYER_SLUG": "john-lambert",
+            "BIRTHDATE": "1953-01-14T00:00:00",
+            "SCHOOL": "Southern California",
+            "COUNTRY": "USA",
+            "LAST_AFFILIATION": "Southern California/USA",
+            "HEIGHT": "6-10",
+            "WEIGHT": "225",
+            "SEASON_EXP": 7,
+            "JERSEY": "24",
+            "POSITION": "Center",
+            "ROSTERSTATUS": "Inactive",
+            "GAMES_PLAYED_CURRENT_SEASON_FLAG": "N",
+            "TEAM_ID": 1610612739,
+            "TEAM_NAME": "Cavaliers",
+            "TEAM_ABBREVIATION": "CLE",
+            "TEAM_CODE": "cavaliers",
+            "TEAM_CITY": "Cleveland",
+            "PLAYERCODE": "HISTADD_john_lambert",
+            "FROM_YEAR": 1975,
+            "TO_YEAR": 1981,
+            "DLEAGUE_FLAG": "N",
+            "NBA_FLAG": "Y",
+            "GAMES_PLAYED_FLAG": "Y",
+            "DRAFT_YEAR": "1975",
+            "DRAFT_ROUND": "1",
+            "DRAFT_NUMBER": "15",
+            "GREATEST_75_FLAG": "N"
+        }
+    ],
+    "PlayerHeadlineStats": [
+        {
+            "PLAYER_ID": 77331,
+            "PLAYER_NAME": "John Lambert",
+            "TimeFrame": "career",
+            "PTS": 3.8,
+            "AST": 0.6,
+            "REB": 3.3,
+            "ALL_STAR_APPEARANCES": 0
+        }
+    ],
+    "AvailableSeasons": [
+        {
+            "SEASON_ID": "21975"
+        },
+        {
+            "SEASON_ID": "41975"
+        },
+        {
+            "SEASON_ID": "21976"
+        },
+        {
+            "SEASON_ID": "41976"
+        },
+        {
+            "SEASON_ID": "21977"
+        },
+        {
+            "SEASON_ID": "41977"
+        },
+        {
+            "SEASON_ID": "21978"
+        },
+        {
+            "SEASON_ID": "21979"
+        },
+        {
+            "SEASON_ID": "21980"
+        },
+        {
+            "SEASON_ID": "41980"
+        },
+        {
+            "SEASON_ID": "21981"
+        },
+        {
+            "SEASON_ID": "41981"
+        }
+    ]
+}
