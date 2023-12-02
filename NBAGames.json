@@ -14755,6 +14755,7 @@
         {
             "id": "3494ae87-205b-47d5-b409-2ed6fa753e2b",
             "status": "closed",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-28T02:00:00Z",
             "home_points": 114,
@@ -14812,6 +14813,7 @@
         },
         {
             "id": "e58284e1-4a8c-4961-9804-94bd4aa80006",
+            "status": "closed",
             "status": "closed",
             "coverage": "full",
             "scheduled": "2023-11-28T03:30:00Z",
@@ -17400,6 +17402,18 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "630"
+                },
+                {
+                    "network": "BSIN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "671-4"
+                },
+                {
+                    "network": "NBCS-BOS",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "630"
                 }
             ],
             "home": {
@@ -17452,6 +17466,18 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "245"
+                },
+                {
+                    "network": "NBCS-CA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "698"
+                },
+                {
+                    "network": "BSNO",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "676-4"
                 },
                 {
                     "network": "NBCS-CA",
@@ -17528,6 +17554,18 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "634"
+                },
+                {
+                    "network": "BSWI",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "669"
+                },
+                {
+                    "network": "MSG",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "634"
                 }
             ],
             "home": {
@@ -17580,6 +17618,17 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "245"
+                },
+                {
+                    "network": "SportsNet LA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "691"
+                },
+                {
+                    "network": "AZFamily",
+                    "type": "TV",
+                    "locale": "Away"
                 },
                 {
                     "network": "SportsNet LA",
@@ -17649,6 +17698,19 @@
                     "locale": "Away"
                 }
             ],
+            "broadcasts": [
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "642"
+                },
+                {
+                    "network": "NBCS-PH",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "home": {
                 "name": "Washington Wizards",
                 "alias": "WAS",
@@ -17692,6 +17754,20 @@
                     "lng": "-83.054911"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "BSDET",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "663"
+                },
+                {
+                    "network": "BSSE",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "649"
+                }
+            ],
             "broadcasts": [
                 {
                     "network": "BSDET",
@@ -17763,6 +17839,20 @@
                     "channel": "654"
                 }
             ],
+            "broadcasts": [
+                {
+                    "network": "BSOH",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "660"
+                },
+                {
+                    "network": "BSFL",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "654"
+                }
+            ],
             "home": {
                 "name": "Cleveland Cavaliers",
                 "alias": "CLE",
@@ -17806,6 +17896,20 @@
                     "lng": "-84.396352"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "BSSE",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "649"
+                },
+                {
+                    "network": "YES",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "631"
+                }
+            ],
             "broadcasts": [
                 {
                     "network": "BSSE",
@@ -17881,6 +17985,18 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "676"
+                },
+                {
+                    "network": "BSN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "668"
+                },
+                {
+                    "network": "BSSW",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "676"
                 }
             ],
             "home": {
@@ -17939,6 +18055,19 @@
                     "channel": "653"
                 }
             ],
+            "broadcasts": [
+                {
+                    "network": "TSN",
+                    "type": "TV",
+                    "locale": "International"
+                },
+                {
+                    "network": "BSSUN",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "653"
+                }
+            ],
             "home": {
                 "name": "Toronto Raptors",
                 "alias": "TOR",
@@ -17982,6 +18111,20 @@
                     "lng": "-87.674091"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "NBCS-CHI",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "665"
+                },
+                {
+                    "network": "BSSE",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "649"
+                }
+            ],
             "broadcasts": [
                 {
                     "network": "NBCS-CHI",
@@ -18053,6 +18196,20 @@
                     "channel": "675"
                 }
             ],
+            "broadcasts": [
+                {
+                    "network": "Space City Home Network",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "674"
+                },
+                {
+                    "network": "BSOK",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "675"
+                }
+            ],
             "home": {
                 "name": "Houston Rockets",
                 "alias": "HOU",
@@ -18096,6 +18253,19 @@
                     "lng": "-96.810338"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "BSSW",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "676"
+                },
+                {
+                    "network": "KJZZ",
+                    "type": "TV",
+                    "locale": "Away"
+                }
+            ],
             "broadcasts": [
                 {
                     "network": "BSSW",
@@ -18158,6 +18328,18 @@
                     "type": "TV",
                     "locale": "National",
                     "channel": "206"
+                },
+                {
+                    "network": "BSSC",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "693"
+                },
+                {
+                    "network": "ALT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "681"
                 },
                 {
                     "network": "BSSC",
@@ -18235,6 +18417,26 @@
                     "channel": "687-1"
                 }
             ],
+            "broadcasts": [
+                {
+                    "network": "NBCS-BA",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "696"
+                },
+                {
+                    "network": "ROOT Sports NW",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "687"
+                },
+                {
+                    "network": "ROOT Sports NW+",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "687-1"
+                }
+            ],
             "home": {
                 "name": "Golden State Warriors",
                 "alias": "GSW",
@@ -18278,6 +18480,19 @@
                     "lng": "-80.839249"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "BSSE",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "649"
+                },
+                {
+                    "network": "SportsNet",
+                    "type": "TV",
+                    "locale": "International"
+                }
+            ],
             "broadcasts": [
                 {
                     "network": "BSSE",
@@ -18348,6 +18563,20 @@
                     "channel": "663"
                 }
             ],
+            "broadcasts": [
+                {
+                    "network": "BSFL",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "654"
+                },
+                {
+                    "network": "BSDET",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "663"
+                }
+            ],
             "home": {
                 "name": "Orlando Magic",
                 "alias": "ORL",
@@ -18404,6 +18633,19 @@
                     "channel": "649"
                 }
             ],
+            "broadcasts": [
+                {
+                    "network": "NBCS-PH",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "BSSE",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "649"
+                }
+            ],
             "home": {
                 "name": "Philadelphia 76ers",
                 "alias": "PHI",
@@ -18447,6 +18689,20 @@
                     "lng": "-73.975165"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "YES",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "631"
+                },
+                {
+                    "network": "MNMT",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "642"
+                }
+            ],
             "broadcasts": [
                 {
                     "network": "YES",
@@ -18518,6 +18774,20 @@
                     "channel": "668-1"
                 }
             ],
+            "broadcasts": [
+                {
+                    "network": "BSSE",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "649"
+                },
+                {
+                    "network": "BSNX",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "668-1"
+                }
+            ],
             "home": {
                 "name": "Memphis Grizzlies",
                 "alias": "MEM",
@@ -18561,6 +18831,20 @@
                     "lng": "-80.188056"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "BSSUN",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "653"
+                },
+                {
+                    "network": "BSOH",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "660"
+                }
+            ],
             "broadcasts": [
                 {
                     "network": "BSSUN",
@@ -18632,6 +18916,20 @@
                     "channel": "696"
                 }
             ],
+            "broadcasts": [
+                {
+                    "network": "BSOK",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "675"
+                },
+                {
+                    "network": "NBCS-BA",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "696"
+                }
+            ],
             "home": {
                 "name": "Oklahoma City Thunder",
                 "alias": "OKC",
@@ -18689,6 +18987,20 @@
                     "channel": "665"
                 }
             ],
+            "broadcasts": [
+                {
+                    "network": "BSSW",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "676"
+                },
+                {
+                    "network": "NBCS-CHI",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "665"
+                }
+            ],
             "home": {
                 "name": "San Antonio Spurs",
                 "alias": "SAS",
@@ -18732,6 +19044,20 @@
                     "lng": "-105.007604"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "ALT",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "681"
+                },
+                {
+                    "network": "Space City Home Network",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "674"
+                }
+            ],
             "broadcasts": [
                 {
                     "network": "ALT",
@@ -18806,6 +19132,17 @@
                     "type": "TV",
                     "locale": "Away",
                     "channel": "693"
+                },
+                {
+                    "network": "KJZZ",
+                    "type": "TV",
+                    "locale": "Home"
+                },
+                {
+                    "network": "BSSC",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "693"
                 }
             ],
             "home": {
@@ -18851,6 +19188,26 @@
                     "lng": "-122.666667"
                 }
             },
+            "broadcasts": [
+                {
+                    "network": "ROOT Sports NW",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "687"
+                },
+                {
+                    "network": "ROOT Sports NW+",
+                    "type": "TV",
+                    "locale": "Home",
+                    "channel": "687-1"
+                },
+                {
+                    "network": "BSSW",
+                    "type": "TV",
+                    "locale": "Away",
+                    "channel": "676"
+                }
+            ],
             "broadcasts": [
                 {
                     "network": "ROOT Sports NW",
