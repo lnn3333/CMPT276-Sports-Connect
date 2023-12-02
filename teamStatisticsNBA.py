@@ -1,5 +1,6 @@
 import json
 from nba_api.stats.endpoints import teamgamelog
+from nba_api.stats.static import teams
 from teamProfileNBA import get_teamID
 
 
@@ -31,36 +32,70 @@ stats_dict = {
     "PTS" : None
 }
 
-teamID = get_teamID("Atlanta Hawks")
-gamelog = teamgamelog.TeamGameLog(team_id=teamID)
+# teamID = get_teamID("Atlanta Hawks")
+# gamelog = teamgamelog.TeamGameLog(team_id=teamID)
 
-gamelogjson = gamelog.get_normalized_json()
-jsonobj = json.loads(gamelogjson)
+# gamelogjson = gamelog.get_normalized_json()
+# jsonobj = json.loads(gamelogjson)
 
-# writing list of players to JSON file
-with open("teamStatsNBA.json", "w") as file:
-    json.dump(jsonobj, file, indent=4)
+# # writing list of players to JSON file
+# with open("teamStatsNBA.json", "w") as file:
+#     json.dump(jsonobj, file, indent=4)
 
-with open("teamStatsNBA.json", "r") as reading:
-    data = json.load(reading)
+# with open("teamStatsNBA.json", "r") as reading:
+#     data = json.load(reading)
 
 # print(data)
 
+def get_teamData(teamID):
+    gamelog = teamgamelog.TeamGameLog(team_id=teamID)
+
+    gamelogjson = gamelog.get_normalized_json()
+    jsonobj = json.loads(gamelogjson)
+
+    # writing list of players to JSON file
+    with open("teamStatsNBA.json", "w") as file:
+        json.dump(jsonobj, file, indent=4)
+
+    with open("teamStatsNBA.json", "r") as reading:
+        data = json.load(reading)
+    
+    return data
+
+def readTeamData():
+    with open("teamStatsNBA.json", "r") as reading:
+        data = json.load(reading)
+    
+    return data
+
+def get_teams():
+    all_teams = teams.get_teams()
+    team_names = []
+    for info in all_teams:
+        team_names.append(info["full_name"])
+    return team_names
+
 # returns a list of matches for chosen team
-def list_matches():
+def list_matches(teamID):
+    
+    data = get_teamData(teamID)
     
     match_list = []
     for match in data["TeamGameLog"]:
         
-        match_list.append(match["MATCHUP"])
-        sep = "\n"
-        matches = sep.join(match_list)
+        match_tup = (match["MATCHUP"], match["Game_ID"])
+        match_list.append(match_tup)
+        # sep = "\n"
+        # matches = sep.join(match_list)
 
     # print(match)
-    return matches
+    return match_list
 
 # retrieves gameID given match
 def get_gameID_by_match(match):
+    
+    data = readTeamData()
+    
     match_count = 0
     match_dict = {}
     for gID in data["TeamGameLog"]:
@@ -83,34 +118,41 @@ def get_gameID_by_match(match):
 
 # retrieves team game stats from a particular match
 def get_team_stats(gameID):
+    
+    data = readTeamData()
 
     for stats in data["TeamGameLog"]:
         if gameID == stats["Game_ID"]:
-            stats_dict["GAME_DATE"] = stats["GAME_DATE"]
-            stats_dict["MATCHUP"] = stats["MATCHUP"]
-            stats_dict["WL"] = stats["WL"]
-            stats_dict["W"] = stats["W"]
-            stats_dict["L"] = stats["L"]
-            stats_dict["W_PCT"] = stats["W_PCT"]
-            stats_dict["MIN"] = stats["MIN"]
-            stats_dict["FGM"] = stats["FGM"]
-            stats_dict["FGA"] = stats["FGA"]
-            stats_dict["FG_PCT"] = stats["FG_PCT"]
-            stats_dict["FG3M"] = stats["FG3M"]
-            stats_dict["FG3A"] = stats["FG3A"]
-            stats_dict["FG3_PCT"] = stats["FG3_PCT"]
-            stats_dict["FTM"] = stats["FTM"]
-            stats_dict["FTA"] = stats["FTA"]
-            stats_dict["FT_PCT"] = stats["FT_PCT"]
-            stats_dict["OREB"] = stats["OREB"]
-            stats_dict["DREB"] = stats["DREB"]
-            stats_dict["REB"] = stats["REB"]
-            stats_dict["AST"] = stats["AST"]
-            stats_dict["STL"] = stats["STL"]
-            stats_dict["BLK"] = stats["BLK"]
-            stats_dict["TOV"] = stats["TOV"]
-            stats_dict["PF"] = stats["PF"]
-            stats_dict["PTS"] = stats["PTS"]
+            stats_dict = {
+                "GAME_DATE": stats["GAME_DATE"],
+                "MATCHUP": stats["MATCHUP"],
+                "WL": stats["WL"],
+                "W": stats["W"],
+                "L": stats["L"],
+                "W_PCT": stats["W_PCT"],
+                "MIN": stats["MIN"],
+                "FGM": stats["FGM"],
+                "FGA": stats["FGA"],
+                "FG_PCT": stats["FG_PCT"],
+                "FG3M": stats["FG3M"],
+                "FG3A": stats["FG3A"],
+                "FG3_PCT": stats["FG3_PCT"],
+                "FTM": stats["FTM"],
+                "FTA": stats["FTA"],
+                "FT_PCT": stats["FT_PCT"],
+                "OREB": stats["OREB"],
+                "DREB": stats["DREB"],
+                "REB": stats["REB"],
+                "AST": stats["AST"],
+                "STL": stats["STL"],
+                "BLK": stats["BLK"],
+                "TOV": stats["TOV"],
+                "PF": stats["PF"],
+                "PTS": stats["PTS"]
+            }
+            
+            return stats_dict
+    return {}
             
 def display_stats(dict):
     for key, value in dict.items():
@@ -118,6 +160,7 @@ def display_stats(dict):
         
 # function calls
 # list_matches()
-g = get_gameID_by_match("ATL @ DET")
-get_team_stats(g)
-display_stats(stats_dict)
+# g = get_gameID_by_match("ATL @ DET")
+# get_team_stats(g)
+# display_stats(stats_dict)
+# get_teams()
