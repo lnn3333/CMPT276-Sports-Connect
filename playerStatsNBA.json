@@ -587,53 +587,6 @@
             "TEAM_ID": 1610612747,
             "TEAM_ABBREVIATION": "LAL",
             "PLAYER_AGE": 38.0,
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "GP": 17,
-            "GS": 17,
-            "MIN": 572.0,
-            "FGM": 160,
-            "FGA": 284,
-            "FG_PCT": 0.563,
-            "FG3M": 38,
-            "FG3A": 97,
-            "FG3_PCT": 0.392,
-            "FTM": 68,
-            "FTA": 99,
-            "FT_PCT": 0.687,
-            "OREB": 12,
-            "DREB": 116,
-            "REB": 128,
-            "AST": 111,
-            "STL": 25,
-            "BLK": 13,
-            "TOV": 62,
-            "PF": 20,
-            "PTS": 426
-=======
-            "GP": 18,
-            "GS": 18,
-            "MIN": 601.0,
-            "FGM": 169,
-            "FGA": 303,
-            "FG_PCT": 0.558,
-            "FG3M": 40,
-            "FG3A": 103,
-            "FG3_PCT": 0.388,
-            "FTM": 73,
-            "FTA": 104,
-            "FT_PCT": 0.702,
-            "OREB": 14,
-            "DREB": 122,
-            "REB": 136,
-            "AST": 114,
-            "STL": 25,
-            "BLK": 13,
-            "TOV": 63,
-            "PF": 20,
-            "PTS": 451
->>>>>>> b065ef81acb914f94480b187d313289bdb58af1b
-=======
             "GP": 19,
             "GS": 19,
             "MIN": 636.0,
@@ -655,7 +608,6 @@
             "TOV": 68,
             "PF": 21,
             "PTS": 472
->>>>>>> 972ea7a0d3c30230839e1a31c4c98c0df976b6d9
         }
     ],
     "CareerTotalsRegularSeason": [
@@ -663,53 +615,6 @@
             "PLAYER_ID": 2544,
             "LEAGUE_ID": "00",
             "Team_ID": 0,
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "GP": 1438,
-            "GS": 1436,
-            "MIN": 54663.0,
-            "FGM": 14312,
-            "FGA": 28328,
-            "FG_PCT": 0.505224,
-            "FG3M": 2299,
-            "FG3A": 6660,
-            "FG3_PCT": 0.345195,
-            "FTM": 8155,
-            "FTA": 11099,
-            "FT_PCT": 0.73475,
-            "OREB": 1678,
-            "DREB": 9117,
-            "REB": 10795,
-            "AST": 10531,
-            "STL": 2211,
-            "BLK": 1086,
-            "TOV": 5028,
-            "PF": 2624,
-            "PTS": 39078
-=======
-            "GP": 1439,
-            "GS": 1437,
-            "MIN": 54692.0,
-            "FGM": 14321,
-            "FGA": 28347,
-            "FG_PCT": 0.505203,
-            "FG3M": 2301,
-            "FG3A": 6666,
-            "FG3_PCT": 0.345184,
-            "FTM": 8160,
-            "FTA": 11104,
-            "FT_PCT": 0.73487,
-            "OREB": 1680,
-            "DREB": 9123,
-            "REB": 10803,
-            "AST": 10534,
-            "STL": 2211,
-            "BLK": 1086,
-            "TOV": 5029,
-            "PF": 2624,
-            "PTS": 39103
->>>>>>> b065ef81acb914f94480b187d313289bdb58af1b
-=======
             "GP": 1440,
             "GS": 1438,
             "MIN": 54727.0,
@@ -731,7 +636,6 @@
             "TOV": 5034,
             "PF": 2625,
             "PTS": 39124
->>>>>>> 972ea7a0d3c30230839e1a31c4c98c0df976b6d9
         }
     ],
     "SeasonTotalsPostSeason": [
@@ -2403,28 +2307,7 @@
             "PLAYER_AGE": "NR",
             "GP": "NR",
             "GS": "NR",
-<<<<<<< HEAD
-            "RANK_MIN": 17,
-<<<<<<< HEAD
-            "RANK_FGM": 8,
-            "RANK_FGA": 23,
-            "RANK_FG_PCT": 17,
-            "RANK_FG3M": 36,
-            "RANK_FG3A": 37,
-            "RANK_FG3_PCT": 56,
-            "RANK_FTM": 24,
-            "RANK_FTA": 18,
-            "RANK_FT_PCT": 112,
-            "RANK_OREB": 152,
-            "RANK_DREB": 16,
-            "RANK_REB": 28,
-            "RANK_AST": 11,
-            "RANK_STL": 9,
-            "RANK_BLK": 48,
-=======
-=======
             "RANK_MIN": 18,
->>>>>>> 972ea7a0d3c30230839e1a31c4c98c0df976b6d9
             "RANK_FGM": 7,
             "RANK_FGA": 21,
             "RANK_FG_PCT": 20,
@@ -2434,22 +2317,12 @@
             "RANK_FTM": 23,
             "RANK_FTA": 18,
             "RANK_FT_PCT": 109,
-<<<<<<< HEAD
-            "RANK_OREB": 138,
-            "RANK_DREB": 15,
-            "RANK_REB": 28,
-            "RANK_AST": 13,
-            "RANK_STL": 11,
-            "RANK_BLK": 54,
->>>>>>> b065ef81acb914f94480b187d313289bdb58af1b
-=======
             "RANK_OREB": 127,
             "RANK_DREB": 12,
             "RANK_REB": 27,
             "RANK_AST": 11,
             "RANK_STL": 15,
             "RANK_BLK": 53,
->>>>>>> 972ea7a0d3c30230839e1a31c4c98c0df976b6d9
             "RANK_TOV": 3,
             "RANK_PTS": 11,
             "RANK_EFF": 7
