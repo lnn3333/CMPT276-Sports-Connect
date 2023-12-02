@@ -14,21 +14,26 @@
 }
 
 header {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	color: rgb(209, 167, 167);
-    position: relative;
+    color: #c51111;
+    margin-bottom: 30px;
+    color: rgb(34, 26, 195);
+    font-family: var(--ff-oswald);
+    font-size: 34px;
+    font-weight: 400;
     text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-    font-weight: 700;
-    font-size: 300%;
-    font-style: oblique;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow: 0 7px hsl(207, 40%, 24%);
+    margin-bottom: 15px;
+    padding: 5px;
+    -webkit-text-stroke: 2.5px rgb(248, 248, 248); /* For Webkit-based browsers like Chrome and Safari */
+    text-stroke: 2px red;
 
 }
 
 html, body {
-    background-color:#3d0b0b;
-    font-family: "Inter", sans-serif;
+    background-color:#3498DB;
+    font-family: var(--ff-poppins);
 	line-height: 1.5;
 	color: black;
     height: 100%;

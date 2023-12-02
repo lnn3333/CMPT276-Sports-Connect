@@ -41,22 +41,34 @@
                 </div>
                 <ul class="navbar-list">
                     <li>
-                        <a href="schedule.html" class="navbar-link">Live Score</a>
+                        <a href="schedule" class="navbar-link">Live Score</a>
                     </li>
                     <li>
-                        <a href="pastSeason.html" class="navbar-link">Past Season</a>
+                        <a href="pastSeason" class="navbar-link">Past Season</a>
                     </li>
                     <li>
-                        <a href="team.html" class="navbar-link">Team</a>
+                        <a href="team" class="navbar-link">Team</a>
                     </li>
                     <li>
                         <a href="#news" class="navbar-link">News</a>
                     </li>
                     <li>
-                        <a href="nbaAwards.html" class="navbar-link">Award Races</a>
+                        <a href="nbaAwards" class="navbar-link">Award Races</a>
                     </li>
                     <li>
-                        <a href="team-schedule.html" class="navbar-link">Search for team schedule</a>
+                        <a href="team-schedule" class="navbar-link">Search for team schedule</a>
+                    </li>
+                    <li>
+                        <a href="player-profile" class="navbar-link">Players</a>
+                    </li>
+                    <li>
+                        <a href="player-statistics" class="navbar-link">Player Statistics</a>
+                    </li>
+                    <li>
+                        <a href="team-profile" class="navbar-link">Team Profile</a>
+                    </li>
+                    <li>
+                        <a href="team-statistics" class="navbar-link">Team Statistics</a>
                     </li>
                 </ul>
                 
@@ -77,27 +89,32 @@
                     <p class="player-title">Sport Connect</p>
                 </div>
             </section>
-
+    
             <div class="section-wrapper">
-
-            <!-- 新闻部分 -->
-            <section id="news">
-                <div class="container">
-                    <h2>Latest News</h2>
-                    <div id="news-container">
-                        <!-- 新闻内容将在这里显示 -->                
-                    </div> 
-                </div>
-            </section>
-
-
+                <section id="news">
+                    <div class="container">
+                        <h2 class="news-heading">Latest News</h2>
+                        <ul id="news-container">
+                            {% for article in listOfArticles %}
+                                <li class="news-article">
+                                    <h3><a href="{{ article[1] }}" target="_blank">{{ article[0] }}</a></h3>
+                                    <div class="article-image">
+                                        <img src="{{ article[3] }}" alt="{{ article[2] }} logo" width="50">
+                                    </div>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </section>
+    
             </div>
         </article>
     </main>
+    
 
 
     <!-- js link -->
-    <script src="./static/script.js"></script>
+    <script src="../static/script.js"></script>
     <!-- ionicon link -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

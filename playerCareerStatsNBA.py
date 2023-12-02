@@ -5,8 +5,6 @@ from nba_api.stats.endpoints import playercareerstats
 from playerProfileNBA import get_playerID
 from playerProfileNBA import get_players_full_name
 
-npArr = []
-
 stats_dict = {
     'gp' : None,
     'gs' : None,
@@ -30,39 +28,40 @@ stats_dict = {
     'pf' : None,
     'pts' : None
 }
+    
+def get_career(playerID):
+    career = playercareerstats.PlayerCareerStats(player_id=playerID)
+    
+    careerjson = career.get_normalized_json()
+    jsonobj = json.loads(careerjson)
+    
+    # writing player info to JSON file
+    with open("playerStatsNBA.json", "w") as file:
+        json.dump(jsonobj, file, indent=4)
 
-# player_name = get_players_full_name("lebron james")
-playerID = get_playerID("lebron james")
-
-# valid_url = "https://stats.nba.com/stats/playercareerstats?LeagueID=&PerMode=" 
-# + perMode_Totals + "&PlayerID=" + playerID
-
-career = playercareerstats.PlayerCareerStats(player_id=playerID)
-
-careerjson = career.get_normalized_json()
-jsonobj = json.loads(careerjson)
-
-# writing player info to JSON file
-with open("playerStatsNBA.json", "w") as file:
-    json.dump(jsonobj, file, indent=4)
-
-with open("playerStatsNBA.json", "r") as reading:
-    datastats = json.load(reading)
+    with open("playerStatsNBA.json", "r") as reading:
+        datastats = json.load(reading)
+    return datastats
 
 #season/career->regular/post/allstar
 
-def get_available_reg_seasonID():
+def readDataStats():
+    with open("playerStatsNBA.json", "r") as reading:
+        datastats = json.load(reading)
+    return datastats
+
+def get_available_reg_seasonID(datastats):
     
     seasons = []
     
     for sID in datastats["SeasonTotalsRegularSeason"]:
         seasons.append(sID["SEASON_ID"])
-        sep = "\n"
-        available_seasons = sep.join(seasons)
+        # sep = "\n"
+        # available_seasons = sep.join(seasons)
     
-    return available_seasons
+    return seasons
 
-def get_available_post_seasonID():
+def get_available_post_seasonID(datastats):
     
     seasons = []
     
@@ -73,7 +72,7 @@ def get_available_post_seasonID():
     
     return available_seasons
 
-def get_available_allstar_seasonID():
+def get_available_allstar_seasonID(datastats):
     
     seasons = []
     
@@ -84,13 +83,12 @@ def get_available_allstar_seasonID():
     
     return available_seasons
 
-def regular_season_stats(season):
+def regular_season_stats(playerID, season):
     
-    global npArr
-    stats = []
+    careerStats = get_career(playerID)
     
-    for data in datastats["SeasonTotalsRegularSeason"]:
-        if season == data["SEASON_ID"]:
+    for data in careerStats["SeasonTotalsRegularSeason"]:
+        if season == data["SEASON_ID"] and playerID == data["PLAYER_ID"]:
             stats_dict["gp"] = data["GP"]
             stats_dict["gs"] = data["GS"]
             stats_dict["mins"] = data["MIN"]
@@ -113,23 +111,13 @@ def regular_season_stats(season):
             stats_dict["pf"] = data["PF"]
             stats_dict["pts"] = data["PTS"]
     
-    # convert dictionary to array
-    # res = stats_dict.items()
-    # data_list = list(res)
-    # npArr = np.array(data_list)
-    
-    # store data in array
-    # stats = []
-    # for data in npArr:
-    #     stats.append(data[1])
+    return stats_dict
 
-    # print(stats_dict)
+def post_season_stats(playerID, season):
     
-    return stats
-
-def post_season_stats(season):
+    careerStats = get_career(playerID)
     
-    for data in datastats["SeasonTotalsPostSeason"]:
+    for data in careerStats["SeasonTotalsPostSeason"]:
         if season == data["SEASON_ID"]:
             stats_dict["gp"] = data["GP"]
             stats_dict["gs"] = data["GS"]
@@ -153,9 +141,13 @@ def post_season_stats(season):
             stats_dict["pf"] = data["PF"]
             stats_dict["pts"] = data["PTS"]
             
-def allstar_season_stats(season):
+    return stats_dict
+            
+def allstar_season_stats(playerID, season):
     
-    for data in datastats["SeasonTotalsAllStarSeason"]:
+    careerStats = get_career(playerID)
+    
+    for data in careerStats["SeasonTotalsAllStarSeason"]:
         if season == data["SEASON_ID"]:
             stats_dict["gp"] = data["GP"]
             stats_dict["gs"] = data["GS"]
@@ -179,9 +171,13 @@ def allstar_season_stats(season):
             stats_dict["pf"] = data["PF"]
             stats_dict["pts"] = data["PTS"]
     
+    return stats_dict
 
-def career_reg_season_stats():
-    for data in datastats["CareerTotalsRegularSeason"]:
+def career_reg_season_stats(playerID):
+    
+    careerStats = get_career(playerID)
+    
+    for data in careerStats["CareerTotalsRegularSeason"]:
         stats_dict["gp"] = data["GP"]
         stats_dict["gs"] = data["GS"]
         stats_dict["mins"] = data["MIN"]
@@ -204,8 +200,13 @@ def career_reg_season_stats():
         stats_dict["pf"] = data["PF"]
         stats_dict["pts"] = data["PTS"]
         
-def career_post_season_stats():
-    for data in datastats["CareerTotalsPostSeason"]:
+    return stats_dict
+        
+def career_post_season_stats(playerID):
+    
+    careerStats = get_career(playerID)
+    
+    for data in careerStats["CareerTotalsPostSeason"]:
         stats_dict["gp"] = data["GP"]
         stats_dict["gs"] = data["GS"]
         stats_dict["mins"] = data["MIN"]
@@ -228,8 +229,13 @@ def career_post_season_stats():
         stats_dict["pf"] = data["PF"]
         stats_dict["pts"] = data["PTS"]
         
-def career_allstar_season_stats():
-    for data in datastats["CareerTotalsAllStarSeason"]:
+    return stats_dict
+        
+def career_allstar_season_stats(playerID):
+    
+    careerStats = get_career(playerID)
+    
+    for data in careerStats["CareerTotalsAllStarSeason"]:
         stats_dict["gp"] = data["GP"]
         stats_dict["gs"] = data["GS"]
         stats_dict["mins"] = data["MIN"]
@@ -251,34 +257,25 @@ def career_allstar_season_stats():
         stats_dict["tov"] = data["TOV"]
         stats_dict["pf"] = data["PF"]
         stats_dict["pts"] = data["PTS"]
+        
+    return stats_dict
 
 def display_stats(dict):
-    
-    # stats = []
-    # abbr = []
-    # disp = []
-    # for data in stats_arr:
-    #     abbr.append(data[0])
-    #     stats.append(data[1])
-        
-    #     disp.append(abbr + ": " + stats)
-
-    # sep = "\n"
-    # display = sep.join(disp)
-    # print(display)
-    
+   
     for key, value in dict.items():
         print(key, ":", value)
     
             
             
 # function calls
-# regular_season_stats("2004-05")
+# pi = get_playerID("kevin durant")
+# c = get_career(pi)
+# regular_season_stats(pi, "2007-08")
 # career_reg_season_stats()
 # post_season_stats("2005-06")
 # career_post_season_stats()
 # allstar_season_stats("2004-05")
-career_allstar_season_stats()
-display_stats(stats_dict)
+# career_allstar_season_stats()
+# display_stats(stats_dict)
 
     

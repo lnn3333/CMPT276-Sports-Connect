@@ -1,27 +1,51 @@
-from flask import Flask, jsonify
-import requests
+import http.client
+import json
 
-app = Flask(__name__)
+from datetime import datetime
+from flask import url_for
+import pytz
 
-@app.route('/nba-games')
-def nba_games():
-    # 这里的URL和参数需要根据您要获取的具体数据进行修改
-    api_url = "https://api.sportradar.com/nba/{access_level}/v7/{language_code}/games/{year}/{month}/{day}/schedule.{format}"
-    api_key = "wm4wf3terhkcn7rkz457jm89"  # 替换为您的NBA API密钥
-    params = {
-        "access_level": "trial",  # 或者 "production"，取决于您的密钥类型
-        "language_code": "en",
-        "year": "2022",
-        "month": "01",
-        "day": "22",
-        "format": "json",
-        "api_key": api_key
-    }
-    response = requests.get(api_url, params=params)
-    if response.ok:
-        return jsonify(response.json())
-    else:
-        return jsonify({"error": "Failed to fetch NBA data"}), response.status_code
+conn = http.client.HTTPSConnection("nba-latest-news.p.rapidapi.com")
 
-if __name__ == "__main__":
-    app.run(debug=True)
+headers = {
+    'X-RapidAPI-Key': "c3c71e434emsh40b6a9607764354p1c4421jsn9494467b16fc",
+    'X-RapidAPI-Host': "nba-latest-news.p.rapidapi.com"
+}
+
+conn.request("GET", "/articles", headers=headers)
+
+res = conn.getresponse()
+data = res.read()
+
+decodedData=data.decode("utf-8")
+conn.close()
+
+newsJSON = json.loads(decodedData)
+
+#store JSON data
+with open ("newsData.json","w") as file:
+    json.dump(newsJSON,file,indent=4)
+
+def readNews():
+    with open("newsData.json","r") as reading:
+        news = json.load(reading)
+    return news
+
+newsImageMap = {
+    "slam":"/newsArticleImages/slam.png",
+    "espn":"/newsArticleImages/espn.png",
+    "bleacher_report":"/newsArticleImages/br.png",
+    "nba":"/newsArticleImages/nba.png",
+}
+
+newsArticles = set()
+
+def getNews(news):
+    for article in news:
+        name = article['title']
+        link = article['url']
+        source = article['source']
+        imagePath = url_for('static',filename=newsImageMap.get(source,newsImageMap["nba"]))
+        newsArticles.add((name,link,source,imagePath))
+    return newsArticles
+        
