@@ -49,11 +49,11 @@ def schedule():
 def teamList():
     return render_template('team.html')
 
-# @app.route('/team-schedule')
-# def teamSchedule():
-#     games = readData2()
-#     listOfTeams = getAllNBATeams(games)
-#     searchResult = request.args.get('searchResult')
+@app.route('/team-schedule')
+def teamSchedule():
+    games = readData2()
+    listOfTeams = getAllNBATeams(games)
+    searchResult = request.args.get('searchResult')
     
     if searchResult:
         Team = searchTeam(searchResult,games)
