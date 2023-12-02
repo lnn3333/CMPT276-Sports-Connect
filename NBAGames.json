@@ -16667,7 +16667,7 @@
         },
         {
             "id": "99f1a7f1-6f5e-4308-9e82-0147e7cead40",
-            "status": "scheduled",
+            "status": "inprogress",
             "coverage": "full",
             "scheduled": "2023-12-02T21:00:00Z",
             "track_on_court": true,
