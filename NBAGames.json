@@ -15888,7 +15888,7 @@
         },
         {
             "id": "aa810305-5681-4d1f-a337-b0fde103d41c",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-01T00:30:00Z",
             "home_points": 118,
@@ -15947,7 +15947,7 @@
         },
         {
             "id": "ac567757-dc3a-40e6-8bdc-a7c0bcd3b9a1",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-01T00:30:00Z",
             "home_points": 142,
@@ -16012,7 +16012,7 @@
         },
         {
             "id": "0a49b8b0-53dc-4e16-ab6c-d4c1938ed65b",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-01T01:00:00Z",
             "home_points": 133,
@@ -16071,7 +16071,7 @@
         },
         {
             "id": "8d7a4705-8b62-4973-abef-9f6e9c0f2f6d",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-01T01:00:00Z",
             "home_points": 135,
@@ -16130,7 +16130,7 @@
         },
         {
             "id": "a036e710-ce27-45b2-9d0c-ab1cb4222c13",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-01T01:00:00Z",
             "home_points": 120,
@@ -16189,7 +16189,7 @@
         },
         {
             "id": "e1eaff42-aafa-48be-a356-3dbb384cc439",
-            "status": "scheduled",
+            "status": "closed",
             "coverage": "full",
             "scheduled": "2023-12-01T01:00:00Z",
             "home_points": 101,
