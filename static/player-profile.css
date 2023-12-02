@@ -42,7 +42,7 @@ h2 {
 
 body {
     font-family: var(--ff-poppins);
-    background-color:#996670;
+    background-color:#3498DB;
 }
 
 #searchResult {
@@ -78,7 +78,7 @@ body {
     padding: 50px;
     margin-top: 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #b5a5a5;
+    background-color: #44A8FF;
 }
 
 .info-card ul {
