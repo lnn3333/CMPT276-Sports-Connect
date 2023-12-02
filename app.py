@@ -4,7 +4,8 @@ from ScheduleNBA import getAllNBATeams,FindGamesForTeam, searchTeam, FormatDateT
 from news_api import readNews, getNews
 from playerCareerStatsNBA import readDataStats, get_available_reg_seasonID, regular_season_stats, post_season_stats, allstar_season_stats
 from playerProfileNBA import list_players, readDataPlayer, get_players_full_name, get_playerID
-from teamProfileNBA import get_team_info_by_nickname, get_team_info_by_abbr, get_team_info_by_state
+from teamProfileNBA import get_teamID, get_team_info_by_nickname, get_team_info_by_abbr, get_team_info_by_state
+from teamStatisticsNBA import readTeamData, get_teams, get_teamData, list_matches, get_team_stats
 
 app = Flask(__name__)
 
@@ -49,11 +50,11 @@ def schedule():
 def teamList():
     return render_template('team.html')
 
-@app.route('/team-schedule')
-def teamSchedule():
-    games = readData2()
-    listOfTeams = getAllNBATeams(games)
-    searchResult = request.args.get('searchResult')
+# @app.route('/team-schedule')
+# def teamSchedule():
+#     games = readData2()
+#     listOfTeams = getAllNBATeams(games)
+#     searchResult = request.args.get('searchResult')
     
     if searchResult:
         Team = searchTeam(searchResult,games)
@@ -135,6 +136,32 @@ def selectedSeason():
     
     return render_template('player-statistics.html', searchResult_stat=searchResult_stat, selected_season=selected_season, stats=stats, plr_id=plr_id, regular_season=regular_season)
 
+@app.route('/team-statistics', methods=['GET'])
+def teamStats():
+    
+    data = readTeamData()
+    # from the form get the teamID (search), list the available matches (get gameID)
+    teams_list = get_teams()
+    return render_template('team-statistics.html', teams_list=teams_list)
+
+@app.route('/selectedTeam', methods=["POST"])
+def selectedTeam():
+    
+    selectedTeam = request.form.get('selectedTeam')
+    team_id = get_teamID(selectedTeam)
+    
+    teams_list = get_teams()
+    
+    matches = list_matches(team_id)
+    team_stats_list = []
+    
+    for _, gameid in matches:
+        team_stats = get_team_stats(gameid)
+        team_stats_list.append(team_stats)
+        
+    combined_data = zip(matches, team_stats_list)
+    
+    return render_template('team-statistics.html', selectedTeam=selectedTeam, team_id=team_id, matches=matches, combined_data=combined_data, teams_list=teams_list)
 
 if __name__== '__main__':
     app.run(debug=True,host='0.0.0.0')
