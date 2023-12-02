@@ -2,7 +2,7 @@
 Flask==2.0.1
 pytz==2023.3.post1  # Specify a version that works for your project
 numpy==1.26.2  # Specify a version that works for your project
-nba_api==_1.4.1  # Assuming nba_api is a custom module; specify the correct package if it's an external library
+nba_api==1.4.1  # Assuming nba_api is a custom module; specify the correct package if it's an external library
 requests==2.31.0  # Specify a version that works for your project
 
 
