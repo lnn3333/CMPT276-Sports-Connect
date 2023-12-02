@@ -1,0 +1,53 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Installing dependencies"
+
+  pre_build:
+    commands:
+      - echo "Running pre-build steps"
+
+  build:
+    commands:
+      - echo "Building the application"
+      - npm install
+      - npm test
+      - pip install -r requirements.txt
+
+  post_build:
+    commands:
+      - echo "Running post-build steps"
+
+artifacts:
+  type: zip
+  files:
+   
+    - newsclient/**/*
+    - static/**/*
+    - templates/**/*
+    - .gitignore
+    - app.py
+    - AwardRacesNBA.py
+    - buildspec.yml
+    - NBAGames.json
+    - NBALeaders.json
+    - News.py
+    - newsData.json
+    - news_api.py
+    - playerCareerStatsNBA.py
+    - playerProfile.json
+    - playerProfileNBA.py
+    - playersNBA.json
+    - playersProfileNBA.json
+    - playerStatisticsAPI.py
+    - playerStatsNBA.json
+    - requirements.txt
+    - ScheduleNBA.py
+    - teamProfileNBA.json
+    - teamProfileNBA.py
+    - teamsInfoNBA.json
+    - teamsNBA.json
+    - teamStatsNBA.json
+    - vercel.json
