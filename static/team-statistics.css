@@ -37,7 +37,11 @@ h2 {
     letter-spacing: 10px;
     text-shadow: 0 7px 0 white;
     -webkit-text-stroke: 2.5px rgb(29, 37, 77); /* For Webkit-based browsers like Chrome and Safari */
-    margin-bottom: 10%;
+
+}
+
+h3 {
+    text-align: center;
 }
 
 body {
@@ -50,46 +54,19 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 25%;
+    margin-left: 39%;
     /* margin: 0 auto; */
-}
-
-label {
-    display: inline-block;
 }
 
 select {
     margin: 5px 30px; /* Adjust margin as needed */
 }
 
-#searchResult_stat {
-    width: 75%;
-    height: 40px;
-    padding: 5px 10px;
-    border-radius: 3px;
-    border: 2px solid #283747;
-    font-size: 20px;
-    font-style: italic;
-    font-family: var(--ff-oswald);
-    margin-bottom: 5px;
-    margin-left: 2%;
-    box-sizing: border-box;
-}
 
-#seasonSelect, #seasonTypeSelect {
-    display: block;
-    /* margin: 0 auto; */
-
-}
-
-form {
-    align-items: center;
-    justify-content: center;
-    margin-left: 10%;
-}
-
-.info-card {
-    /* border: 1px solid #ccc; */
+.matchContainer {
+    /* border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px; */
     max-width: 500px;
     margin: 0 auto;
     border-radius: 8px;
@@ -99,7 +76,10 @@ form {
     background-color: #b1c1b7;
 }
 
+.matchup {
+    font-size: 25px;
+}
+
 p {
     text-align: center;
 }
-

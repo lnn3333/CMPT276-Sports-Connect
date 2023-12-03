@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Statistics</title>
+    <link rel="stylesheet" type="text/css" href="../static/team-statistics.css">
+</head>
+<body>
+    <h1>Team Statistics</h1>
+
+    <div class="dropdown">
+        <form  action="{{ url_for('selectedTeam') }}" method="POST">
+            <label for="teams">Select a team:</label>
+            <select id="teams" name="selectedTeam">
+                {% for team in teams_list %}
+                    <option value="{{ team }}">{{ team }}</option>
+                {% endfor %}
+            </select>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+
+    {% if selectedTeam %}
+        <h3>All Matches for: {{ selectedTeam }}</h3>
+        <ul>
+            {% for match, team_stats in combined_data %}
+                <div class="matchContainer">
+                    <p class="matchup"><strong> {{ match[0] }} </strong></p>
+                    {% if team_stats %}
+                        <p><strong>Game Date: </strong>{{ team_stats["GAME_DATE"] }}</p>
+                        <p><strong>WL:</strong> {{ team_stats["WL"] }}</p>
+                        <p><strong>W: </strong>{{ team_stats["W"] }}</p>
+                        <p><strong>W_PCT:</strong> {{ team_stats["W_PCT"] }}</p>
+                        <p><strong>Min:</strong> {{ team_stats["MIN"] }}</p>
+                        <p><strong>FGM:</strong> {{ team_stats["FGM"] }}</p>
+                        <p><strong>FGA:</strong> {{ team_stats["FGA"] }}</p>
+                        <p><strong>FG_PCT:</strong> {{ team_stats["FG_PCT"] }}</p>
+                        <p><strong>FG3M:</strong> {{ team_stats["FG3M"] }}</p>
+                        <p><strong>FG3A:</strong> {{ team_stats["FG3A"] }}</p>
+                        <p><strong>FG3_PCT:</strong> {{ team_stats["FG3_PCT"] }}</p>
+                        <p><strong>FTM:</strong> {{ team_stats["FTM"] }}</p>
+                        <p><strong>FTA: </strong>{{ team_stats["FTA"] }}</p>
+                        <p><strong>FT_PCT:</strong>{{ team_stats["FT_PCT"] }}</p>
+                        <p><strong>OREB:</strong> {{ team_stats["OREB"] }}</p>
+                        <p><strong>DREB:</strong> {{ team_stats["DREB"] }}</p>
+                        <p><strong>REB:</strong> {{ team_stats["REB"] }}</p>
+                        <p><strong>AST:</strong> {{ team_stats["AST"] }}</p>
+                        <p><strong>STL: </strong>{{ team_stats["STL"] }}</p>
+                        <p><strong>BLK:</strong> {{ team_stats["BLK"] }}</p>
+                        <p><strong>TOV:</strong> {{ team_stats["TOV"] }}</p>
+                        <p><strong>PF:</strong> {{ team_stats["PF"] }}</p>
+                        <p><strong>PTS: </strong>{{ team_stats["PTS"] }}</p>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    
+</body>
+</html>
