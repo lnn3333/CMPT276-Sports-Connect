@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NBA Leaders</title>
+    <title>Team Statistics</title>
     <link rel="stylesheet" type="text/css" href="../static/team-statistics.css">
 </head>
 <body>
     <h1>Team Statistics</h1>
 
-    <form class="formContainer" action="{{ url_for('selectedTeam') }}" method="POST">
-        <label for="teams">Select a team:</label>
-        <select id="teams" name="selectedTeam">
-            {% for team in teams_list %}
-                <option value="{{ team }}">{{ team }}</option>
-            {% endfor %}
-        </select>
+    <div class="dropdown">
+        <form  action="{{ url_for('selectedTeam') }}" method="POST">
+            <label for="teams">Select a team:</label>
+            <select id="teams" name="selectedTeam">
+                {% for team in teams_list %}
+                    <option value="{{ team }}">{{ team }}</option>
+                {% endfor %}
+            </select>
 
-        <button type="submit">Submit</button>
+            <button type="submit">Submit</button>
 
-    </form>
+        </form>
+    </div>
 
     {% if selectedTeam %}
         <h3>All Matches for: {{ selectedTeam }}</h3>

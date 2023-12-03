@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NBA Leaders</title>
+    <title>Player Statistics</title>
     <link rel="stylesheet" type="text/css" href="../static/player-statistics.css">
 </head>
 <body>
@@ -13,52 +13,61 @@
     <form id="combinedForm" action="{{ url_for('selectedSeason') }}" method="POST">
 
         <!-- Player Search Section -->
-        <label for="searchResult_stat">Search for a player:</label>
-        <input type="text" id="searchResult_stat" name="searchResult_stat" placeholder="Enter player name">
+        <div id="searchWrapper">
+            <label for="searchResult_stat"><strong>Search for a player:</strong></label>
+            <input type="text" 
+                    id="searchResult_stat" 
+                    name="searchResult_stat" 
+                    placeholder="Enter player name">
+        </div>
 
-        <!-- Season Selection Section -->
-        <label for="seasonSelect">Select a Season:</label>
-        <select id="seasonSelect" name="selectedSeason">
-            {% for season in regular_season %}
-                <option value="{{ season }}">{{ season }}</option>
-            {% endfor %}
-        </select>
+        <div class="dropdown">
+            <!-- Season Selection Section -->
+            <label for="seasonSelect"><strong>Select a Season:</strong></label>
+            <select id="seasonSelect" name="selectedSeason">
+                {% for season in regular_season %}
+                    <option value="{{ season }}">{{ season }}</option>
+                {% endfor %}
+            </select>
 
-        <label for="seasonTypeSelect">Select a Season Type:</label>
-        <select id="seasonTypeSelect" name="selectedSeasonType">
-            <option value="regular">Regular Season</option>
-            <option value="post">Post Season</option>
-            <option value="allstar">All-star Season</option>
-        </select>
+            <label for="seasonTypeSelect"><strong>Select a Season Type:</strong></label>
+            <select id="seasonTypeSelect" name="selectedSeasonType">
+                <option value="regular">Regular Season</option>
+                <option value="post">Post Season</option>
+                <option value="allstar">All-star Season</option>
+            </select>
 
-        <!-- Submit Button for Both Sections -->
-        <button type="submit">Submit</button>
+            <!-- Submit Button for Both Sections -->
+            <button type="submit">Submit</button>
+        </div>
+        
     </form>
 
     {% if stats %}
-        <p>player name: {{ searchResult_stat }}</p>
-        <p>player id: {{ plr_id }}</p>
-        <p>Games Played: {{ stats['gp'] }}</p>
-        <p>Games Started: {{ stats['gs'] }}</p>
-        <p>Minutes: {{ stats['mins'] }}</p>
-        <p>Field Goals Made: {{ stats['fgm'] }}</p>
-        <p>Field Goals Attempted: {{ stats['fga'] }}</p>
-        <p>Field Goal Percentage: {{ stats['fg_pct'] }}</p>
-        <p>3-Point Field Goals Made: {{ stats['fg3m'] }}</p>
-        <p>3-Point Field Goals Attempted: {{ stats['fg3a'] }}</p>
-        <p>3-Point Field Goal Percentage: {{ stats['gf3_pct'] }}</p>
-        <p>Free Throws Made: {{ stats['ftm'] }}</p>
-        <p>Free Throws Attempted: {{ stats['fta'] }}</p>
-        <p>Free Throw Percentage: {{ stats['ft_pct'] }}</p>
-        <p>Offensive Rebounds: {{ stats['oreb'] }}</p>
-        <p>Defensive Rebounds: {{ stats['dreb'] }}</p>
-        <p>Total Rebounds: {{ stats['reb'] }}</p>
-        <p>Assists: {{ stats['ast'] }}</p>
-        <p>Steals: {{ stats['stl'] }}</p>
-        <p>Blocks: {{ stats['blk'] }}</p>
-        <p>Turnovers: {{ stats['tov'] }}</p>
-        <p>Personal Fouls: {{ stats['pf'] }}</p>
-        <p>Pointes Scored: {{ stats['pts'] }}</p>
+        <div class="info-card">
+            <h2 class="h1">player name: {{ searchResult_stat }}</h2>
+            <p><strong>GP:</strong> {{ stats['gp'] }}</p>
+            <p><strong>GS:</strong> {{ stats['gs'] }}</p>
+            <p><strong>MIN:</strong> {{ stats['mins'] }}</p>
+            <p><strong>FGM:</strong> {{ stats['fgm'] }}</p>
+            <p><strong>FGA:</strong> {{ stats['fga'] }}</p>
+            <p><strong>FGP:</strong> {{ stats['fg_pct'] }}</p>
+            <p><strong>FG3M:</strong> {{ stats['fg3m'] }}</p>
+            <p><strong>FG3A:</strong> {{ stats['fg3a'] }}</p>
+            <p><strong>FG3_PCT:</strong> {{ stats['fg3_pct'] }}</p>
+            <p><strong>FTM:</strong> {{ stats['ftm'] }}</p>
+            <p><strong>FTA:</strong> {{ stats['fta'] }}</p>
+            <p><strong>FT_PCT:</strong> {{ stats['ft_pct'] }}</p>
+            <p><strong>OREB:</strong> {{ stats['oreb'] }}</p>
+            <p><strong>DREB:</strong> {{ stats['dreb'] }}</p>
+            <p><strong>REB:</strong> {{ stats['reb'] }}</p>
+            <p><strong>AST:</strong> {{ stats['ast'] }}</p>
+            <p><strong>STL:</strong> {{ stats['stl'] }}</p>
+            <p><strong>LK:</strong> {{ stats['blk'] }}</p>
+            <p><strong>TOV:</strong> {{ stats['tov'] }}</p>
+            <p><strong>PF:</strong> {{ stats['pf'] }}</p>
+            <p><strong>PTS:</strong> {{ stats['pts'] }}</p>
+        </div>
     {% else %}
         <p>No stats available for the selected season.</p>
     {% endif %}
