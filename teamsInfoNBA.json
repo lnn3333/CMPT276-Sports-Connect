@@ -10,10 +10,10 @@
             "TEAM_DIVISION": "Southeast",
             "TEAM_CODE": "hawks",
             "TEAM_SLUG": "hawks",
-            "W": 8,
-            "L": 8,
-            "PCT": 0.5,
-            "CONF_RANK": 9,
+            "W": 9,
+            "L": 10,
+            "PCT": 0.474,
+            "CONF_RANK": 10,
             "DIV_RANK": 3,
             "MIN_YEAR": "1949",
             "MAX_YEAR": "2023"
@@ -25,13 +25,13 @@
             "SEASON_ID": "22023",
             "TEAM_ID": 1610612737,
             "PTS_RANK": 2,
-            "PTS_PG": 123.6,
-            "REB_RANK": 12,
-            "REB_PG": 44.9,
-            "AST_RANK": 14,
-            "AST_PG": 25.9,
-            "OPP_PTS_RANK": 25,
-            "OPP_PTS_PG": 121.1
+            "PTS_PG": 123.2,
+            "REB_RANK": 13,
+            "REB_PG": 44.2,
+            "AST_RANK": 20,
+            "AST_PG": 25.4,
+            "OPP_PTS_RANK": 27,
+            "OPP_PTS_PG": 122.8
         }
     ],
     "AvailableSeasons": [
