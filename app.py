@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify, redirect, url_for
+from flask import Flask, render_template, request, redirect, url_for
 from AwardRacesNBA import getCategories, readData, scoringChampRace, assistChampRace, ReboundChampRace, BlockChampRace, StealsChampRace 
 from ScheduleNBA import getAllNBATeams,FindGamesForTeam, searchTeam, FormatDateTime, readData2,getImage
 from news_api import readNews, getNews
@@ -50,11 +50,11 @@ def schedule():
 def teamList():
     return render_template('team.html')
 
-@app.route('/team-schedule')
-def teamSchedule():
-    games = readData2()
-    listOfTeams = getAllNBATeams(games)
-    searchResult = request.args.get('searchResult')
+# @app.route('/team-schedule')
+# def teamSchedule():
+#     games = readData2()
+#     listOfTeams = getAllNBATeams(games)
+#     searchResult = request.args.get('searchResult')
     
     if searchResult:
         Team = searchTeam(searchResult,games)
