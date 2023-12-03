@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Profile</title>
+    <link rel="stylesheet" type="text/css" href="../static/team-profile.css">
+</head>
+
+    <body>
+
+        <h1>Team Profile</h1>
+
+        <form action="{{ url_for('teamProfile') }}" method="GET">
+            <input type="text" id="searchResult" name="searchResult" placeholder="Search for a team.">
+            <button type="submit" id="searchButton">Search</button>
+        </form>
+
+        {% if searchResult %}
+
+            {% if teamNickname %}
+                <div class="info-card"> 
+                    <ul>
+                        <h2 class="h1">Team:</strong> {{ searchResult }}</h2>
+                        <p><strong>Season:</strong> {{  teamNickname['szn_year'] }}</p>
+                        <p><strong>City:</strong> {{ teamNickname['tCity'] }} </p>
+                        <p><strong>Name:</strong> {{ teamNickname['tName'] }} </p>
+                        <p><strong>Abbreviation:</strong> {{ teamNickname['tAbbr'] }} </p>
+                        <p><strong>Conference:</strong> {{ teamNickname['tConf'] }} </p>
+                        <p><strong>Division:</strong> {{ teamNickname['tDiv'] }} </p>
+                        <p><strong>Wins (W):</strong> {{ teamNickname['tW'] }} </p>
+                        <p><strong>Losses (L):</strong> {{ teamNickname['tL'] }} </p>
+                        <p><strong>Percentage (PCT):</strong> {{ teamNickname['pct'] }} </p>
+                        <p><strong>Conference Rank:</strong> {{ teamNickname['conf_rank'] }} </p>
+                        <p><strong>Division Rank:</strong> {{ teamNickname['div_rank'] }} </li>
+                    </ul>
+                </div>
+
+            {% elif teamAbbr%}
+
+                <div class="info-card"> 
+                    <ul>
+                        <h2 class="h1">Team:</strong> {{ searchResult }}</h2>
+                        <p><strong>Season:</strong> {{ teamAbbr['szn_year'] }}</p>
+                        <p><strong>City:</strong> {{ teamAbbr['tCity'] }} </p>
+                        <p><strong>Name:</strong> {{ teamAbbr['tName'] }} </p>
+                        <p><strong>Abbreviation:</strong> {{ teamAbbr['tAbbr'] }} </p>
+                        <p><strong>Conference:</strong> {{ teamAbbr['tConf'] }} </p>
+                        <p><strong>Division:</strong> {{ teamAbbr['tDiv'] }} </p>
+                        <p><strong>Wins (W):</strong> {{ teamAbbr['tW'] }} </p>
+                        <p><strong>Losses (L):</strong> {{ teamAbbr['tL'] }} </p>
+                        <p><strong>Percentage (PCT):</strong> {{ teamAbbr['pct'] }} </p>
+                        <p><strong>Conference Rank:</strong> {{ teamAbbr['conf_rank'] }} </p>
+                        <p><strong>Division Rank:</strong> {{ teamAbbr['div_rank'] }} </p>
+                    </ul>
+                </div>
+
+            {% elif teamState%}
+
+                <div class="info-card"> 
+                    <ul>
+                        <h2 class="h1">Team:</strong> {{ searchResult }}</h2>
+                        <p><strong>Season:</strong> {{ teamState['szn_year'] }}</p>
+                        <p><strong>City:</strong> {{ teamState['tCity'] }} </p>
+                        <p><strong>Name:</strong> {{ teamState['tName'] }} </p>
+                        <p><strong>Abbreviation:</strong> {{ teamState['tAbbr'] }} </p>
+                        <p><strong>Conference:</strong> {{ teamState['tConf'] }} </p>
+                        <p><strong>Division:</strong> {{ teamState['tDiv'] }} </p>
+                        <p><strong>Wins (W):</strong> {{ teamState['tW'] }} </p>
+                        <p><strong>Losses (L):</strong> {{ teamState['tL'] }} </p>
+                        <p><strong>Percentage (PCT):</strong> {{ teamState['pct'] }} </p>
+                        <p><strong>Conference Rank:</strong> {{ teamState['conf_rank'] }} </p>
+                        <p><strong>Division Rank:</strong> {{ teamState['div_rank'] }} </p>
+                    </ul>
+                </div>
+
+            {% else %}
+                <p>No team found with the provided name.</p>
+            {% endif %}
+        
+        {% else %}
+            <p>Find team's information</p>
+        {% endif %}
+
+    </body>
+</html>

@@ -1,0 +1,25 @@
+// menu bar
+const elemToggleFunc = function (elem) { elem.classList.toggle("active"); }
+//navbar
+
+const navbar = document.querySelector("[data-nav]");
+const navOpenBtn = document.querySelector("[data-nav-open-btn]");
+const navCloseBtn = document.querySelector("[data-nav-close-btn]");
+const overlay = document.querySelector("[data-overlay]");
+
+elemToggleFunc(navbar);
+elemToggleFunc(overlay);
+elemToggleFunc(document.body);
+
+const navElemArr = [navOpenBtn, navCloseBtn, overlay];
+
+for (let i = 0; i < navElemArr.length; i++) {
+
+  navElemArr[i].addEventListener("click", function () {
+    elemToggleFunc(navbar);
+    elemToggleFunc(overlay);
+    elemToggleFunc(document.body);
+  })
+
+};
+

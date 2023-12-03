@@ -1,0 +1,75 @@
+/* 新闻部分的基本样式 */
+#news-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.news-title {
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 20px;
+    font-size: 2em;
+    color: #333;
+    width: 100%;
+    text-shadow: 2px 2px 4px #cc7a00; /* 深橙色阴影 */
+}
+
+
+
+.news-article {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.news-article h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.news-article p {
+    color: #666;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* 可以根据需要添加更多样式 */
+body {
+    background-color: #ffe5b4; /* 浅橙色背景 */
+}
+/* news.css */
+.news-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.news-item {
+    background-color: #f9f9f9; /* 淡灰色背景 */
+    border: 1px solid #ddd; /* 灰色边框 */
+    border-radius: 8px; /* 圆角边框 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 轻微的阴影 */
+    margin-bottom: 20px; /* 底部间距 */
+    padding: 15px; /* 内部间距 */
+    width: 80%; /* 新闻项目的宽度 */
+    max-width: 600px; /* 最大宽度 */
+}
+
+.news-item h3 {
+    color: #333; /* 标题颜色 */
+    margin-top: 0;
+    margin-bottom: 10px; /* 标题底部间距 */
+}
+
+.news-item p {
+    color: #666; /* 段落文本颜色 */
+    line-height: 1.6; /* 行高 */
+}
