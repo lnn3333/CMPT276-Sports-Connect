@@ -51,11 +51,11 @@ def schedule():
 def teamList():
     return render_template('team.html')
 
-# @app.route('/team-schedule')
-# def teamSchedule():
-#     games = readData2()
-#     listOfTeams = getAllNBATeams(games)
-#     searchResult = request.args.get('searchResult')
+@app.route('/team-schedule')
+def teamSchedule():
+    games = readData2()
+    listOfTeams = getAllNBATeams(games)
+    searchResult = request.args.get('searchResult')
     
     if searchResult:
         Team = searchTeam(searchResult,games)
@@ -73,15 +73,24 @@ def teamList():
 
 @app.route('/player-profile')
 def playerProfile():
-    # pProfileData = readDataPlayer()
-    # datastats = readDataStats()
+    
     listOfPlayers = list_players()
+    plr_name = None
+    
+    try:    
+        searchResult = request.args.get('searchResult')
+        if searchResult:
         
-    searchResult = request.args.get('searchResult')
-    if searchResult:
-        plr_name = get_players_full_name(searchResult)
-        return render_template('player-profile.html', listOfPlayers=listOfPlayers, searchResult=searchResult, plr_name=plr_name)
-    return render_template('player-profile.html', listOfPlayers=listOfPlayers, searchResult=None, plr_name=None)
+            plr_name = get_players_full_name(searchResult)
+            # return render_template('player-profile.html', listOfPlayers=listOfPlayers,
+            #                                                 searchResult=searchResult, 
+            #                                                 plr_name=plr_name)
+    except JSONDecodeError as error:
+        print(f"Error: {error}")
+        
+    return render_template('player-profile.html', listOfPlayers=listOfPlayers, 
+                                                    searchResult=searchResult, 
+                                                    plr_name=plr_name)
 
 @app.route('/team-profile')
 def teamProfile():

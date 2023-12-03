@@ -111,8 +111,8 @@ def get_players_full_name(fullname):
         player_info["pos"] = info["POSITION"]
         player_info["team"] = info["TEAM_NAME"]
 
-    # print(player_info)
-    return player_info
+        return player_info
+    return None
 
 def modifyStr(string):
     modstr = string.replace("-", " ft ")

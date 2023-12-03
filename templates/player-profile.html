@@ -18,7 +18,7 @@
 
         {% if searchResult %}
             
-            {% if plr_name %}
+            {% if plr_name and plr_name != {} %}
             <div class="info-card"> 
                 <ul>
                     <h2 class="h1">Player: {{ searchResult }}</h2>
