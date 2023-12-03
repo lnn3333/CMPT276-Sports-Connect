@@ -49,21 +49,19 @@ body {
     background-color:#718e7c;
 }
 
-.formContainer {
+.dropdown {
+    text-align: center;
     display: flex;
+    flex-direction: row;
     align-items: center;
+    margin-left: 39%;
+    /* margin: 0 auto; */
 }
 
-#teams {
-    width: 15%;
-    margin: 0 auto;
-    padding: 8px;
-    margin-bottom: 10px;
+select {
+    margin: 5px 30px; /* Adjust margin as needed */
 }
 
-button {
-    margin-top: 10px;
-}
 
 .matchContainer {
     /* border: 1px solid #ccc;
