@@ -34,6 +34,7 @@ def get_playerID(player):
     for info in _player:
         playerID = info["id"]
         return playerID
+    return None
 
 # retreives player info by first name
 def get_players_by_first_name(firstname):

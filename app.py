@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for
+from json.decoder import JSONDecodeError
 from AwardRacesNBA import getCategories, readData, scoringChampRace, assistChampRace, ReboundChampRace, BlockChampRace, StealsChampRace 
 from ScheduleNBA import getAllNBATeams,FindGamesForTeam, searchTeam, FormatDateTime, readData2,getImage
 from news_api import readNews, getNews
@@ -122,19 +123,31 @@ def selectedSeason():
     selected_season = {'id': selected_season_id, 'type': selected_season_type}
     
     stats = None
+    stats_avail = False
     
-    if selected_season_type == 'regular':
-        stats = regular_season_stats(plr_id, selected_season_id)
+    try:
+        if selected_season_type == 'regular':
+            stats = regular_season_stats(plr_id, selected_season_id)
 
-    elif selected_season_type == "post":
-        stats = post_season_stats(plr_id, selected_season_id)
-    elif selected_season_type == "allstar":
-        stats = allstar_season_stats(plr_id, selected_season_id)
+        elif selected_season_type == "post":
+            stats = post_season_stats(plr_id, selected_season_id)
+        elif selected_season_type == "allstar":
+            stats = allstar_season_stats(plr_id, selected_season_id)
+            
+        stats_avail = True
+        
+    except JSONDecodeError as error:
+        print(f"Error: {error}")
         
     data = readDataStats()
     regular_season = get_available_reg_seasonID(data)
     
-    return render_template('player-statistics.html', searchResult_stat=searchResult_stat, selected_season=selected_season, stats=stats, plr_id=plr_id, regular_season=regular_season)
+    return render_template('player-statistics.html', searchResult_stat=searchResult_stat, 
+                                                    selected_season=selected_season,
+                                                    stats=stats,
+                                                    plr_id=plr_id, 
+                                                    regular_season=regular_season, 
+                                                    stats_avail=stats_avail)
 
 @app.route('/team-statistics', methods=['GET'])
 def teamStats():

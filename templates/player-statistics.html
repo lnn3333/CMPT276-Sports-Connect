@@ -68,8 +68,10 @@
             <p><strong>PF:</strong> {{ stats['pf'] }}</p>
             <p><strong>PTS:</strong> {{ stats['pts'] }}</p>
         </div>
+    {% elif stats == None %}
+        <p>Can't find player</p>
     {% else %}
-        <p>No stats available for the selected season.</p>
+        <p>Find player's statistics.</p>
     {% endif %}
 
 </body>

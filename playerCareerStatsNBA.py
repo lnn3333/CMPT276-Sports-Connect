@@ -111,7 +111,8 @@ def regular_season_stats(playerID, season):
             stats_dict["pf"] = data["PF"]
             stats_dict["pts"] = data["PTS"]
     
-    return stats_dict
+            return stats_dict
+    return {}
 
 def post_season_stats(playerID, season):
     
