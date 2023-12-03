@@ -7,9 +7,6 @@ __pycache__/
 # C extensions
 *.so
 
-#Testing function folder
-tests/
-
 # Distribution / packaging
 .Python
 build/
