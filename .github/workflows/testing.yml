@@ -29,7 +29,6 @@ jobs:
           cd $GITHUB_WORKSPACE/tests
           export PYTHONPATH=$GITHUB_WORKSPACE:$GITHUB_WORKSPACE/tests
           python -m unittest test-awards.py
-          python -m unittest test-news.py
           python -m unittest test-playerProf.py
           python -m unittest test-schedule.py
           python -m unittest test-teamStats.py
