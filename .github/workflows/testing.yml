@@ -26,8 +26,8 @@ jobs:
 
       - name: Run tests
         run: |
-          python tests/tests-awards.py
-          python tests/tests-news.py
-          python tests/tests-playerProf.py
-          python tests/tests-schedule.py
-          python tests/tests-teamStats.py
+          python /home/runner/work/CMPT276-Sports-Connect/CMPT276-Sports-Connect/tests/tests-awards.py
+          python /home/runner/work/CMPT276-Sports-Connect/CMPT276-Sports-Connect/tests/tests-news.py
+          python /home/runner/work/CMPT276-Sports-Connect/CMPT276-Sports-Connect/tests/tests-playerProf.py
+          python /home/runner/work/CMPT276-Sports-Connect/CMPT276-Sports-Connect/tests/tests-schedule.py
+          python /home/runner/work/CMPT276-Sports-Connect/CMPT276-Sports-Connect/tests/tests-teamStats.py
