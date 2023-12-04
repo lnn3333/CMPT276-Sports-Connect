@@ -10,7 +10,7 @@ class testPlayerProfile(unittest.TestCase):
     
     def testlist_players(self):
         list=list_players()
-        print(list[:50])
+        #print(list[:50])
         self.assertGreater(len(list), 0, "The list is empty")
         
     #find info about karl anthony towns
