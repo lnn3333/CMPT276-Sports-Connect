@@ -5,7 +5,7 @@ from news_api import getNews
 class TestNewsFunctions(unittest.TestCase):
 
     def setUp(self):
-        with open("tests/sample-newsData.json","r") as reading:
+        with open("sample-newsData.json","r") as reading:
             self.newsData = json.load(reading)
         
     def testGetNews(self):    

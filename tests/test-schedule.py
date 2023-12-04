@@ -6,7 +6,7 @@ from ScheduleNBA import getAllNBATeams,FindGamesForTeam, searchTeam, FormatDateT
 #Test to run check if games for Boston Celtics are found
 class TestNBATools(unittest.TestCase):
     def setUp(self):
-        with open("tests/sample-NBAGames.json", "r") as file:
+        with open("sample-NBAGames.json", "r") as file:
             self.gameData = json.load(file)
             
     def testreadData(self):
