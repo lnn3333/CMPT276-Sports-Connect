@@ -5,7 +5,7 @@ from playerProfileNBA import list_players, get_players_full_name, get_playerID
 
 class testPlayerProfile(unittest.TestCase):
     def setUp(self):
-        with open("sample-playerProfile.json", "r") as file:
+        with open("tests/sample-playerProfile.json", "r") as file:
             self.players = json.load(file)
     
     def testlist_players(self):

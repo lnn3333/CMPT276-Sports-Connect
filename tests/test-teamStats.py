@@ -6,7 +6,7 @@ class testTeamStats(unittest.TestCase):
 
     def setUp(self):
         # replicating the readTeamData
-        with open("sample-teamStatsNBA.json", "r") as file:
+        with open("tests/sample-teamStatsNBA.json", "r") as file:
             self.games = json.load(file)
     
     def testget_teams(self):
