@@ -6,19 +6,19 @@ class TestIntegrationApp(unittest.TestCase):
     def setUp(self):
         self.app = app.test_client()
     
-    #news
+    # News
     def testHomePage(self):
         webResponse = self.app.get("/")
         code = webResponse.status_code
         self.assertEqual(code,200)
     
-    #award Race
+    #Award Races  
     def testAwardRaces(self):
         webResponse = self.app.get("/nbaAwards")
         code = webResponse.status_code
         self.assertEqual(code,200)
     
-    #live Scores 
+    #Live Scores 
     def testSchedule(self):
         webResponse = self.app.get("/schedule")
         code = webResponse.status_code
@@ -30,16 +30,39 @@ class TestIntegrationApp(unittest.TestCase):
         code = webResponse.status_code
         self.assertEqual(code,200)        
 
-    #schedule search
+    #Search for Team Schedule
     def testteamSchedule(self):
         webResponse = self.app.get("/team-schedule")
         code = webResponse.status_code
         self.assertEqual(code,200)
-    
-    #old seasons
+      
+    #Find player Profile  
+    def testPlayerProfile(self):
+        webResponse = self.app.get("/player-profile")
+        code = webResponse.status_code
+        self.assertEqual(code,200)        
+
+    #Find Team Profile
+    def testteamProfile(self):
+        webResponse = self.app.get("/team-profile")
+        code = webResponse.status_code
+        self.assertEqual(code,200)
+      
+    #Finding past season  
     def testpastSeason(self):
         webResponse = self.app.get("/pastSeason")
         code = webResponse.status_code
         self.assertEqual(code,200)        
     
+    #Player stats   
+    def testplayerStats(self):
+        webResponse = self.app.get("/player-statistics")
+        code = webResponse.status_code
+        self.assertEqual(code,200)               
+
+    #Stats for a team 
+    def testteamStats(self):
+        webResponse = self.app.get("/team-statistics")
+        code = webResponse.status_code
+        self.assertEqual(code,200)
         
