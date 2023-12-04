@@ -26,6 +26,8 @@ jobs:
 
       - name: Run tests
         run: |
+          ls -R $GITHUB_WORKSPACE
+          cat $GITHUB_WORKSPACE/tests/tests-awards.py
           python3 $GITHUB_WORKSPACE/tests/tests-awards.py
           python3 $GITHUB_WORKSPACE/tests/tests-news.py
           python3 $GITHUB_WORKSPACE/tests/tests-playerProf.py
