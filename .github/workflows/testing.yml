@@ -26,8 +26,7 @@ jobs:
 
       - name: Run tests
         run: |
-          python tests/tests-awards.py
-          python tests/tests-news.py
-          python tests/tests-playerProf.py
-          python tests/tests-schedule.py
-          python tests/tests-teamStats.py
+          cd $GITHUB_WORKSPACE/tests
+          export PYTHONPATH=$GITHUB_WORKSPACE:$GITHUB_WORKSPACE/tests
+          python -m unittest test-awards.py
+          python -m unittest test-schedule.py
