@@ -1,4 +1,4 @@
-name: Run Tests on Main Branch Merge
+name: Unit Testing when merged into Main
 
 on:
   push:
