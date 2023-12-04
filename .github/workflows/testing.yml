@@ -1,0 +1,33 @@
+name: Run Tests on Main Branch Merge
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test-on-main-merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          ref: Testing
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9.13
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run tests
+        run: |
+          python tests/tests-awards.py
+          python tests/tests-news.py
+          python tests/tests-playerProf.py
+          python tests/tests-schedule.py
+          python tests/tests-teamStats.py
