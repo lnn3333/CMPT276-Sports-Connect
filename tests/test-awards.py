@@ -1,11 +1,13 @@
 import unittest
 import json
-
+import os
 from AwardRacesNBA import readData, getCategories, scoringChampRace, assistChampRace, ReboundChampRace, BlockChampRace, StealsChampRace
 
 class TestNBAAwardRace(unittest.TestCase):
 
     def setUp(self):
+        print("Current directory:", os.getcwd())
+        print("Files:", os.listdir())
         with open("tests/sample-NBALeaders.json", "r") as file:
             self.leadersData = json.load(file)
 
