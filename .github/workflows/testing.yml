@@ -27,7 +27,7 @@ jobs:
       - name: Run tests
         run: |
           cd $GITHUB_WORKSPACE/tests
-          export PYTHONPATH=$GITHUB_WORKSPACE
+          export PYTHONPATH=$GITHUB_WORKSPACE:$GITHUB_WORKSPACE/tests
           python -m unittest test-awards.py
           python -m unittest test-news.py
           python -m unittest test-playerProf.py
