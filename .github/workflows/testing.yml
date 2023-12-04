@@ -27,8 +27,8 @@ jobs:
       - name: Run tests
         run: |
           cd $GITHUB_WORKSPACE/tests
-          python3 tests-awards.py
-          python3 tests-news.py
-          python3 tests-playerProf.py
-          python3 tests-schedule.py
-          python3 tests-teamStats.py
+          python -m unittest test-awards.py
+          python -m unittest test-news.py
+          python -m unittest test-playerProf.py
+          python -m unittest test-schedule.py
+          python -m unittest test-teamStats.py
