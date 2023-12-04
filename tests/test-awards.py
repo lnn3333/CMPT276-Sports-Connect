@@ -8,7 +8,7 @@ class TestNBAAwardRace(unittest.TestCase):
     def setUp(self):
         print("Current directory:", os.getcwd())
         print("Files:", os.listdir())
-        with open("tests/sample-NBALeaders.json", "r") as file:
+        with open("sample-NBALeaders.json", "r") as file:
             self.leadersData = json.load(file)
 
     def testReadData(self):
