@@ -4,8 +4,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#testing
+tests/
+
 # C extensions
-*.so
+*.sogi
 
 # Distribution / packaging
 .Python
