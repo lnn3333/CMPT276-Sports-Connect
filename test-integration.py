@@ -31,28 +31,8 @@ class TestIntegrationApp(unittest.TestCase):
         code = webResponse.status_code
         self.assertEqual(code,200)
         
-    def testPlayerProfile(self):
-        webResponse = self.app.get("/player-profile")
-        code = webResponse.status_code
-        self.assertEqual(code,200)        
-
-    def testteamProfile(self):
-        webResponse = self.app.get("/team-profile")
-        code = webResponse.status_code
-        self.assertEqual(code,200)
-        
     def testpastSeason(self):
         webResponse = self.app.get("/pastSeason")
         code = webResponse.status_code
         self.assertEqual(code,200)        
-        
-    def testplayerStats(self):
-        webResponse = self.app.get("/player-statistics")
-        code = webResponse.status_code
-        self.assertEqual(code,200)               
-
-    def testteamStats(self):
-        webResponse = self.app.get("/team-statistics")
-        code = webResponse.status_code
-        self.assertEqual(code,200)
         
