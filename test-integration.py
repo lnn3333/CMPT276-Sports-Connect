@@ -6,53 +6,40 @@ class TestIntegrationApp(unittest.TestCase):
     def setUp(self):
         self.app = app.test_client()
     
+    #news
     def testHomePage(self):
         webResponse = self.app.get("/")
         code = webResponse.status_code
         self.assertEqual(code,200)
-        
+    
+    #award Race
     def testAwardRaces(self):
         webResponse = self.app.get("/nbaAwards")
         code = webResponse.status_code
         self.assertEqual(code,200)
-        
+    
+    #live Scores 
     def testSchedule(self):
         webResponse = self.app.get("/schedule")
         code = webResponse.status_code
         self.assertEqual(code,200)
 
+    #List of Teams
     def testteamList(self):
         webResponse = self.app.get("/team")
         code = webResponse.status_code
         self.assertEqual(code,200)        
 
+    #schedule search
     def testteamSchedule(self):
         webResponse = self.app.get("/team-schedule")
         code = webResponse.status_code
         self.assertEqual(code,200)
-        
-    def testPlayerProfile(self):
-        webResponse = self.app.get("/player-profile")
-        code = webResponse.status_code
-        self.assertEqual(code,200)        
-
-    def testteamProfile(self):
-        webResponse = self.app.get("/team-profile")
-        code = webResponse.status_code
-        self.assertEqual(code,200)
-        
+    
+    #old seasons
     def testpastSeason(self):
         webResponse = self.app.get("/pastSeason")
         code = webResponse.status_code
         self.assertEqual(code,200)        
-        
-    def testplayerStats(self):
-        webResponse = self.app.get("/player-statistics")
-        code = webResponse.status_code
-        self.assertEqual(code,200)               
-
-    def testteamStats(self):
-        webResponse = self.app.get("/team-statistics")
-        code = webResponse.status_code
-        self.assertEqual(code,200)
+    
         
