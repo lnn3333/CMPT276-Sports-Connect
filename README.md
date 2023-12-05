@@ -36,6 +36,7 @@ Due to constraints imposed by the NBA API server, hosting our website with its f
 >This version contains the general features
 **__http://18.217.42.19__**
 >Deployment using AWS services
+>This version is host using branch: deploy_1
 
 ### 2. How to Host the Website Locally
 >This web app version contains the general + in-depth features:
