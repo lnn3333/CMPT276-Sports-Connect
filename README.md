@@ -1,9 +1,9 @@
 # CMPT276-Sports-Connect
 
-**#I. Overview**
+**I. Overview**
 > Sports Connect is a web application designed for NBA fans to search for information about their favourite players, and teams and get the latest news as well as the game schedules. The web is built using Python with Flask for the backend and HTML, CSS, and JS for the front end.
 
-**#II. Features**
+**II. Features**
 **General features**
 1. Live Scores
 Stay updated with real-time game results, ensuring you never miss a moment of the action.
