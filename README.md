@@ -54,6 +54,14 @@ cd CMPT276-Sports-Connect
 ```
 
 3. Install dependencies:
+>Get requirements and install
+
+```
+pip freeze > requirements.txt
+pip install -r requirements.txt
+```
+>If it not work then run these cmd:
+
 ```
 pip install flask
 pip install pytz
