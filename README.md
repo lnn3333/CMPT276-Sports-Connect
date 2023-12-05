@@ -32,7 +32,9 @@ Dig deeper into the team stats by name-searching the team.
 Follow these steps to host the Sport Connect website locally:
 
 1. In the terminal, clone the repository:
-run this cmd: **git clone https://github.com/lnn3333/CMPT276-Sports-Connect.git**
+run this cmd: 
+    ```bash git clone https://github.com/lnn3333/CMPT276-Sports-Connect.git
+     ```
 2. Navigate to the project directory: 
 run this cmd: **cd CMPT276-Sports-Connect**
 3. Install dependencies:
