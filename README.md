@@ -4,6 +4,7 @@
 > Sports Connect is a web application designed for NBA fans to search for information about their favourite players, and teams and get the latest news as well as the game schedules. The web is built using Python with Flask for the backend and HTML, CSS, and JS for the front end.
 
 **II. Features**
+
 **General features**
 1. Live Scores
 Stay updated with real-time game results, ensuring you never miss a moment of the action.
@@ -18,7 +19,7 @@ Track how the award race is panning out, keeping you informed about the standout
 6. Players:
 Get to know the bio personal information 
 
-**Indepth features:**
+**In-depth features:**
 1. Search for team schedule:
 Allow to check upcoming game schedules for NBA teams.
 2. Players Statistics:
@@ -28,7 +29,15 @@ Get to know more about the number of wins, losses, percentage, conference rank, 
 4. Team Statistic:
 Dig deeper into the team stats by name-searching the team. 
 
-**III. How to Host the Website Locally**
+**III. Access the web app **
+Due to constraints imposed by the NBA API server, hosting our website with its full array of features on popular hosting services like Heroku, Netlify, AWS, or PythonAnywhere is restricted. Consequently, there are two alternatives for accessing the web application:
+
+**1. Official web link**
+This version contains the general features
+http://18.217.42.19
+
+**2. How to Host the Website Locally**
+This web app version contains the general + in-depth features:
 Follow these steps to host the Sport Connect website locally:
 
 1. In the terminal, clone the repository:
