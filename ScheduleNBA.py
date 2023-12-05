@@ -5,7 +5,7 @@ from datetime import datetime
 import pytz
 
 #Below was done with the help of the SportsRadar API documentation
-url = "/nba/trial/v8/en/games/2023/REG/schedule.json?api_key=26s9kjdgbgmtakysh5t9c9zu"
+url = "/nba/trial/v8/en/games/2023/REG/schedule.json?api_key=bfjwx5umvmgrds4j57c6j3nz"
 
 conn = http.client.HTTPSConnection("api.sportradar.us")
 conn.request("GET", url)

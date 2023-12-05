@@ -8,7 +8,7 @@ import pytz
 conn = http.client.HTTPSConnection("nba-latest-news.p.rapidapi.com")
 
 headers = {
-    'X-RapidAPI-Key': "c3c71e434emsh40b6a9607764354p1c4421jsn9494467b16fc",
+    'X-RapidAPI-Key': "edd24043a3msh3e2a53f93f95b9ep1b3cc4jsnf363950150c1",
     'X-RapidAPI-Host': "nba-latest-news.p.rapidapi.com"
 }
 
