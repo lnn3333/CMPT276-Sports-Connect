@@ -55,10 +55,9 @@ pip install --upgrade Flask Jinja2
 ```
 python app.py
 ```
-
 5. Access the web app in your browser at **http://localhost:5000**
 
-**IV. Issue: **
+**IV. Issue**
 NBA API Block on Hosting Services
   Please note that the NBA API currently blocks requests originating from hosting services such as AWS, Heroku, Netlify, PythonAnywhere, Render, Azure, Google Cloud, etc. This is a restriction imposed by the NBA API.
 Error:
