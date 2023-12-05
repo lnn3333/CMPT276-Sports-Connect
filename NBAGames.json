@@ -17380,6 +17380,7 @@
         {
             "id": "32cdc8d8-3176-4026-8fd2-72f8103910c0",
             "status": "scheduled",
+            "title": "Quarterfinal - Game 1",
             "coverage": "full",
             "scheduled": "2023-12-05T00:30:00Z",
             "inseason_tournament": true,
@@ -17444,6 +17445,7 @@
         {
             "id": "00aca98b-9680-4900-8dfd-277e7767b696",
             "status": "scheduled",
+            "title": "Quarterfinal - Game 1",
             "coverage": "full",
             "scheduled": "2023-12-05T03:00:00Z",
             "inseason_tournament": true,
@@ -17508,6 +17510,7 @@
         {
             "id": "aa676591-a0e3-4f8d-8770-25b199a792b6",
             "status": "scheduled",
+            "title": "Quarterfinal - Game 1",
             "coverage": "full",
             "scheduled": "2023-12-06T00:30:00Z",
             "inseason_tournament": true,
@@ -17572,6 +17575,7 @@
         {
             "id": "43434e91-e9ed-45b1-8c7e-eaac6d884438",
             "status": "scheduled",
+            "title": "Quarterfinal - Game 1",
             "coverage": "full",
             "scheduled": "2023-12-06T03:00:00Z",
             "inseason_tournament": true,

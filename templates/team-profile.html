@@ -36,7 +36,7 @@
                     </ul>
                 </div>
 
-            {% elif teamAbbr%}
+            {% elif teamAbbr %}
 
                 <div class="info-card"> 
                     <ul>
@@ -52,25 +52,6 @@
                         <p><strong>Percentage (PCT):</strong> {{ teamAbbr['pct'] }} </p>
                         <p><strong>Conference Rank:</strong> {{ teamAbbr['conf_rank'] }} </p>
                         <p><strong>Division Rank:</strong> {{ teamAbbr['div_rank'] }} </p>
-                    </ul>
-                </div>
-
-            {% elif teamState%}
-
-                <div class="info-card"> 
-                    <ul>
-                        <h2 class="h1">Team:</strong> {{ searchResult }}</h2>
-                        <p><strong>Season:</strong> {{ teamState['szn_year'] }}</p>
-                        <p><strong>City:</strong> {{ teamState['tCity'] }} </p>
-                        <p><strong>Name:</strong> {{ teamState['tName'] }} </p>
-                        <p><strong>Abbreviation:</strong> {{ teamState['tAbbr'] }} </p>
-                        <p><strong>Conference:</strong> {{ teamState['tConf'] }} </p>
-                        <p><strong>Division:</strong> {{ teamState['tDiv'] }} </p>
-                        <p><strong>Wins (W):</strong> {{ teamState['tW'] }} </p>
-                        <p><strong>Losses (L):</strong> {{ teamState['tL'] }} </p>
-                        <p><strong>Percentage (PCT):</strong> {{ teamState['pct'] }} </p>
-                        <p><strong>Conference Rank:</strong> {{ teamState['conf_rank'] }} </p>
-                        <p><strong>Division Rank:</strong> {{ teamState['div_rank'] }} </p>
                     </ul>
                 </div>
 

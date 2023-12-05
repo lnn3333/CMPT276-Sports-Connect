@@ -80,11 +80,8 @@ def playerProfile():
     try:    
         searchResult = request.args.get('searchResult')
         if searchResult:
-        
             plr_name = get_players_full_name(searchResult)
-            # return render_template('player-profile.html', listOfPlayers=listOfPlayers,
-            #                                                 searchResult=searchResult, 
-            #                                                 plr_name=plr_name)
+            
     except JSONDecodeError as error:
         print(f"Error: {error}")
         
@@ -94,23 +91,29 @@ def playerProfile():
 
 @app.route('/team-profile')
 def teamProfile():
-    searchResult =  request.args.get('searchResult')
-    # teamNickname, teamAbbr, teamState = None
     
-    if searchResult:
-        
-        teamNickname = get_team_info_by_nickname(searchResult)
-        if teamNickname:
-            return render_template('team-profile.html', searchResult=searchResult, 
-                                                        teamNickname=teamNickname, 
-                                                        teamAbbr=None)
-        else:
-            teamAbbr = get_team_info_by_abbr(searchResult)
-            if teamAbbr:
+    teamNickname = None
+    teamAbbr = None
+    
+    try:
+        searchResult =  request.args.get('searchResult')
+        if searchResult:
+            
+            teamNickname = get_team_info_by_nickname(searchResult)
+            if teamNickname:
                 return render_template('team-profile.html', searchResult=searchResult, 
-                                                            teamNickname=None, 
-                                                            teamAbbr=teamAbbr)
-    return render_template('team-profile.html', searchResult=None, teamNickname=None, teamAbbr=None)
+                                                            teamNickname=teamNickname, 
+                                                            teamAbbr=None)
+            else:
+                teamAbbr = get_team_info_by_abbr(searchResult)
+                if teamAbbr:
+                    return render_template('team-profile.html', searchResult=searchResult, 
+                                                                teamNickname=None, 
+                                                                teamAbbr=teamAbbr)
+    except JSONDecodeError as error:
+        print(f"Error: {error}")
+        
+    return render_template('team-profile.html', searchResult=searchResult, teamNickname=teamNickname, teamAbbr=teamAbbr)
 
 @app.route('/pastSeason')
 def pastSeason():
