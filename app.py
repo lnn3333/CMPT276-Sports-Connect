@@ -3,10 +3,6 @@ from json.decoder import JSONDecodeError
 from AwardRacesNBA import getCategories, readData, scoringChampRace, assistChampRace, ReboundChampRace, BlockChampRace, StealsChampRace 
 from ScheduleNBA import getAllNBATeams,FindGamesForTeam, searchTeam, FormatDateTime, readData2,getImage
 from news_api import readNews, getNews
-from playerCareerStatsNBA import readDataStats, get_available_reg_seasonID, regular_season_stats, post_season_stats, allstar_season_stats
-from playerProfileNBA import list_players, readDataPlayer, get_players_full_name, get_playerID
-from teamProfileNBA import get_teamID, get_team_info_by_nickname, get_team_info_by_abbr, get_team_info_by_state
-from teamStatisticsNBA import readTeamData, get_teams, get_teamData, list_matches, get_team_stats
 
 app = Flask(__name__)
 
@@ -71,122 +67,11 @@ def teamSchedule():
         return render_template('team-schedule.html',searchResult=searchResult,Team=Team,teamGames=teamGames,teamImagePaths=teamImageList)   
     return render_template('team-schedule.html',searchResult=None, team=None,teamGames=None,teamImagePaths=None)
 
-@app.route('/player-profile')
-def playerProfile():
-    
-    listOfPlayers = list_players()
-    plr_name = None
-    
-    try:    
-        searchResult = request.args.get('searchResult')
-        if searchResult:
-            plr_name = get_players_full_name(searchResult)
-            
-    except JSONDecodeError as error:
-        print(f"Error: {error}")
-        
-    return render_template('player-profile.html', listOfPlayers=listOfPlayers, 
-                                                    searchResult=searchResult, 
-                                                    plr_name=plr_name)
-
-@app.route('/team-profile')
-def teamProfile():
-    
-    teamNickname = None
-    teamAbbr = None
-    
-    try:
-        searchResult =  request.args.get('searchResult')
-        if searchResult:
-            
-            teamNickname = get_team_info_by_nickname(searchResult)
-            if teamNickname:
-                return render_template('team-profile.html', searchResult=searchResult, 
-                                                            teamNickname=teamNickname, 
-                                                            teamAbbr=None)
-            else:
-                teamAbbr = get_team_info_by_abbr(searchResult)
-                if teamAbbr:
-                    return render_template('team-profile.html', searchResult=searchResult, 
-                                                                teamNickname=None, 
-                                                                teamAbbr=teamAbbr)
-    except JSONDecodeError as error:
-        print(f"Error: {error}")
-        
-    return render_template('team-profile.html', searchResult=searchResult, teamNickname=teamNickname, teamAbbr=teamAbbr)
 
 @app.route('/pastSeason')
 def pastSeason():
     return render_template('pastSeason.html')
 
-@app.route('/player-statistics', methods=['GET'])
-def playerStats():
-    data = readDataStats()
-    regular_season = get_available_reg_seasonID(data)
-    return render_template('player-statistics.html', regular_season=regular_season)
-
-@app.route('/selectedSeason', methods=['POST'])
-def selectedSeason():
-    searchResult_stat = request.form.get('searchResult_stat')
-
-    selected_season_id = request.form.get('selectedSeason')
-    selected_season_type = request.form.get('selectedSeasonType')
-    plr_id = get_playerID(searchResult_stat)
-    selected_season = {'id': selected_season_id, 'type': selected_season_type}
-    
-    stats = None
-    stats_avail = False
-    
-    try:
-        if selected_season_type == 'regular':
-            stats = regular_season_stats(plr_id, selected_season_id)
-
-        elif selected_season_type == "post":
-            stats = post_season_stats(plr_id, selected_season_id)
-        elif selected_season_type == "allstar":
-            stats = allstar_season_stats(plr_id, selected_season_id)
-            
-        stats_avail = True
-        
-    except JSONDecodeError as error:
-        print(f"Error: {error}")
-        
-    data = readDataStats()
-    regular_season = get_available_reg_seasonID(data)
-    
-    return render_template('player-statistics.html', searchResult_stat=searchResult_stat, 
-                                                    selected_season=selected_season,
-                                                    stats=stats,
-                                                    plr_id=plr_id, 
-                                                    regular_season=regular_season, 
-                                                    stats_avail=stats_avail)
-
-@app.route('/team-statistics', methods=['GET'])
-def teamStats():
-    
-    data = readTeamData()
-    # from the form get the teamID (search), list the available matches (get gameID)
-    teams_list = get_teams()
-    return render_template('team-statistics.html', teams_list=teams_list)
-
-@app.route('/selectedTeam', methods=["POST"])
-def selectedTeam():
-    
-    selectedTeam = request.form.get('selectedTeam')
-    team_id = get_teamID(selectedTeam)
-    
-    teams_list = get_teams()
-    
-    matches = list_matches(team_id)
-    team_stats_list = []
-    
-    for _, gameid in matches:
-        team_stats = get_team_stats(gameid)
-        team_stats_list.append(team_stats)
-        
-    combined_data = zip(matches, team_stats_list)
-    
-    return render_template('team-statistics.html', selectedTeam=selectedTeam, team_id=team_id, matches=matches, combined_data=combined_data, teams_list=teams_list)
 
 if __name__== '__main__':
     app.run(debug=True,host='0.0.0.0')
