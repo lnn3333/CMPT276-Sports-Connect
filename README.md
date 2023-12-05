@@ -36,8 +36,11 @@ Follow these steps to host the Sport Connect website locally:
 git clone https://github.com/lnn3333/CMPT276-Sports-Connect.git
  ```
 2. Navigate to the project directory:
->**cd CMPT276-Sports-Connect**
-4. Install dependencies:
+```
+cd CMPT276-Sports-Connect
+```
+
+3. Install dependencies:
 ```
 pip install flask
 pip install pytz
@@ -48,10 +51,11 @@ pip install jinja2==2.11.3
 pip install markupsafe==2.0.1
 pip install --upgrade Flask Jinja2
 ```
-5. Run the application: 
+4. Run the application: 
 ````
 python app.py
 ```
+
 7. Access the web app in your browser at **http://localhost:5000**
 
 **IV. Issue: **
