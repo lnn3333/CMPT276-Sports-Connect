@@ -41,6 +41,7 @@ This version is hosted using branch: deploy_1
 
 ### 2. How to Host the Website Locally
 >This web app version contains the general + in-depth features:
+
 __Follow these steps to host the Sport Connect website locally:__
 
 1. In the terminal, clone the repository:
