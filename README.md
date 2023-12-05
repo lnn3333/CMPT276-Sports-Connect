@@ -70,7 +70,7 @@ python app.py
 ```
 5. Access the web app in your browser at http://localhost:5000
 
-##IV. Issue
+## IV. Issue
 >We cannot deploy the website due to:
 >NBA API Block on Hosting Services
 >Please note that the NBA API currently blocks requests originating from hosting services such as AWS, Heroku, Netlify, PythonAnywhere, Render, Azure, Google Cloud, etc. This is a restriction imposed by the NBA API.
