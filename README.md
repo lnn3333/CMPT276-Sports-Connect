@@ -33,11 +33,12 @@ Dig deeper into the team stats by name-searching the team.
 Due to constraints imposed by the NBA API server, hosting our website with its full array of features on popular hosting services like Heroku, Netlify, AWS, or PythonAnywhere is restricted. Consequently, there are two alternatives for accessing the web application:
 
 **1. Official web link**
-This version contains the general features
+>This version contains the general features
 http://18.217.42.19
+>Deployment using AWS services
 
 **2. How to Host the Website Locally**
-This web app version contains the general + in-depth features:
+>This web app version contains the general + in-depth features:
 Follow these steps to host the Sport Connect website locally:
 
 1. In the terminal, clone the repository:
