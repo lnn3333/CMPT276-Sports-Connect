@@ -55,7 +55,7 @@ pip install --upgrade Flask Jinja2
 ```
 python app.py
 ```
-5. Access the web app in your browser at **http://localhost:5000**
+5. Access the web app in your browser at http://localhost:5000
 
 **IV. Issue**
 NBA API Block on Hosting Services
