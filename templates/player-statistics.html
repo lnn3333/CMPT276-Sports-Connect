@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Statistics</title>
+    <link rel="stylesheet" type="text/css" href="../static/player-statistics.css">
+</head>
+<body>
+    <h1>Player Statistics</h1>
+
+    <form id="combinedForm" action="{{ url_for('selectedSeason') }}" method="POST">
+
+        <!-- Player Search Section -->
+        <div id="searchWrapper">
+            <label for="searchResult_stat"><strong>Search for a player:</strong></label>
+            <input type="text" 
+                    id="searchResult_stat" 
+                    name="searchResult_stat" 
+                    placeholder="Enter player name">
+        </div>
+
+        <div class="dropdown">
+            <!-- Season Selection Section -->
+            <label for="seasonSelect"><strong>Select a Season:</strong></label>
+            <select id="seasonSelect" name="selectedSeason">
+                {% for season in regular_season %}
+                    <option value="{{ season }}">{{ season }}</option>
+                {% endfor %}
+            </select>
+
+            <label for="seasonTypeSelect"><strong>Select a Season Type:</strong></label>
+            <select id="seasonTypeSelect" name="selectedSeasonType">
+                <option value="regular">Regular Season</option>
+                <option value="post">Post Season</option>
+                <option value="allstar">All-star Season</option>
+            </select>
+
+            <!-- Submit Button for Both Sections -->
+            <button type="submit">Submit</button>
+        </div>
+        
+    </form>
+
+    {% if stats %}
+        <div class="info-card">
+            <h2 class="h1">player name: {{ searchResult_stat }}</h2>
+            <p><strong>GP:</strong> {{ stats['gp'] }}</p>
+            <p><strong>GS:</strong> {{ stats['gs'] }}</p>
+            <p><strong>MIN:</strong> {{ stats['mins'] }}</p>
+            <p><strong>FGM:</strong> {{ stats['fgm'] }}</p>
+            <p><strong>FGA:</strong> {{ stats['fga'] }}</p>
+            <p><strong>FGP:</strong> {{ stats['fg_pct'] }}</p>
+            <p><strong>FG3M:</strong> {{ stats['fg3m'] }}</p>
+            <p><strong>FG3A:</strong> {{ stats['fg3a'] }}</p>
+            <p><strong>FG3_PCT:</strong> {{ stats['fg3_pct'] }}</p>
+            <p><strong>FTM:</strong> {{ stats['ftm'] }}</p>
+            <p><strong>FTA:</strong> {{ stats['fta'] }}</p>
+            <p><strong>FT_PCT:</strong> {{ stats['ft_pct'] }}</p>
+            <p><strong>OREB:</strong> {{ stats['oreb'] }}</p>
+            <p><strong>DREB:</strong> {{ stats['dreb'] }}</p>
+            <p><strong>REB:</strong> {{ stats['reb'] }}</p>
+            <p><strong>AST:</strong> {{ stats['ast'] }}</p>
+            <p><strong>STL:</strong> {{ stats['stl'] }}</p>
+            <p><strong>LK:</strong> {{ stats['blk'] }}</p>
+            <p><strong>TOV:</strong> {{ stats['tov'] }}</p>
+            <p><strong>PF:</strong> {{ stats['pf'] }}</p>
+            <p><strong>PTS:</strong> {{ stats['pts'] }}</p>
+        </div>
+    {% elif stats == None %}
+        <p>Can't find player</p>
+    {% else %}
+        <p>Find player's statistics.</p>
+    {% endif %}
+
+</body>
+</html>
