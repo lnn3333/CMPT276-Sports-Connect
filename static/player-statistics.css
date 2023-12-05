@@ -42,7 +42,7 @@ h2 {
 
 body {
     font-family: var(--ff-poppins);
-    background-color:#718e7c;
+    background-color:#3498DB;
 }
 
 .dropdown {
@@ -96,7 +96,7 @@ form {
     padding: 50px;
     margin-top: 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #b1c1b7;
+    background-color: #6ebef9;
 }
 
 p {
