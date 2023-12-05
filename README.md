@@ -1,9 +1,9 @@
 # CMPT276-Sports-Connect
 
-**I. Overview**
+**#I. Overview**
 > Sports Connect is a web application designed for NBA fans to search for information about their favourite players, and teams and get the latest news as well as the game schedules. The web is built using Python with Flask for the backend and HTML, CSS, and JS for the front end.
 
-**II. Features**
+**#II. Features**
 **General features**
 1. Live Scores
 Stay updated with real-time game results, ensuring you never miss a moment of the action.
@@ -58,7 +58,7 @@ python app.py
 5. Access the web app in your browser at http://localhost:5000
 
 **IV. Issue**
-NBA API Block on Hosting Services
+>NBA API Block on Hosting Services
   Please note that the NBA API currently blocks requests originating from hosting services such as AWS, Heroku, Netlify, PythonAnywhere, Render, Azure, Google Cloud, etc. This is a restriction imposed by the NBA API.
 Error:
 <img width="863" alt="image" src="https://github.com/lnn3333/CMPT276-Sports-Connect/assets/136864245/caa12bc8-6307-406a-bbcf-60c651e5a10a">
