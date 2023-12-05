@@ -1,7 +1,7 @@
 # CMPT276-Sports-Connect
 
 **I. Overview**
-Sports Connect is a web application designed for NBA fans to search for information about their favourite players, and teams and get the latest news as well as the game schedules. The web is built using Python with Flask for the backend and HTML, CSS, and JS for the front end.
+> Sports Connect is a web application designed for NBA fans to search for information about their favourite players, and teams and get the latest news as well as the game schedules. The web is built using Python with Flask for the backend and HTML, CSS, and JS for the front end.
 
 **II. Features**
 **General features**
@@ -32,14 +32,12 @@ Dig deeper into the team stats by name-searching the team.
 Follow these steps to host the Sport Connect website locally:
 
 1. In the terminal, clone the repository:
-run this cmd: 
 ```
 git clone https://github.com/lnn3333/CMPT276-Sports-Connect.git
  ```
-2. Navigate to the project directory: 
-run this cmd: **cd CMPT276-Sports-Connect**
-3. Install dependencies:
-run the following cmd
+2. Navigate to the project directory:
+>**cd CMPT276-Sports-Connect**
+4. Install dependencies:
 ```
 pip install flask
 pip install pytz
@@ -50,15 +48,11 @@ pip install jinja2==2.11.3
 pip install markupsafe==2.0.1
 pip install --upgrade Flask Jinja2
 ```
-
-
 5. Run the application: 
-run this cmd:
 ````
 python app.py
 ```
 7. Access the web app in your browser at **http://localhost:5000**
-
 
 **IV. Issue: **
 NBA API Block on Hosting Services
