@@ -19,13 +19,13 @@ Track how the award race is panning out, keeping you informed about the standout
 Get to know the bio personal information 
 
 **Indepth features:**
-7. Search for team schedule:
+1. Search for team schedule:
 Allow to check upcoming game schedules for NBA teams.
-8. Players Statistics:
+2. Players Statistics:
 Get the player's game stats based on the season type and the year
-9. Team Profile:
+3. Team Profile:
 Get to know more about the number of wins, losses, percentage, conference rank, division ran of the team
-10. Team Statistic:
+4. Team Statistic:
 Dig deeper into the team stats by name-searching the team. 
 
 **III. How to Host the Website Locally**
@@ -33,13 +33,14 @@ Follow these steps to host the Sport Connect website locally:
 
 1. In the terminal, clone the repository:
 run this cmd: 
-    ```bash git clone https://github.com/lnn3333/CMPT276-Sports-Connect.git
-     ```
+```
+git clone https://github.com/lnn3333/CMPT276-Sports-Connect.git
+ ```
 2. Navigate to the project directory: 
 run this cmd: **cd CMPT276-Sports-Connect**
 3. Install dependencies:
 run the following cmd
-
+```
 pip install flask
 pip install pytz
 pip install numpy
@@ -48,11 +49,15 @@ pip install requests
 pip install jinja2==2.11.3
 pip install markupsafe==2.0.1
 pip install --upgrade Flask Jinja2
+```
 
 
 5. Run the application: 
-run this cmd: **python app.py**
-6. Access the web app in your browser at **http://localhost:5000**
+run this cmd:
+````
+python app.py
+```
+7. Access the web app in your browser at **http://localhost:5000**
 
 
 **IV. Issue: **
