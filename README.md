@@ -58,7 +58,8 @@ python app.py
 5. Access the web app in your browser at http://localhost:5000
 
 **IV. Issue**
+>We cannot deploy the website due to:
 >NBA API Block on Hosting Services
-  Please note that the NBA API currently blocks requests originating from hosting services such as AWS, Heroku, Netlify, PythonAnywhere, Render, Azure, Google Cloud, etc. This is a restriction imposed by the NBA API.
+>Please note that the NBA API currently blocks requests originating from hosting services such as AWS, Heroku, Netlify, PythonAnywhere, Render, Azure, Google Cloud, etc. This is a restriction imposed by the NBA API.
 Error:
 <img width="863" alt="image" src="https://github.com/lnn3333/CMPT276-Sports-Connect/assets/136864245/caa12bc8-6307-406a-bbcf-60c651e5a10a">
