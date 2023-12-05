@@ -52,7 +52,7 @@ pip install markupsafe==2.0.1
 pip install --upgrade Flask Jinja2
 ```
 4. Run the application: 
-````
+```
 python app.py ```
 
 5. Access the web app in your browser at **http://localhost:5000**
